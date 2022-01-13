@@ -21,29 +21,23 @@ public:
     A2
     1. val will multiply to the level number to the 2 power
     2. sum all val
+    
+    A3
+    Use bit wise operator to calculate the number
+    
     */
-    int mpow(int a, int b){
-        if(b==0)return 1;
-        int rst=1;
-        for(int i = 0; i < b; i++){
-            rst*=a;
-        }
-        return rst;
-    }
-    int dfs(TreeNode* root, string num, int level, int sum){
+    void dfs(TreeNode* root, int num, int &sum){
+        num <<= 1;
+        num |= root->val;
         if(root->left == NULL && root->right == NULL){
-            num += to_string(root->val);
-            for(int i = 0; i < num.length(); i++){
-                sum += (num[i]-'0')*mpow(2, num.length()-i-1);
-            }
+            sum += num;
         }
-        if(root->left != NULL) sum += dfs(root->left, num+to_string(root->val), level+1, 0);
-        if(root->right != NULL)sum += dfs(root->right, num+(to_string(root->val)), level+1, 0);
-        return sum;
-
+        if(root->left)dfs(root->left, num, sum);
+        if(root->right)dfs(root->right, num, sum);
     }
     int sumRootToLeaf(TreeNode* root) {
-        int sum = dfs(root, "", 1, 0);
+        int sum = 0;
+        dfs(root, 0, sum);
         return sum;
     }
 };
