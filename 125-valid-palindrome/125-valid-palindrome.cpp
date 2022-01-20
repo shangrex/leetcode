@@ -23,7 +23,6 @@ public:
                 n += s[i];
             }
         }
-        cout << n << endl;
         int front = 0, tail = n.length()-1;
         while(front < tail){
             if(n[front] == n[tail]){
