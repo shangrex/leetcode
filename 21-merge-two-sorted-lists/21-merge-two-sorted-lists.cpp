@@ -15,29 +15,18 @@ public:
         else if(!list2)return list1;
         ListNode* n = new ListNode();
         ListNode*iter = n;
-        int flag = 0;
         while(list1 != NULL && list2 != NULL){
-            ListNode *tmp = new ListNode();
             if(list1->val < list2->val){
-                tmp->val = list1->val;
+                iter->next = list1;
                 list1 = list1->next;
-                flag =1;
             }
             else {
-                tmp->val = list2->val;
+                iter->next = list2;
                 list2 = list2->next;
-                flag = 2;
             }
-            iter->next = tmp;
             iter = iter->next;
         }
-        if(flag == 1){
-            // check list2
-            iter->next = list2;
-        }
-        else {
-            iter->next = list1;
-        }
+        iter->next = list1 ? list1 : list2;
         return n->next;
     }
 };
