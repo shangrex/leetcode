@@ -3,6 +3,7 @@ public:
     int binaryGap(int n) {
         int rst = 0;
         int dst = 0;
+        // flag mean at least one one, so it can count the distance
         bool flag = false;
         while(n>0){
             if(n & 1){
