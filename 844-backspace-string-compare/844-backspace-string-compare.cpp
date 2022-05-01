@@ -5,29 +5,78 @@ public:
     use stack to operate string and compare
     method 2
     trace the two string from the string end to string front (two pointer method)
+    
+    test case
+    b##a##b
+    b
     */
     bool backspaceCompare(string s, string t) {
-        vector<char> sv, tv;
-        
-        for(int i = 0; i < s.length(); i++){
-            if(s[i] != '#')
-            sv.push_back(s[i]);
-            else if(!sv.empty())
-            sv.pop_back();
-        }
+        int i = s.length()-1, j = t.length() -1;
+        while(i > -1 || j > -1){
+            int i_min = 0, j_min = 0;
+            while(i > -1){
+                if(s[i] == '#'){
+                    i_min += 1;
+                }
+                else {
+                    i_min -= 1;
+                }
+                if(i_min < 0)break;
+                i -= 1;
+            }
+            
+            while(j > -1){
+                if(t[j] == '#'){
+                    j_min += 1;
+                }
+                else {
+                    j_min -= 1;
+                }
+                if(j_min < 0)break;
+                j -= 1;
+            }
+            // cout << i << " " << s[i] << " " << j << " " << t[j] << endl;
+            // two empty
+            if(i < 0 && j < 0) return true;
+            else if(i < 0 && j >= 0){
+                // check j if empty string
+                j_min = 0;
+                while(j > -1){
+                    if(t[j] == '#'){
+                        j_min += 1;
+                    }
+                    else {
+                        j_min -= 1;
+                    }
+                    if(j_min < 0)break;
+                    j -= 1;
+                }
+                cout << "left" << j << endl;
 
-        for(int j = 0; j < t.length(); j++){
-            if(t[j] != '#')
-            tv.push_back(t[j]);
-            else if(!tv.empty())
-            tv.pop_back();
+                if(j < 0)return true;
+                else return false;
+            }
+            else if(j < 0 && i >= 0){
+                i_min = 0;
+                while(i > -1){
+                    if(s[i] == '#'){
+                        i_min += 1;
+                    }
+                    else {
+                        i_min -= 1;
+                    }
+                    if(i_min < 0)break;
+                    i -= 1;
+                }
+                cout << "left" << i << endl;
+                if(i < 0)return true;
+                else return false;            
+            }
+            if(s[i] != t[j])return false;
+            i -= 1;
+            j -= 1;
         }
         
-        if(sv.size() != tv.size()) return false;
-        int l = sv.size();
-        for(int i = 0; i < l; i++){
-            if(sv[i] != tv[i])return false;
-        }
         return true;
     }
 };
