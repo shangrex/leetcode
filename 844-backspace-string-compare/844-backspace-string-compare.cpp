@@ -51,7 +51,6 @@ public:
                     if(j_min < 0)break;
                     j -= 1;
                 }
-                cout << "left" << j << endl;
 
                 if(j < 0)return true;
                 else return false;
@@ -68,7 +67,6 @@ public:
                     if(i_min < 0)break;
                     i -= 1;
                 }
-                cout << "left" << i << endl;
                 if(i < 0)return true;
                 else return false;            
             }
