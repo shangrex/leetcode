@@ -1,16 +1,18 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int rst = -10, tmp_max = -10;
+        int rst = -10, tmp_min = -10, tmp_max = 10;
+        int tmp;
         vector<vector<int>>dp(2, vector<int>(nums.size()));
-        dp[0][0] = rst = dp[1][0] = nums[0];
+        tmp_min = rst = tmp_max = nums[0];
         for(int i = 1;i < nums.size(); i++){
-            tmp_max = max({nums[i], nums[i]*dp[1][i-1], nums[i]*dp[0][i-1]});
-            rst = max(rst, tmp_max);
+            tmp = max({nums[i], nums[i]*tmp_max, nums[i]*tmp_min});
+            rst = max(rst, tmp);
             // max subarray value
-            dp[1][i] = max({1, dp[1][i-1]*nums[i], nums[i], dp[0][i-1]*nums[i]});
+            tmp = max({1, tmp_max*nums[i], nums[i], tmp_min*nums[i]});
             // min subarray value
-            dp[0][i] = min({dp[0][i-1]*nums[i], nums[i], dp[1][i-1]*nums[i]});
+            tmp_min = min({tmp_min*nums[i], nums[i], tmp_max*nums[i]});
+            tmp_max = tmp;
         }
         return rst;
     }
