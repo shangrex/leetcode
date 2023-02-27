@@ -3,7 +3,6 @@ public:
     int maxProduct(vector<int>& nums) {
         int rst = -10, tmp_min = -10, tmp_max = 10;
         int tmp;
-        vector<vector<int>>dp(2, vector<int>(nums.size()));
         tmp_min = rst = tmp_max = nums[0];
         for(int i = 1;i < nums.size(); i++){
             tmp = max({nums[i], nums[i]*tmp_max, nums[i]*tmp_min});
