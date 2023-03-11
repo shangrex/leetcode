@@ -8,7 +8,8 @@ public:
                 if(i >= j.length()){
                     if(dp[i-j.length()]){
                         string tmp = s.substr(i-j.length(), j.length());
-                        if(find(wordDict.begin(), wordDict.end(), tmp) != wordDict.end())dp[i] = true;
+                        if(find(wordDict.begin(), wordDict.end(), tmp) != wordDict.end()){dp[i] = true;break;}
+                        
                     }   
                 }
             }
