@@ -1,31 +1,37 @@
 class Solution {
 public:
-    vector<int>color;
-    bool cycle(int v, vector<vector<int>>& adj) {
-        color[v] = 1;
-        for(int i: adj[v]){
-            if(color[i] == 0){
-                if(cycle(i,adj)){
-                    return true;
-                }
-            }else if(color[i] == 1){
-                return true;
+    // 0 means not visited
+    // 1 means is being visited
+    // 2 means has been visited
+    vector<int> visited;
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int> >graph(numCourses, vector<int>());
+        visited.assign(numCourses, 0);
+        // build graph
+        for(int i = 0; i < prerequisites.size(); i++){
+            graph[prerequisites[i][0]].push_back(prerequisites[i][1]);
+        }
+  
+        // select all nodes and dfs to check if there is cycle
+        for(int i = 0; i < numCourses; i++){
+            if(visited[i] == 0){
+                if(dfs(i, graph))return false;
             }
-        }
-        color[v] = 2;
-        return false;
-    }
-    bool canFinish(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> adj(n,vector<int>());
-        color.assign(n,0);
-        for(auto i : edges){
-            adj[i[1]].push_back(i[0]);
-        }
-        for(int v = 0; v < n; ++v){
-            if(color[v] == 0 && cycle(v,adj)){
-                return false;
-            }
-        }
+        }        
         return true;
+    }
+    // check if there is cycle
+    bool dfs(int n, vector<vector<int> > &graph){
+        // cout << visited[0] << " " << visited[1];
+        visited[n] = 1;
+        for(int i = 0; i < graph[n].size(); i++){
+            // if is being visited then there is a cycle
+            if(visited[graph[n][i]] == 1)return true;
+            else if(visited[graph[n][i]] == 0){
+                if(dfs(graph[n][i], graph))return true;
+            }
+        }
+        visited[n] = 2;
+        return false;
     }
 };
