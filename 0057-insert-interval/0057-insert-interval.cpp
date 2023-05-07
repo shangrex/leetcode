@@ -28,9 +28,7 @@ public:
             if(newInterval[1] < intervals[i][0]){
                 rst.push_back({intervals[i]});
             }
-            else if(newInterval[0] > intervals[i][1]){
-                rst.push_back(newInterval);
-            }
+            else break;
         }
         
 
