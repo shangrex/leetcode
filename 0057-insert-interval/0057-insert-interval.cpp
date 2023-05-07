@@ -4,9 +4,6 @@ public:
         vector<vector<int>> rst;
         int i = 0;
         // find the fist section of the rst
-        // if(newInterval[1] < intervals[i][0]){
-        //     rst.push_back({newInterval});
-        // }
         for(; i < intervals.size(); i++){
             // non overlapping
             if(newInterval[0] > intervals[i][1]){
