@@ -1,7 +1,7 @@
 class Solution {
 public:
     /*
-    method 1 union find to find if there is cycle
+    method 1 union find to find if there is cycle or isolated nodes
     */
     unordered_map<int, int>mp;
     
@@ -15,7 +15,7 @@ public:
             bool check = Union(edges[i][0], edges[i][1]);
             if(check == false)return false;
         }
-        // check the isolated nodes
+        // check the isolated nodes, there is only one root node in the tree
         int tmp = 0;
         for(auto i : mp){
             if(i.second == i.first)tmp++;
