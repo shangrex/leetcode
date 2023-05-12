@@ -19,8 +19,9 @@ public:
         ListNode* slow = head, *fast = head;
         
         // find the first meeting point,
-        while(fast != NULL){
-            slow = slow->next;
+        while(true){
+            if(slow != NULL)slow = slow->next;
+            else return NULL;
             if(fast->next != NULL)fast = fast->next->next;
             else return NULL;
             if(fast == NULL)return NULL;
