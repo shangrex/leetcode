@@ -18,14 +18,12 @@ public:
             int step = dirc[way][2];
             while(step > 0){
                 cnt++;
-                cout << i << " " << j << " " << step << " " << way << endl;
                 step -= 1;
                 i = i+dirc[way][0], j = j+dirc[way][1];
                 rst.push_back(matrix[i][j]);
             }
             dirc[way][2] -= 2;
             way = (way+1)%4;
-           // cout << i << j << endl;
     
         }
         return rst;
