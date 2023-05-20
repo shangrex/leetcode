@@ -19,8 +19,7 @@ Given this, we can apply the at most k changes constraint and maintain a sliding
             max_f = 0;
             for(auto i : mp)max_f = max(i.second, max_f);
             if(right-left-max_f+1 > k){
-                mp[s[left]]--;
-                left++;
+                mp[s[left++]]--;
             }
             rst = max(rst, right-left+1);
         }
