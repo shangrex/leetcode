@@ -1,7 +1,8 @@
 class Solution {
 public:
     /*
-    key points: need a counter to count the number of existed t value
+    approach 1: use two unordered map to compare if t is in the substring of s
+    approach 2: change the approach 1 methods to counter of t, counter equal to the length of the t, and if the counter equal to zero then t is in s.
     */
     bool check(unordered_map<char, int> &big, unordered_map<char, int> &small){
         if(big.size() != small.size())return false;
@@ -11,35 +12,26 @@ public:
         return true;
     }
     string minWindow(string s, string t) {
-        if(s.length() < t.length())return "";
         string rst = "";
-        int left = 0, right = 0;
+        int left = 0, right = 0, counter = t.length();
         int rst_length = 0, rst_start = 0;
-        unordered_map<char, int>map_t, map_s;
+        unordered_map<char, int>mp;
         for(int i = 0; i < t.length(); i++){
-            map_t[t[i]] += 1;
+            mp[t[i]] += 1;
         }
         while(right < s.length()){
-            while(!check(map_s, map_t) && right < s.length()){
-                if(map_t.find(s[right]) != map_t.end()){
-                    // exist
-                    map_s[s[right]]++;
-                }
-                right++;
-            }
-            
-           while(check(map_s, map_t) && left < right){
-                if(map_s.find(s[left]) != map_s.end()){
-                        // exist
-                        map_s[s[left]]--;
-                        if(map_s[s[left]] == 0)map_s.erase(s[left]);
-                }
-               if(rst_length == 0 || rst_length > right-left){
+            if(mp[s[right]] > 0)counter--;
+            mp[s[right]] -= 1;
+            right++;
+            while(counter == 0){
+                if(rst_length == 0 || rst_length > right-left){
                    rst_start = left;
                    rst_length = right-left;
-               }
-               left++;
-           }
+                }
+                mp[s[left]]++;
+                if(mp[s[left]] > 0)counter++; 
+                left++;
+            }
         }
         if(left == 0)return "";
         rst = s.substr(rst_start, rst_length);
