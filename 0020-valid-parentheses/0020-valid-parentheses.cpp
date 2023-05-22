@@ -13,11 +13,11 @@ public:
                 if(check.top() == '(')check.pop(); 
                 else return false;
             }
-            if(s[i] == '}'){
+            else if(s[i] == '}'){
                 if(check.top() == '{')check.pop(); 
                 else return false;
             }
-            if(s[i] == ']'){
+            else if(s[i] == ']'){
                 if(check.top() == '[')check.pop(); 
                 else return false;
             }
