@@ -20,7 +20,6 @@ public:
             map_t[t[i]] += 1;
         }
         while(right < s.length()){
-            //cout << left << " " << right << endl;
             while(!check(map_s, map_t) && right < s.length()){
                 if(map_t.find(s[right]) != map_t.end()){
                     // exist
@@ -35,7 +34,6 @@ public:
                         map_s[s[left]]--;
                         if(map_s[s[left]] == 0)map_s.erase(s[left]);
                 }
-                // cout << left << " " << right << " " << map_s.size() << " " << map_t.size() << endl;
                if(rst_length == 0 || rst_length > right-left){
                    rst_start = left;
                    rst_length = right-left;
