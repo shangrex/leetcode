@@ -4,14 +4,14 @@ public:
         string tmp;
         for(int i = 0; i < s.length(); i++){
             // upper case
-            if(s[i] >= 65 && s[i] <= 90){
+            if(s[i] >= 'A' && s[i] <= 'Z'){
                 tmp.push_back(s[i]+32);
                 
             }
-            if(s[i] >= 97 && s[i] <= 122){
+            if(s[i] >= 'a' && s[i] <= 'z'){
                 tmp.push_back(s[i]);
             }
-            if(s[i] >= 48 && s[i] <= 57){
+            if(s[i] >= '0' && s[i] <= '9'){
                 tmp.push_back(s[i]);
             }
         }
