@@ -15,12 +15,15 @@ Given this, we can apply the at most k changes constraint and maintain a sliding
         char tmp;
         unordered_map<char, int>mp;
         for(int right = 0; right < s.length(); right++){
+            // right bound move
             mp[s[right]]++;
-            
+            // find the most frequency
             if(max_f < mp[s[right]])max_f = mp[s[right]];
+            // left bound move
             if(right-left-max_f+1 > k){
                 mp[s[left++]]--;
             }
+            // record the result
             rst = max(rst, right-left+1);
         }
         return rst;
