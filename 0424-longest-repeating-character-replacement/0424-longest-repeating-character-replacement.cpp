@@ -16,8 +16,8 @@ Given this, we can apply the at most k changes constraint and maintain a sliding
         unordered_map<char, int>mp;
         for(int right = 0; right < s.length(); right++){
             mp[s[right]]++;
-            max_f = 0;
-            for(auto i : mp)max_f = max(i.second, max_f);
+            
+            if(max_f < mp[s[right]])max_f = mp[s[right]];
             if(right-left-max_f+1 > k){
                 mp[s[left++]]--;
             }
