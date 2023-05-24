@@ -22,12 +22,17 @@ public:
         middle = root->val;
         // the sequence in the left node
         left = treesum(root->left, rst);
+        
         // the sequence in the right node
         right = treesum(root->right, rst);
+        
         int tmp, seq;
+        // return the sequence value, and the sequence should not repeated so only left or right can choose
         seq = max({left+middle, middle, right+middle});
+        // choose the biggest value and store to rst
         tmp = max(seq, left+middle+right);
         rst = max(tmp, rst);
+        
         return seq;
     }
     int maxPathSum(TreeNode* root) {
