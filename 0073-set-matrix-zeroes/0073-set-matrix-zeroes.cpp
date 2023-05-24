@@ -3,7 +3,7 @@ public:
     /*
     approach 1: bruce force iterate the matrix and set all col and row to zero
     apporach 2: use dynamic programming, use two array to record the which row and col should be zero
-    approach 3: optimize method, use two boolean value to represent two matrix.
+    approach 3: optimize method, use two boolean value to represent  first row or col should all be zero or not.
     */
     void setZeroes(vector<vector<int>>& matrix) {
         int n = matrix.size();
