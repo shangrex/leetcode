@@ -12,6 +12,8 @@
 class Solution {
 public:
     /*
+    Very Very Important question !!!
+    
     Divide and conquer algorithmns
     
     preorder feature: vector[0] will always be the root
@@ -20,7 +22,7 @@ public:
     
     */
     
-    TreeNode* check(vector<int> preorder, vector<int>inorder, int &root_index, int left_bound, int right_bound){
+    TreeNode* check(vector<int> &preorder, vector<int>&inorder, int &root_index, int left_bound, int right_bound){
         if(left_bound > right_bound)return NULL;
         
         //cout << preorder[root_index] << " " << left_bound << " " << right_bound << endl;
@@ -33,7 +35,9 @@ public:
                 break;
             }
         }
+        // root_index should pass by reference, since every root node would only calculate once.
         root_index++;
+        // pass inorder left_bound and right bound
         root->left = check(preorder, inorder, root_index , left_bound, pivot-1);
         root->right = check(preorder, inorder, root_index, pivot+1, right_bound);
         return root;
