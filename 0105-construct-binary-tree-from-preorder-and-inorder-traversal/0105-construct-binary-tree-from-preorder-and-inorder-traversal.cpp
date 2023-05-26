@@ -25,7 +25,6 @@ public:
     TreeNode* check(vector<int> &preorder, vector<int>&inorder, int &root_index, int left_bound, int right_bound){
         if(left_bound > right_bound)return NULL;
         
-        //cout << preorder[root_index] << " " << left_bound << " " << right_bound << endl;
         TreeNode *root = new TreeNode(preorder[root_index]);
         
         int pivot=left_bound;
@@ -43,9 +42,7 @@ public:
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        TreeNode* rst;
         int root_index=0;
-        rst = check(preorder, inorder, root_index, 0, preorder.size()-1);
-        return rst;
+        return check(preorder, inorder, root_index, 0, preorder.size()-1);
     }
 };
