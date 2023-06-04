@@ -11,6 +11,10 @@
  */
 class Solution {
 public:
+    /*
+    approach 1: use count left side tree's nodes to decide go left or go right
+    approach 2: inorder triverse is same as the ascending sort, so do the inorder triverse
+    */
     void find_left(TreeNode *root, int &depth){
         if(root==NULL)return ;
         else {
@@ -20,7 +24,6 @@ public:
         } 
     }
     int find_ksmall(TreeNode *root, int k){
-        if(root==NULL)return -1;
         int count = 0;
         find_left(root->left, count);
         if(k-1 == count)return root->val;
