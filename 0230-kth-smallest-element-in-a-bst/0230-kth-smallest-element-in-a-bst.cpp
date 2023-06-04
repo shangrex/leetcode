@@ -13,9 +13,9 @@ class Solution {
 public:
     /*
     approach 1: use count left side tree's nodes to decide go left or go right
-    approach 2: inorder triverse is same as the ascending sort, so do the inorder triverse
-    */
-    void find_left(TreeNode *root, int &depth){
+    code :
+    
+        void find_left(TreeNode *root, int &depth){
         if(root==NULL)return ;
         else {
             depth++;
@@ -38,6 +38,27 @@ public:
     int kthSmallest(TreeNode* root, int k) {
         int rst = 0;
         rst = find_ksmall(root, k);
+        return rst;
+    }
+    
+    
+    approach 2: inorder triverse is same as the ascending sort, so do the inorder triverse
+    
+    follow up question: insert and delete nodes in BST (701.)
+    */
+    int rst = 0;
+    
+    void inorder(TreeNode *root, int &k){
+        if(root==NULL)return;
+        inorder(root->left, k);
+        if(--k == 0){
+            rst = root->val;
+        }
+        inorder(root->right, k);
+    }
+
+    int kthSmallest(TreeNode* root, int k) {
+        inorder(root, k);
         return rst;
     }
 };
