@@ -1,3 +1,8 @@
+/*
+Object-Oriented Programming !!!
+
+OOP reminds link: https://stackoverflow.com/questions/15310846/how-do-i-create-a-class-object-in-c
+*/
 class TrieNode{
     public:
         TrieNode* nodes[26];
