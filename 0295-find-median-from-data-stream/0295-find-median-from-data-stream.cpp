@@ -21,7 +21,7 @@ public:
     
     double findMedian() {
         if(mx_pq.size() == mi_pq.size()){
-            return (double(mx_pq.top()) + double(mi_pq.top()))/2;
+            return ((mx_pq.top()) + (mi_pq.top()))/2.0;
         }
         else {
             return mx_pq.top();
