@@ -13,6 +13,8 @@ public:
     /*
     Notice BST feature, lca node is between the node value
     Just walk down from the whole tree's root as long as both p and q are in the same subtree (meaning their values are both smaller or both larger than root's). 
+    Time: O(H), the height of the tree
+    Space: O(1)
     */
     TreeNode* lca(TreeNode* root, TreeNode*p, TreeNode* q){
         if(p->val > root->val && q->val > root->val){
