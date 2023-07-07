@@ -21,7 +21,7 @@ public:
     bool dfs(TreeNode* root, TreeNode* subroot){
         if(root==NULL||subroot==NULL)return false;
         if(root->val == subroot->val){
-            return check(root, subroot) || dfs(root->left, subroot) || dfs(root->right, subroot);
+            if(check(root, subroot))return true;
         }
         return dfs(root->left, subroot) || dfs(root->right, subroot);
     }
