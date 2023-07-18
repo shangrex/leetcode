@@ -1,24 +1,27 @@
 class Solution {
 public:
+    /*
+    approach 1 sliding windows
+    optimize method 2 record the left boundary
+    */
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int>mp;
-        int left = 0;
-        int rst = 0;
-        for(int i = 0; i < s.length(); i++){
-            
-            if(mp.find(s[i]) == mp.end()){
-                // not exist
-                mp[s[i]] = i;
-            }
-            else {
-                // exist
-                rst = max(rst, i-left);
-                left = max(left, mp[s[i]]+1);
-                mp[s[i]] = i;
-            }
-        }
-        int n = s.length();
-        rst = max(rst, n-left);
-        return rst;
+  unordered_map<char, int> substr; // char, count
+  int left = 0, right = 0;
+  int ans = 0;
+  while(right < s.size()) {
+    char c = s[right];
+    right++;
+    substr[c]++;
+    
+    // make sure it is valid
+    while(substr[c] > 1) {
+      char c2 = s[left];
+      substr[c2]--;
+      left++;
+    }
+    
+    ans = max(ans, right - left);
+  }
+  return ans;
     }
 };
