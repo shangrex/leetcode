@@ -12,11 +12,15 @@ public:
     approach 3: Cyclic Replacements
     time: O(N)
     space: O(1)
+    
+    appoatch 4: reverse
+    
+    approach 5: 
     */
     void rotate(vector<int>& nums, int k) {
         k = k%nums.size();
-        reverse(nums.begin(), nums.end());
-        reverse(nums.begin(), nums.begin()+k);
-        reverse(nums.begin()+k, nums.end());
+    reverse(nums.begin(), nums.end() - k);
+    reverse(nums.end()-k  , nums.end());
+    reverse(nums.begin(), nums.end());
     }
 };
