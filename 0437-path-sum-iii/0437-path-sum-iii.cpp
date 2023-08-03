@@ -16,7 +16,6 @@ public:
         // 10 15 18 21
         sum += root->val;
         
-        if(sum == target)ans++;
         
         if(mp.find(sum-target) != mp.end()){
             if(mp[sum-target] > 0)ans += mp[sum-target];
@@ -42,6 +41,7 @@ public:
     int pathSum(TreeNode* root, int targetSum) {
         int ans = 0;
         unordered_map<long long int, long long int>mp; // key: value, value: count
+        mp[0] = 1;
         helper(root, 0, ans, mp, targetSum);
         return ans;
     }
