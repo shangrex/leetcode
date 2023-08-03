@@ -14,7 +14,7 @@ public:
     bool isCousins(TreeNode* root, int x, int y) {
         if(!root)return false;
         
-        bool cx = false, cy = false;
+        bool found_x = false, found_y = false;
         queue<TreeNode*>q;
         q.push(root);
         while(!q.empty()){
@@ -22,17 +22,19 @@ public:
             for(int i = 0; i < n; i++){
                 TreeNode* t = q.front(); 
                 q.pop();
-                if(t->val == x)cx = true;
-                if(t->val == y)cy = true;
-                if(t->left&&t->right&&t->left->val==x&&t->right->val==y)return false;
-                if(t->left&&t->right&&t->left->val==y&&t->right->val==x)return false;
+                if(t->val == x)found_x = true;
+                if(t->val == y)found_y = true;
+                if(t->left && t->right){
+                    if(t->left->val == x && t->right->val == y)return false;
+                    if(t->left->val == y && t->right->val == x)return false;
+                }
                 if(t->left)q.push(t->left);
                 if(t->right)q.push(t->right);
             }
             
-            if(cx && cy)return true;
-            cx = false;
-            cy = false;
+            if(found_x && found_y)return true;
+            found_x = false;
+            found_y = false;
         }
         return false;
     }
