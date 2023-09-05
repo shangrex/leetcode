@@ -7,6 +7,7 @@ public:
         sort(nums.begin(), nums.end());
         int rst = nums[0]+nums[1]+nums[2];
         for(int i = 0; i < nums.size()-2; i++){
+            if(i > 0 && nums[i] == nums[i-1])continue;
             int low = i+1, high = nums.size()-1;
             while(low < high){
                 int tmp_sum = nums[low]+nums[high]+nums[i];
