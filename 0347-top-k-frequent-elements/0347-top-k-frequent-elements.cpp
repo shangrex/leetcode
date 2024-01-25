@@ -15,8 +15,8 @@ public:
     Approach 3: selection algorithmns
     Time: O(k*N)
     */
-    vector<int> topKFrequent(vector<int>& nums, int k) {
-        
+    /*
+            
         vector<int>rst;
         
         map<int, int>fq;
@@ -43,5 +43,25 @@ public:
             it++;
         }
         return rst;
+    */
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        map<int, int>mp;
+        
+        for(int i = 0; i < nums.size(); i++){
+            mp[nums[i]] += 1;
+        }
+        
+        priority_queue< pair<int,int>> pq;
+        for(auto i : mp){
+            pq.push({i.second, i.first});
+        }
+        
+        vector<int>rst;
+        for(int i = 0; i < k; i++){
+            rst.push_back(pq.top().second);
+            pq.pop();
+        }
+        return rst;
+        
     }
 };
