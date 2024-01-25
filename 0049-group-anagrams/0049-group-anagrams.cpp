@@ -28,13 +28,29 @@ public:
     approach 2: use sort to compare each word
         the sort have an optimize method that use transform map to string so that it can use counting sort
     */
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> rst;
+    /*
+            vector<vector<string>> rst;
         map<string, vector<string>> mp;
         for(int i = 0; i < strs.size(); i++){
             string tmp = strs[i];
             sort(strs[i].begin(), strs[i].end());
             mp[strs[i]].push_back(tmp);
+        }
+        
+        for(auto i : mp){
+            rst.push_back(i.second);
+        }
+        
+        return rst;
+    */
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> rst;
+        unordered_map<string, vector<string>> mp;
+        
+        for(int i = 0; i < strs.size(); i++){
+            string s_tmp = strs[i];
+            sort(s_tmp.begin(), s_tmp.end());
+            mp[s_tmp].push_back(strs[i]);
         }
         
         for(auto i : mp){
