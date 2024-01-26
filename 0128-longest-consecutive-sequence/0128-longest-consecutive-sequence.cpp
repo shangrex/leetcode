@@ -20,7 +20,6 @@ add all element into set, and used hashtable to check the longest continuouse se
         }
         int rst = 0;
         for(auto i : mp_size){
-            //cout << i.first << " " << i.second << endl;
             rst = max(rst, i.second);
         }
         
@@ -65,8 +64,8 @@ public:
         }
         int rst=0;
         // count size
-        for(auto i : mp){
-            if(mp_size[i.first] > rst)rst = mp_size[i.first];
+        for(auto i : mp_size){
+            if(i.second > rst)rst = i.second;
         }
         return rst;
     }
