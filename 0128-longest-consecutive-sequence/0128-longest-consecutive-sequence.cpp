@@ -6,6 +6,26 @@ the head of the union is the smallest number of the set, and the set can connect
 method 2: set, 
 add all element into set, and used hashtable to check the longest continuouse sequence
 */    
+    
+/*
+        // initialize the union set
+        for(int i = 0; i < nums.size(); i++){
+            init(nums[i]);
+        }
+        for(auto i : mp){
+            // exist value - 1
+            if(mp.count(i.first-1) != 0){
+                Union(i.first, i.first-1);
+            }
+        }
+        int rst = 0;
+        for(auto i : mp_size){
+            //cout << i.first << " " << i.second << endl;
+            rst = max(rst, i.second);
+        }
+        
+        return rst;
+*/
 public:
     // union set data structure
     unordered_map<int, int> mp;
@@ -33,22 +53,21 @@ public:
     }
     
     int longestConsecutive(vector<int>& nums) {
-        // initialize the union set
+        // init
         for(int i = 0; i < nums.size(); i++){
             init(nums[i]);
         }
+        // union
         for(auto i : mp){
-            // exist value - 1
-            if(mp.count(i.first-1) != 0){
+            if( mp.find(i.first-1) != mp.end()){
                 Union(i.first, i.first-1);
             }
         }
-        int rst = 0;
-        for(auto i : mp_size){
-            //cout << i.first << " " << i.second << endl;
-            rst = max(rst, i.second);
+        int rst=0;
+        // count size
+        for(auto i : mp){
+            if(mp_size[i.first] > rst)rst = mp_size[i.first];
         }
-        
         return rst;
     }
 };
