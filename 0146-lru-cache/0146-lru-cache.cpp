@@ -1,83 +1,90 @@
+// craete node
 class node {
     public:
-        int key;
-        int value;
-        node *prev;
-        node *next;
-    node(int key, int value){
+    
+    node* prev;
+    node* post;
+    int key;
+    int value;
+    node (int key, int value){
         this->key = key;
         this->value = value;
         this->prev = NULL;
-        this->next = NULL;
-    };
+        this->post = NULL;
+    }
 };
+
+
 class LRUCache {
-private:
-    int capacity;
+public:
+    // store all key and the node address
     unordered_map<int, node*>mp;
+    int capacity;
     node *head = new node(0, 0);
     node *tail = new node(0, 0);
-public:
+    
+    void remove(node* r_node){
+        node *prev = r_node->prev;
+        node *post = r_node->post;
+        
+        post->prev = r_node->prev;
+        prev->post = r_node->post;
+    }
+    
+    
+    // add the node in the head of the list
+    void insert(node *i_node){
+        
+        i_node->post = head->post;
+        head->post->prev = i_node;
+        i_node->prev = head;
+        head->post = i_node;
+        
+    }
     
     LRUCache(int capacity) {
+        
         this->capacity = capacity;
         
-        // two dummy node, not certain meaning
-
-        head->next = tail;
+        head->post = tail;
+        head->prev = NULL;
         tail->prev = head;
-        
+        tail->post = NULL;
     }
     
     int get(int key) {
-        // check if in the LRU
-        // if yes then return the value, and put the node in front of the head
-        // if no then return -1
+        // check if in map
         if(mp.find(key) != mp.end()){
-            node * curnode = mp[key];
-            remove(curnode);
-            insert(curnode);
-            return curnode->value;
+            // if yes return and remove the node then add the node on top of the list
+            node *tmp = mp[key];
+            remove(tmp);
+            insert(tmp);
+            return mp[key]->value;
         }
-        else return -1;
+        return -1;
     }
     
     void put(int key, int value) {
-        // check if in the LRU
+        
+        // check the node if in map if yes then remove the node and add the node in the head
         if(mp.find(key) != mp.end()){
-            // if yes
-            node* curnode = mp[key];
-            remove(curnode);
-            curnode->value = value;
-            insert(curnode);
+            mp[key]->value = value;
+            remove(mp[key]);
+            insert(mp[key]);
         }
         else {
-            node *curnode = new node(key, value);
-            if(mp.size() < this->capacity){
-                insert(curnode);
-            }
-            else {
-                insert(curnode);
+            if(mp.size() >= this->capacity){
+                mp.erase(tail->prev->key);
                 remove(tail->prev);
             }
+            node *new_node = new node(key, value);
+            mp[key] = new_node;
+            insert(new_node);
         }
-        // if yes then touch the node and put the node in the head of the LRU and update the value
-        // if no then add new node in front of the head, and if the list over the capacity delete the last node 
-    }
-    
-    void insert(node* curnode){
-        curnode->next = head->next;
-        head->next->prev = curnode;
-        head->next = curnode;
-        curnode->prev = head;
         
-        mp[curnode->key] = curnode;
-    }
-    
-    void remove(node *curnode){
-        mp.erase(curnode->key);
-        curnode->prev->next = curnode->next;
-        curnode->next->prev = curnode->prev;
+        // if no
+        
+        // delete the tail node and put the new node in the head of node 
     }
 };
 
