@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    bool isvalid(vector<string>q_map, int col, int row, int &n){
+    bool isvalid(vector<string>&q_map, int col, int row, int &n){
         // check col
         for(int i = 0; i < n; i++){
             if(q_map[col][i] == 'Q')return false;
