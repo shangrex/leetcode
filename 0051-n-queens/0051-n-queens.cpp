@@ -17,7 +17,7 @@ public:
         return true;
     }
     
-    void backtrack(int &n, vector<vector<string>> &rst, int col, int row, vector<string>q_map){
+    void backtrack(int &n, vector<vector<string>> &rst, int col, int row, vector<string>&q_map){
         if(row == n){
             rst.push_back(q_map);
             return;
