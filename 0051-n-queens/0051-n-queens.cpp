@@ -1,44 +1,41 @@
 class Solution {
 public:
-    
-    bool isvalid(vector<string>&q_map, int col, int row, int &n){
-        // check col
-        for(int i = 0; i < n; i++){
-            if(q_map[col][i] == 'Q')return false;
+    bool isvalid(int n, vector<string>board, int row, int col){
+        // 
+        for(int i = 1; i <= row; i++){
+            if(board[row-i][col] == 'Q')return false;
         }
-        // check 135
-        for(int i = col-1, j = row-1; i>=0 && j>=0; i--, j--){
-            if(q_map[i][j] == 'Q')return false;
+        for(int i = 1; i <=row && col+i<n; i++){
+            if(board[row-i][col+i] == 'Q')return false;
         }
-        // check 45
-        for(int i = col+1, j = row-1; i < n && j >= 0; i++, j--){
-            if(q_map[i][j] == 'Q')return false;
+        for(int i = 1; i <= row && i <= col; i++){
+            if(board[row-i][col-i] == 'Q')return false;
         }
         return true;
     }
-    
-    void backtrack(int &n, vector<vector<string>> &rst, int col, int row, vector<string>&q_map){
-        if(row == n){
-            rst.push_back(q_map);
+    void backtrack(int n, vector<vector<string>> &rst, vector<string>&board, int row, int col){
+        if(n == row){
+            rst.push_back(board);
             return;
         }
         
+        
         for(int i = 0; i < n; i++){
-            if(isvalid(q_map, i, row, n)){
-                q_map[i][row] = 'Q';
-                backtrack(n, rst, col, row+1, q_map);
-                q_map[i][row] = '.';
+            if(isvalid(n, board, row, i)){
+                board[row][i] = 'Q';
+                backtrack(n, rst, board, row+1, col);
+                board[row][i] = '.';
             }
         }
     }
-    
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> rst;
-        int size = n;
-        vector<string> q_map(n, string(n, '.'));
+        vector<vector<string> > rst;
+        vector<string>board(n, string(n, '.'));
         
-        backtrack(n, rst, 0, 0, q_map);
-  
+        backtrack(n, rst, board, 0, 0);
+        
         return rst;
     }
+    
+    
 };
