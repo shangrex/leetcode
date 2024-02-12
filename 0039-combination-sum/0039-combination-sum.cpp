@@ -1,22 +1,31 @@
 class Solution {
 public:
-    void dfs(vector<int>&candidates, int target, vector<vector<int>> &rst, vector<int>&tmp_rst){
-        if(target == 0){
-            rst.push_back(tmp_rst);
+    
+    void backtrack(vector<int>& candidates, int target, int index, vector<int>&pool, vector<vector<int>> &rst){
+        
+        int ans = 0;
+        for(auto i : pool){
+            ans += i;
+            if(ans == target){
+                rst.push_back(pool);
+                return;
+            }
+            else if(ans > target)return;
         }
-        else if(target < 0)return ;
-        for(int i = 0; i < candidates.size(); i++){
-            if(!tmp_rst.empty() &&tmp_rst.back() > candidates[i])continue;
-            tmp_rst.push_back(candidates[i]);
-            dfs(candidates, target-candidates[i], rst, tmp_rst);
-            tmp_rst.pop_back();
+        
+        for(int i = index; i < candidates.size(); i++){
+            pool.push_back(candidates[i]);
+            backtrack(candidates, target, i, pool, rst);
+            pool.pop_back();
         }
+        return;
     }
+    
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int> >rst;
-        vector<int>tmp_rst;
-        sort(candidates.begin(), candidates.end());
-        dfs(candidates, target, rst, tmp_rst);
+        vector<vector<int>> rst;
+        vector<int> pool;
+        
+        backtrack(candidates, target, 0, pool, rst);
         return rst;
     }
 };
