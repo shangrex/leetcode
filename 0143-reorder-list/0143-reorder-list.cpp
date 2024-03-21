@@ -37,10 +37,8 @@ public:
             ListNode *post_forward = cur->next;
             cur->next = tail;
             tail = tail->next;
-            cout << cur->val << endl;
             cur = cur->next;
             cur->next = post_forward;
-            cout << cur->val << endl;
             cur = cur->next;
         }
         
