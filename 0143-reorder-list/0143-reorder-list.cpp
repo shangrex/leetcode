@@ -11,32 +11,39 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        ListNode *slow = head, *fast = head;
-        
-        // find the middle one
-        while(fast != NULL){
-            fast->next != NULL ? fast = fast->next->next : fast = fast->next;
-            if(fast == NULL)break;
+        // 1. find the middle point
+        // 2. reverse the linked list after the middle part
+        // 3. merge the linked list 
+        ListNode *slow = head;
+        ListNode* fast = head;
+        while(fast && fast->next){
             slow = slow->next;
+            fast = fast->next->next;
         }
-        // reverse the half of the order
-        ListNode* prev = NULL, *cur = slow, *nxt = NULL;
-        while(cur != NULL){
-            nxt = cur->next;
-            cur->next = prev;
-            prev = cur;
-            cur = nxt;
+        // slow is the middle point
+        // reverse the linked list
+        ListNode *prev = NULL;
+        while(slow){
+            ListNode *post = slow->next;
+            slow->next = prev;
+            prev = slow;
+            slow = post;
+        }
+
+        // merge
+        ListNode* cur = head;
+        ListNode* tail = prev;
+        while(cur && tail){
+            ListNode *post_forward = cur->next;
+            cur->next = tail;
+            tail = tail->next;
+            cout << cur->val << endl;
+            cur = cur->next;
+            cur->next = post_forward;
+            cout << cur->val << endl;
+            cur = cur->next;
         }
         
-        ListNode* forward = head, *reverse = prev, *tmp_f, *tmp_r;
-        // combine the linked list
-        while(forward != NULL){
-            tmp_f = forward->next;
-            tmp_r = reverse->next;
-            forward->next = reverse;
-            reverse->next = tmp_f;
-            forward = tmp_f;
-            reverse = tmp_r;
-        }
+        if(cur && cur->next) cur->next->next = NULL;
     }
 };
