@@ -1,37 +1,41 @@
 class Solution {
 public:
-    // 0 means not visited
-    // 1 means is being visited
-    // 2 means has been visited
-    vector<int> visited;
+    // construct graph and dfs traverse, if there is cycle then return true
+    // otherwise the result is false
+    
+    public:
+    vector<int>visited;
+    vector<vector<int>> graph;
+    void dfs(int cur, bool &rst){
+        if(visited[cur] == 1)return;
+        visited[cur] = 2;
+        for(int i = 0; i < graph[cur].size(); i++){
+            if(visited[graph[cur][i]] == 2){
+                rst = false;
+                return;
+            }
+            dfs(graph[cur][i], rst);
+        }
+        visited[cur] = 1;
+        return;
+    }
+    // 0 never visited
+    // 1 has been visited
+    // 2 is visiting
+    
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int> >graph(numCourses, vector<int>());
-        visited.assign(numCourses, 0);
-        // build graph
+        graph.assign(numCourses, vector<int>());
+        // construct the graph
         for(int i = 0; i < prerequisites.size(); i++){
             graph[prerequisites[i][0]].push_back(prerequisites[i][1]);
         }
-  
-        // select all nodes and dfs to check if there is cycle
+        bool rst = true;
+        visited.assign(numCourses, 0);
         for(int i = 0; i < numCourses; i++){
-            if(visited[i] == 0){
-                if(dfs(i, graph))return false;
-            }
-        }        
-        return true;
-    }
-    // check if there is cycle
-    bool dfs(int n, vector<vector<int> > &graph){
-        // cout << visited[0] << " " << visited[1];
-        visited[n] = 1;
-        for(int i = 0; i < graph[n].size(); i++){
-            // if is being visited then there is a cycle
-            if(visited[graph[n][i]] == 1)return true;
-            else if(visited[graph[n][i]] == 0){
-                if(dfs(graph[n][i], graph))return true;
-            }
+            if(visited[i] == 1)continue;
+            dfs(i, rst);
+            if(!rst)return rst;
         }
-        visited[n] = 2;
-        return false;
+        return rst;
     }
 };
