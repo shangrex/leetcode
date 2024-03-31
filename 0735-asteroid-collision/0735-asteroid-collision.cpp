@@ -1,37 +1,20 @@
 class Solution {
 public:
-    // open stack
-    // if empty & negative push
-    // not 
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        vector<int>rst;
-        for(int i = 0; i < asteroids.size(); i++){
-            if(asteroids[i] > 0 || rst.empty() || rst.back() < 0)rst.push_back(asteroids[i]);
-            else {
-                // input is negative and rst.back > 0
-                while(true){
-                    // cout << rst.back() << " " << asteroids[i] << endl;
-                    if(rst.empty()){
-                        rst.push_back(asteroids[i]);
-                        break;
-                    }
-                    else if(rst.back() < 0){
-                        rst.push_back(asteroids[i]);
-                        break;
-                    }
-                    else if(rst.back() == -asteroids[i]) {
-                        rst.pop_back();
-                        break;
-                    }   
-                    else if(rst.back() > -asteroids[i]){
-                        break;
-                    }
-                    else {
-                        rst.pop_back();
-                    }
-                }
-            }
+        vector<int> ans;
+        for (int asteroid : asteroids)
+        {
+            // ans: 24, 5, 10, -15
+            while (asteroid < 0 && !ans.empty() && ans.back() > 0 && ans.back() < -asteroid)
+                ans.pop_back();
+            // ans: 24
+
+            // ans: 15, -15
+            if (asteroid < 0 && !ans.empty() && ans.back() && ans.back() == -asteroid)
+                ans.pop_back();
+            else if (ans.empty() || asteroid > 0 || ans.back() < 0)
+                ans.push_back(asteroid);
         }
-        return rst;
+        return ans;
     }
 };
