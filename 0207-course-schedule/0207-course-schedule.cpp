@@ -1,41 +1,42 @@
 class Solution {
 public:
-    // construct graph and dfs traverse, if there is cycle then return true
-    // otherwise the result is false
-    
-    public:
-    vector<int>visited;
-    vector<vector<int>> graph;
-    void dfs(int cur, bool &rst){
-        if(visited[cur] == 1)return;
-        visited[cur] = 2;
-        for(int i = 0; i < graph[cur].size(); i++){
-            if(visited[graph[cur][i]] == 2){
-                rst = false;
-                return;
-            }
-            dfs(graph[cur][i], rst);
-        }
-        visited[cur] = 1;
-        return;
-    }
-    // 0 never visited
-    // 1 has been visited
-    // 2 is visiting
-    
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        graph.assign(numCourses, vector<int>());
-        // construct the graph
-        for(int i = 0; i < prerequisites.size(); i++){
-            graph[prerequisites[i][0]].push_back(prerequisites[i][1]);
+        // Peeling layer one by one
+        // If there still exists element cannot be remove -> impossible
+
+        //Indegree for each node
+        vector<vector<int>> graph(numCourses);
+        vector<int> inDegree(numCourses, 0);
+        for (const auto& prerequisite : prerequisites)
+        {
+            inDegree[prerequisite[0]]++;
+            graph[prerequisite[1]].push_back(prerequisite[0]);
         }
-        bool rst = true;
-        visited.assign(numCourses, 0);
-        for(int i = 0; i < numCourses; i++){
-            if(visited[i] == 1)continue;
-            dfs(i, rst);
-            if(!rst)return rst;
+        
+        queue<int> q;
+        vector<bool> visited(numCourses, false);
+        for (int i = 0; i < numCourses; i++)
+            if (!inDegree[i])
+            { 
+                q.push(i);
+                visited[i] = true;
+            }
+        
+        // Peeling layer for topological sort
+        while (!q.empty())
+        {
+            int node = q.front();   q.pop();
+            for (int neighbor : graph[node])
+                if (!--inDegree[neighbor])
+                {
+                    q.push(neighbor);
+                    visited[neighbor] = true;
+                }
         }
-        return rst;
+
+        //Check still left nodes
+        for (int v : visited)
+            if (!v) return false;
+        return true;
     }
 };
