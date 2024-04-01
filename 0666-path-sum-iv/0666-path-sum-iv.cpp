@@ -2,7 +2,6 @@ class Solution {
 public:
     
     void dfs(vector<int>&tree, int cur, int &rst_sum, int path_sum){
-        cout << cur << endl;
         // condition exit
         path_sum += tree[cur];
         if(tree[cur*2+1] < 0 && tree[cur*2+2] < 0){
@@ -31,7 +30,7 @@ public:
         // right child of the mother node(i) should be i*2+2
         // the value of the tree is value
         // 2^4 -> 16
-        vector<int>tree(200, -1);
+        vector<int>tree(32, -1);
         
         for(int i = 0; i < nums.size(); i++){
             int hundred = (nums[i] / 100);
