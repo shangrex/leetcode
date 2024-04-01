@@ -25,7 +25,7 @@ public:
         if(amount == 0)return 1;
         if(index == coins.size() || amount < 0)return 0;
         if(memo[index][amount] != -1)return memo[index][amount]; 
-        // if(coins[index] > amount)return 0;
+        if(coins[index] > amount)return memo[index][amount] = dp(amount, index+1);
         
         // select coins[index]
         int sum1 = dp(amount - coins[index], index);
