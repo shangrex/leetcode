@@ -15,6 +15,7 @@ public:
     }
     
     method 2. top-down solution & memorization
+    dp(amount, index) = dp(amount - coins[index], index) + dp(amount, index+1)
     */
     
     public:
