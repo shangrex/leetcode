@@ -1,10 +1,20 @@
 class Solution {
 public:
+    /*
+    Approach 1.
+    use __builtin_popcount
+    */
     vector<int> countBits(int n) {
-        vector<int>rst(n+1, 0);
-        for(int i = 0; i <= n; i++){
-            rst[i] = __builtin_popcount(i);
+        if(n==0)return {0};
+        if(n==1)return {0, 1};
+        vector<int>dp(n+1, 0);
+        dp[0] = 0;
+        dp[1] = 1;
+        
+        for(int i = 2; i <= n; i++){
+            dp[i] = dp[i>>1] + (i%2);
         }
-        return rst;
+        
+        return dp;
     }
 };
