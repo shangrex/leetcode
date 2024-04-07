@@ -1,7 +1,7 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int left = 0, right = -1;
+        int left = 0, right = 0;
         vector<int>count(26, 0);
         // the minimal changes means to use max_char_count
         int max_char_count = 0;
@@ -9,8 +9,8 @@ public:
         // awaare of comparison of signed int and unsigned int
         int n = s.length();
         
-        while(right < n-1){
-            right++;
+        while(right < n){
+            
             count[s[right]-'A']++;
             for(auto i : count)max_char_count = max(max_char_count, i);
             
@@ -22,6 +22,7 @@ public:
             }
             
             rst = max(rst, right - left + 1);
+            right++;
         }
         return rst;
     }
