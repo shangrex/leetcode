@@ -1,29 +1,27 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int left = 0, right = 0;
-        vector<int>count(26, 0);
-        // the minimal changes means to use max_char_count
-        int max_char_count = 0;
-        int rst = 0;
-        // awaare of comparison of signed int and unsigned int
-        int n = s.length();
-        
-        while(right < n){
-            
-            count[s[right]-'A']++;
-            for(auto i : count)max_char_count = max(max_char_count, i);
-            
-            while(right-left+1-max_char_count > k){
-                count[s[left]-'A']--;
-                left++;
-                for(auto i : count)max_char_count = max(max_char_count, i);
-                
+        // AABCAA
+        // 
+        unordered_map<char, int> mp;
+        int maxL = 0, maxC = 0, left = 0, right = 0;
+        // k = 2
+        // AABCDAA
+        // 1 -> A mp[A] = 1 , maxC = 0 -> 1
+        // 2 -> AA mp[A] = 2 , maxC = 1 -> 2
+        // 3 -> AAB mp[A] = 2, mp[B] = 1 1 < 2  , maxC = 2
+        // 4 -> AABC mp[A] = 2, mp[B] = 1, mp[C] = 1 1 < 3 , maxC = 2
+        // 5 -> AABCD mp[A] = 2, mp[B] = 1, mp[C] = 1, mp[D] = 1,  
+        for (; right < s.size(); right++)
+        {
+            maxC = max(maxC, ++mp[s[right]]);
+            while (left <= right && right - left + 1 - maxC > k)
+            {
+                mp[s[left++]]--;
+                for (const auto& p : mp)    maxC = max(maxC, p.second);
             }
-            
-            rst = max(rst, right - left + 1);
-            right++;
+            maxL = max(maxL, right - left + 1);
         }
-        return rst;
+        return maxL;
     }
 };
