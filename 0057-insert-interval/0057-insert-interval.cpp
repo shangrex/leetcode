@@ -22,7 +22,7 @@ public:
         }
         
         for(; i < intervals.size(); i++){
-            cout << left << " " << right << endl;
+            // cout << left << " " << right << endl;
             if(intervals[i][1] >= newInterval[0] && intervals[i][0] <= newInterval[1]){
                 // overlape
                 left = min(left, intervals[i][0]);
