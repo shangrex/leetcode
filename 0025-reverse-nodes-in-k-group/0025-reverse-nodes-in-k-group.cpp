@@ -49,7 +49,7 @@ public:
     first step check the list lenght is bigger than k or not 
         if bigger than return head
         otherwise return the new node that is the head of reversed linked list
-    second step
+            and reverse the node in k times 
         
     
     
