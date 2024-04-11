@@ -1,59 +1,49 @@
-/*
-Object-Oriented Programming !!!
-
-OOP reminds link: https://stackoverflow.com/questions/15310846/how-do-i-create-a-class-object-in-c
-*/
-class TrieNode{
+class TrieNode {
     public:
-        TrieNode* nodes[26];
-        bool is_end;
-        TrieNode(){
-            this->is_end = false;
-            for(int i = 0; i < 26; i++){
-                nodes[i] = NULL;
-            }
+    bool is_end;
+    TrieNode *nodes[26];
+    TrieNode(){
+        this->is_end = false;
+        for(int i = 0; i < 26; i++){
+            nodes[i] = NULL;
         }
+    }
 };
 
 class Trie {
 public:
     TrieNode *root;
-    
     Trie() {
-        root = new TrieNode();
+         root = new TrieNode();
     }
     
     void insert(string word) {
         TrieNode *cur = root;
         for(int i = 0; i < word.length(); i++){
-            char c = word[i];
-            // create trie node
-            if(cur->nodes[c-'a'] == NULL){
-                cur->nodes[c-'a'] = new TrieNode();
+            if(cur->nodes[word[i] - 'a'] == NULL){
+                cur->nodes[word[i]-'a'] = new TrieNode();                
             }
-            cur = cur->nodes[c-'a'];
+            cur = cur->nodes[word[i]-'a'];
         }
         cur->is_end = true;
     }
     
     bool search(string word) {
-        TrieNode *cur = root;
+        TrieNode*cur = root;
         for(int i = 0; i < word.length(); i++){
-            char c = word[i];
-            if(cur->nodes[c-'a'] == NULL)return false;
+            if(cur->nodes[word[i]-'a'] == NULL)return false;
             else {
-                cur = cur->nodes[c-'a'];
+                cur = cur->nodes[word[i]-'a'];
             }
         }
         return cur->is_end;
     }
     
     bool startsWith(string prefix) {
-        TrieNode *cur = root;
+        TrieNode* cur = root;
         for(int i = 0; i < prefix.length(); i++){
-            char c = prefix[i];
-            if(cur->nodes[c-'a'] == NULL)return false;
-            cur = cur->nodes[c-'a'];
+            if(cur->nodes[prefix[i] -'a'] == NULL)return false;
+            cur = cur->nodes[prefix[i]-'a'];
         }
         return true;
     }
