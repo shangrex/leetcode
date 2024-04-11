@@ -21,7 +21,7 @@ public:
     int hIndex(vector<int>& citations) {
         int rst = 1;
         int n_c = citations.size();
-        vector<int>count(10100, 0);
+        vector<int>count(n_c+1, 0);
         
         for(int i = 0; i < citations.size(); i++){
             count[min(n_c, citations[i])] ++;
