@@ -24,7 +24,7 @@ public:
             return (small_values.top() + big_values.top())/2.0;
         }
         else{
-            return small_values.top();
+            return (float)small_values.top();
         }
     }
 };
