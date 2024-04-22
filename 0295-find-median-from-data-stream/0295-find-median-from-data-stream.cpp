@@ -1,30 +1,30 @@
 class MedianFinder {
 public:
-    priority_queue<int> mx_pq;
-    priority_queue<int, vector<int>, greater<int>> mi_pq;
+    /*
+    use two heap, max_heap maintain right smaller value, and min_heap maintain left bigger value
     
+    */
+    priority_queue<int>small_values;    
+    priority_queue<int, vector<int>, greater<int>>big_values;
     MedianFinder() {
-        
     }
     
     void addNum(int num) {
-        // we must ensure max heap larger than min heap
-        // push element
-        mx_pq.push(num);
-        mi_pq.push(mx_pq.top());
-        mx_pq.pop();
-        if(mx_pq.size() < mi_pq.size()){
-            mx_pq.push(mi_pq.top());
-            mi_pq.pop();
+        small_values.push(num);
+        big_values.push(small_values.top());
+        small_values.pop();
+        if(big_values.size() > small_values.size()){
+            small_values.push(big_values.top());
+            big_values.pop();
         }
     }
     
     double findMedian() {
-        if(mx_pq.size() == mi_pq.size()){
-            return ((mx_pq.top()) + (mi_pq.top()))/2.0;
+        if(small_values.size() == big_values.size()){
+            return (small_values.top() + big_values.top())/2.0;
         }
-        else {
-            return mx_pq.top();
+        else{
+            return small_values.top();
         }
     }
 };
