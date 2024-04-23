@@ -1,19 +1,23 @@
 class Solution {
 public:
+    /*
+    Approach 1.
+    Inspired from: https://leetcode.com/problems/rotate-image/discuss/1175496/JS-Python-Java-C%2B%2B-or-Easy-4-Way-Swap-Solution-w-Explanation
+    
+    Approach 2.
+    First reverse up and down then reflict left and right.
+    */
     void rotate(vector<vector<int>>& matrix) {
         int n = matrix.size();
-        int time = n/2+n%2;
-        for(int i = 0; i < time; i++){
-            // a round
-            for(int j = 0; j < n-1; j++){
-                int tmp = matrix[i+0][i+0+j];
-                matrix[i+0][i+0+j] = matrix[n+i-j-1][i+0];
-                matrix[n+i-j-1][i+0] = matrix[n+i-1][n+i-j-1];
-                matrix[n+i-1][n+i-j-1] = matrix[0+i+j][n+i-1];
-                matrix[0+i+j][n+i-1] = tmp;
+        for(int i = 0; i < n/2; i++){
+            int len = n-1-i*2;
+            for(int j = 0; j < len; j++){
+                int tmp = matrix[i][j+i];
+                matrix[i][j+i] = matrix[n-j-1-i][i];
+                matrix[n-j-1-i][i] = matrix[n-1-i][n-1-j-i];
+                matrix[n-1-i][n-1-j-i] = matrix[i+j][n-1-i];
+                matrix[i+j][n-1-i] = tmp;
             }
-            
-            n = n-2;
         }
     }
 };
