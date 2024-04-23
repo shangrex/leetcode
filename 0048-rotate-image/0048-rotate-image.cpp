@@ -6,6 +6,7 @@ public:
     
     Approach 2.
     First reverse up and down then reflict left and right.
+    https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image
     */
     void rotate(vector<vector<int>>& matrix) {
         int n = matrix.size();
