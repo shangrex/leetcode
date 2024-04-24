@@ -9,8 +9,8 @@
  * };
  */
 class Solution {
-public:
-    ListNode* deleteMiddle(ListNode* head) {
+    /*
+        ListNode* deleteMiddle(ListNode* head) {
         ListNode* slow = head, *fast = head;
         
         if(!head->next)return NULL;
@@ -29,6 +29,26 @@ public:
         }
         
         cur->next = slow->next;
+        
+        
+        
+        return head;
+    }
+    */
+public:
+    ListNode* deleteMiddle(ListNode* head) {
+        
+        if(!head->next)return NULL;
+        ListNode* slow = head, *fast = head->next->next;
+        
+        // find the middle point
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        
+        
+        slow->next = slow->next->next;
         
         
         
