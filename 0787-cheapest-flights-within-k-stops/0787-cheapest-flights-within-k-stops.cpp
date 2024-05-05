@@ -37,12 +37,10 @@ public:
         
         // 3. BFS
         int cnt_step = 0;
-        bool approach = false;
         while(cnt_step <= k && !q.empty()){
             int sz = q.size();
             for(int i = 0;  i < sz; i++){
                 pair<int,int> cur = q.front();
-                // cout << cur << endl;
                 q.pop();
 
                 for(auto near : graph[cur.first]){
