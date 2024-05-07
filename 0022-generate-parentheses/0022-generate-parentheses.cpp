@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void dfs(string para, vector<string>&rst, int n, int l){
+    void dfs(string para, vector<string>&rst, int& n, int l){
         if(para.length() > n*2)return;
         else if(para.length() == n*2 && l == 0){
             rst.push_back(para);
