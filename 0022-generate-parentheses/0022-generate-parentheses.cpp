@@ -1,24 +1,20 @@
 class Solution {
 public:
-    void helper(vector<string>&output, string s, int n, int count_left, int count_right){
-        if(count_left == count_right && count_right == n){
-            output.push_back(s);
-            return;
+    void dfs(string para, vector<string>&rst, int n, int l){
+        if(para.length() > n*2)return;
+        else if(para.length() == n*2 && l == 0){
+            rst.push_back(para);
         }
-        if(count_left > n || count_right > n)return;
-        if(count_left - count_right > 0){
-            // add left bracket
-            helper(output, s+"(" , n, count_left+1, count_right);
-            // add right bracket
-            helper(output, s+")" , n, count_left, count_right+1);
-        }
-        else {
-            helper(output, s+"(" , n, count_left+1, count_right);
+        
+        dfs(para+"(", rst, n, l+1);
+        
+        if(l > 0){
+            dfs(para+")", rst, n, l-1);
         }
     }
     vector<string> generateParenthesis(int n) {
-        vector<string> output;
-        helper(output, "", n, 0, 0);
-        return output;
+        vector<string>rst;
+        dfs("", rst, n, 0);
+        return rst;
     }
 };
