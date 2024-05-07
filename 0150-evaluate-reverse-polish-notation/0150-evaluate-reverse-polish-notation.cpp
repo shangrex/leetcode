@@ -5,7 +5,7 @@ public:
         int rst = 0;
         for(int i = 0; i < tokens.size(); i++){
             if(tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"){
-                cout << stoi(tokens[i]) << endl;
+                // cout << stoi(tokens[i]) << endl;
                 st.push(stoi(tokens[i]));
                 rst = st.top();
             }
@@ -16,7 +16,7 @@ public:
                     st.pop();
                     rst += t2;
                     st.push(rst);
-                    cout << "push" << rst << endl;
+                    // cout << "push" << rst << endl;
                 }
                 else if(tokens[i] == "-"){
                     st.pop();
@@ -31,7 +31,7 @@ public:
                     st.pop();
                     rst *= t2;
                     st.push(rst);
-                    cout << "push*" << rst << endl;
+                    // cout << "push*" << rst << endl;
                 }
                 else {
                     st.pop();
@@ -39,7 +39,7 @@ public:
                     st.pop();
                     rst = t2 / rst;
                     st.push(rst);
-                    cout << "push/" << rst << endl;
+                    // cout << "push/" << rst << endl;
                 }
             }
         }
