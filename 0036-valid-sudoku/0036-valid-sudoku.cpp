@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+    Approach 1. Iterate throught all the soduku, check if there are same variable
+    use three vector to store vector, row(9), col(9), boxes(9)
+    */
     bool isValidSudoku(vector<vector<char>>& board) {
         int n = board.size();
         vector<set<int>>row(n);
@@ -15,11 +19,9 @@ public:
                 if(row[i].count(pos) || col[j].count(pos) || box[(i/3)*3+j/3].count(pos)){
                     return false;
                 }
-                
                 row[i].insert(pos);
                 col[j].insert(pos);
                 box[(i/3)*3+j/3].insert(pos);
-                
             }
         }
         
