@@ -4,38 +4,40 @@ public:
     unordered_map<int, int> mp;
     unordered_map<int, int> mp_size;
     
-    int find(int a){
+    int Find(int a){
         if(mp[a] == a)return a;
-        return find(mp[a]);
+        else return Find(mp[a]);
     }
     
     void Union(int a, int b){
-        // a = b-1
-        int head_a = find(a);
-        int head_b = find(b);
-        
-        mp[head_b] = head_a;
-        mp_size[head_a] += mp_size[head_b];
+        int root_a = Find(a);
+        int root_b = Find(b);
+        mp[root_a] = root_b;
+        mp_size[root_b] += mp_size[root_a];
     }
     
     int longestConsecutive(vector<int>& nums) {
-        int rst = 0;
-        
-        for(int i = 0; i < nums.size(); i++){
-            mp[nums[i]] = nums[i];
-            mp_size[nums[i]] = 1;
+        // 1. Construct union
+        for(auto num : nums){
+            mp[num] = num;
+            mp_size[num] = 1;
         }
         
+        
+        // 2. Union the graph
         for(auto i : mp){
             if(mp.find(i.second-1) != mp.end()){
-                Union(i.second-1, i.second);
+                Union(i.second, i.second-1);
             }
         }
         
+        
+        // 3. Find the longest legnth
+        int rst = 0;
         for(auto i : mp_size){
             rst = max(rst, i.second);
         }
-        
         return rst;
+        
     }
 };
