@@ -1,90 +1,27 @@
-struct cmp{
-        bool operator()(pair<int, int> a, pair<int, int> b) {
-     
-        return a.second < b.second;
-    }  
-};
 class Solution {
 public:
     /*
-    Approach 1: priority queue
-    O(NlgN)
-    Approach 2: bucket sort
-    Time: O(N)
-    Space: 
-    Approach 3: selection algorithmns
-    Time: O(k*N)
+    
     */
-    /*
-            
-        vector<int>rst;
-        
-        map<int, int>fq;
-        // O(N)
-        for(int i = 0; i < nums.size(); i++){
-            fq[nums[i]] += 1;
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        priority_queue<pair<int, int>> pq;
+        unordered_map<int, int>mp;
+        for(auto num : nums){
+            if(mp.find(num) != mp.end()){
+                mp[num] += 1;
+            }
+            else mp[num] = 1;
         }
         
-        priority_queue< pair<int, int>, vector<pair<int, int>>, cmp>pq;
-        // O(NlgN)
-        for(auto i = fq.begin(); i != fq.end(); i++){
-            pair<int,int>tmp;
-            tmp.first = i->first;
-            tmp.second = i->second;
-            pq.push(tmp);
-        }
-        int it = 0;
-        // O(N)
-        while(!pq.empty()){
-            if(it >= k)break;
-            pair<int, int> tmp = pq.top();
-            pq.pop();
-            rst.push_back(tmp.first);
-            it++;
-        }
-        return rst;
-    */
-    /*
-        map<int, int>mp;
-        
-        for(int i = 0; i < nums.size(); i++){
-            mp[nums[i]] += 1;
-        }
-        
-        priority_queue< pair<int,int>> pq;
         for(auto i : mp){
             pq.push({i.second, i.first});
         }
         
         vector<int>rst;
         for(int i = 0; i < k; i++){
-            rst.push_back(pq.top().second);
+            pair<int, int>p = pq.top();
+            rst.push_back(p.second);
             pq.pop();
-        }
-        return rst;
-    */
-    vector<int> topKFrequent(vector<int>& nums, int k) {
-        
-        map<int, int>mp;
-        
-        for(int i = 0; i < nums.size(); i++){
-            mp[nums[i]] += 1;
-        }
-        
-        vector< vector<int>> buckets(nums.size()+1);
-        for(auto i : mp){
-            buckets[i.second].push_back(i.first);
-        }
-        
-        vector<int> rst;
-        int count_k=0;
-        for(int i = buckets.size()-1; i >= 0; i--){
-            if(count_k==k)break;
-            for(auto j : buckets[i]){
-                count_k++;
-                rst.push_back(buckets[i].back());
-                buckets[i].pop_back();
-            }
         }
         return rst;
     }
