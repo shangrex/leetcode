@@ -22,11 +22,12 @@ public:
         int n2 = s2.length();   
         
         while(right < n2){
-            count_s2[s2[right]-'a']++;
+            
             while(right-left+1 < n1){
-                right++;
                 count_s2[s2[right]-'a']++;
+                right++;
             }      
+            count_s2[s2[right]-'a']++;
             
             if(match(count_s1, count_s2))return true;
             
