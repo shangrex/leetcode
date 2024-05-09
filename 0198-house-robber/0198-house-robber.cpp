@@ -14,24 +14,17 @@ public:
     Approach 2. top-down
     */
   
-    void helper(int index, vector<int>&nums, vector<int>&dp){
-        if(index >= nums.size())return;
+    int helper(int index, vector<int>&nums, vector<int>&dp){
+        if(index >= nums.size())return 0;
+        if(dp[index] != -1)return dp[index];
         
-        if(index > 1)
-            dp[index] = max(nums[index] + dp[index-2], dp[index-1]);
-        else if(index == 1){
-            dp[index] = max(dp[0], nums[1]);
-        }
-        else
-            dp[index] = nums[index];
-        
-        helper(index+1, nums, dp);
+        dp[index] = max(nums[index] + helper(index+2, nums, dp), helper(index+1, nums, dp));
+        return dp[index];
     }
     
     int rob(vector<int>&nums) {
         if(nums.size() == 1) return nums[0];
-        vector<int>dp(nums.size(), 0);   
-        helper(0, nums, dp);
-        return dp[nums.size()-1];
+        vector<int>dp(nums.size(), -1);   
+        return helper(0, nums, dp);
     }
 };
