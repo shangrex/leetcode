@@ -8,43 +8,46 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-struct comp{
-    // priority_queue is !comparison.
-    bool operator()(ListNode* a, ListNode* b){
-        if(a->val < b->val)return false;
-        else return true;
-    }
-};
 class Solution {
 public:
-    /*
-    assume there are K lists and every lists' length is N.
-    
-    approach 1: use priority queue, always add the smallest node into the newlist.
-    Time complexity O(lgK)
-    approach 2: merge 1, 2 and merge 3 4.... divide the question to merge 2 sorted list, and the time complexity is O(N*lgK)
-    */
-
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode*, vector<ListNode*>, comp>pq;
-    
-        // initialize
-        for(int i = 0; i < lists.size(); i++){
-            if(lists[i] != NULL)pq.push(lists[i]);
+        int intervals = lists.size();
+        int amount = 1;
+        while(amount < intervals){
+            for(int i = 0; i < lists.size()-amount; i+=amount*2){
+                // cout << "list merge" << i << i+amount << endl;
+                lists[i] = merge2Lists(lists[i], lists[i+amount]);
+            }
+            amount*=2;
         }
-        
-        ListNode *rst = new ListNode();
-        ListNode *head = rst;
-        while(!pq.empty()){
-            ListNode*tmp = pq.top();
-            pq.pop();
-            rst->next = tmp;
-            rst = rst->next;
-            if(tmp->next != NULL){
-                tmp = tmp->next;
-                pq.push(tmp);            
+        if(lists.size() == 0)return NULL;
+        else return lists[0];
+    }
+private:
+    ListNode* merge2Lists(ListNode* l1, ListNode* l2){
+        ListNode*rst = new ListNode();
+        ListNode*cur = rst;
+        while(l1 && l2){
+            // cout << l1->val << " " << l2->val << endl;
+            if(l1->val > l2->val){
+                cur->next = l2;
+                l2 = l2->next;
+                cur = cur->next;
+            }
+            else {
+                cur->next = l1;
+                l1 = l1->next;
+                cur = cur->next;
             }
         }
-        return head->next;
+        
+        if(l1){
+            cur->next = l1;
+        }
+        else {
+            cur->next = l2;
+        }
+        
+        return rst->next;
     }
 };
