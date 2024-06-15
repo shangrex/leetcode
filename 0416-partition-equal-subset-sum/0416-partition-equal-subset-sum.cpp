@@ -12,7 +12,9 @@ public:
         }
         if(memo[index][cnt] != -1)return memo[index][cnt];
         bool check = false;        
-        check |= sub(memo, nums, index+1, cnt+nums[index], half_sum);
+        cnt += nums[index];
+        check |= sub(memo, nums, index+1, cnt, half_sum);
+        cnt -= nums[index];
         check |= sub(memo, nums, index+1, cnt, half_sum);
         memo[index][cnt] = check;
         return check;
