@@ -19,7 +19,7 @@ public:
     
     */
     bool isvalid(vector<vector<int>>&memo,int index,int open, string &s){
-        cout << index << " " << open << endl;
+        // cout << index << " " << open << endl;
         if(index == s.length()){
             if(open == 0)return true;
             else return false;
