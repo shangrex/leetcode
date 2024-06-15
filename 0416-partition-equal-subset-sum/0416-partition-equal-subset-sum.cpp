@@ -1,6 +1,12 @@
 class Solution {
 public:
-    
+    /*
+    Approach 1. DP top down
+    memo[index][subsetsum]
+    Approach 2. Bottom up
+    dp[index][subsetsum]
+    Apprach 3. 1-D DP
+    */
     bool sub(vector<vector<int>>&memo, vector<int>&nums, int index, int cnt, int &half_sum){
         if(cnt == half_sum){
             cout << cnt  << " " << half_sum << endl;
