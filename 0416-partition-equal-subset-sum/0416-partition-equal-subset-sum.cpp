@@ -32,8 +32,21 @@ public:
         }
         if(half_sum % 2)return false;
         else half_sum /= 2;
-        vector<vector<int>>memo(nums.size()+1, vector<int>(half_sum+2, -1));
-        return sub(memo, nums, 0,0, half_sum);
+        // vector<vector<int>>memo(nums.size()+1, vector<int>(half_sum+2, -1));
+        // return sub(memo, nums, 0,0, half_sum);
+        vector<vector<bool>>dp(nums.size()+2, vector<bool>(half_sum+2, false));
         
+        dp[0][0] = true;
+        for(int i = 1; i <= nums.size(); i++){
+            for(int j = 0; j <= half_sum; j++){
+                if(j >= nums[i-1])
+                    dp[i][j] = (dp[i-1][j-nums[i-1]] || dp[i-1][j]);
+                else
+                    dp[i][j] = dp[i-1][j];
+            }
+        }
+        if(dp[nums.size()][half_sum])return true;
+        else return false;
     }
+    
 };
