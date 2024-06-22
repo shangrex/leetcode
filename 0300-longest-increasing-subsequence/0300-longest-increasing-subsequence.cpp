@@ -33,11 +33,14 @@ public:
                 sub.push_back(nums[i]);
             }
             else {
-                int j = 0;
-                while(sub[j] < nums[i]){
-                    j++;
+                int l = 0, r = sub.size();
+                int m;
+                while(r > l){
+                    m = (l+r)/2;
+                    if(sub[m] >= nums[i]) r = m;
+                    else l = m+1;
                 }
-                sub[j] = nums[i];
+                sub[l] = nums[i];
             }
         }
         int n = sub.size();
