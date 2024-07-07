@@ -21,45 +21,27 @@ public:
 
 class Solution {
 public:
-    // DFS to triverse
-    Node* cloneGraph(Node* node) {
-        if(node == NULL)return NULL;
-        
-        // record the visited node
-        vector<int>visit(101, 0);
-        
-        // transform original node to new copied node
-        unordered_map<Node*, Node*>mp;
-        
-        // initialize dfs, and use dfs to triverse origin map
-        stack<Node*> st;
-        st.push(node);
-        
-        // construct initialize copied node
-        Node *clone = new Node(node->val);
-        mp[node] = clone; 
-        
-        while(!st.empty()){
-            Node* cur = st.top();
-            st.pop();
-            // not visit
-            if(visit[cur->val] == 0) {
-                visit[cur->val] = 1;
-                for(int i = 0; i < cur->neighbors.size(); i++){
-                    // add not visited node nearby
-                    if(visit[cur->neighbors[i]->val] == 0){
-                        st.push(cur->neighbors[i]);
-                    }
-                    
-                    // construct copied node and connect
-                    if(mp.find(cur->neighbors[i]) == mp.end()){
-                        Node* clone = new Node(cur->neighbors[i]->val);
-                        mp[cur->neighbors[i]] = clone;
-                    }
-                    mp[cur]->neighbors.push_back(mp[cur->neighbors[i]]);
-                }
-            }
+    unordered_map<Node*, Node*>mp;
+    Node* dfs(Node*node, vector<int>&visited){
+        if(node == NULL){
+            return NULL;
         }
+        Node *new_node = new Node(node->val);
+        mp[node] = new_node;
+        visited[node->val] = 1;
+        cout << node->val << endl;
+        vector<Node*>tmp;
+        for(int i = 0; i < node->neighbors.size(); i++){
+            if(visited[node->neighbors[i]->val] == 0)
+                tmp.push_back(dfs(node->neighbors[i], visited));
+            else tmp.push_back(mp[node->neighbors[i]]);
+        }
+        mp[node]->neighbors = tmp;
+        return mp[node];
+    }
+    Node* cloneGraph(Node* node) {
+        vector<int>visited(101, 0);
+        dfs(node, visited);
         return mp[node];
     }
 };
