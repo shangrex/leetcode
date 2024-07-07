@@ -1,38 +1,32 @@
 class Solution {
 public:
-    /*
-    method 1 union find to find if there is cycle or isolated nodes
-    */
     unordered_map<int, int>mp;
-    
-    bool validTree(int n, vector<vector<int>>& edges) {
-        // initialize
-        for(int i = 0;i < n; i++){
-            mp[i] = i;    
-        }
-        // check if there is cycle
-        for(int i = 0;i < edges.size(); i++){
-            bool check = Union(edges[i][0], edges[i][1]);
-            if(check == false)return false;
-        }
-        // check the isolated nodes, there is only one root node in the tree
-        int tmp = 0;
-        for(auto i : mp){
-            if(i.second == i.first)tmp++;
-        }
-        if(tmp > 1)return false;
-        
-        return true;
-    }
     bool Union(int a, int b){
-        int head_a = Find(a);
-        int head_b = Find(b);
-        if(head_a == head_b) return false;
-        mp[head_b] = head_a;
+        int root_a = Find(a);
+        int root_b = Find(b);
+        if(root_a == root_b) return false;
+        mp[root_b] = root_a;
         return true;
     }
-    int Find(int value){
-        if(mp[value] == value)return value;
-        else return Find(mp[value]);
+    
+    int Find(int a){
+        if(mp[a] == a)return a;
+        else return Find(mp[a]);
+    }
+    bool validTree(int n, vector<vector<int>>& edges) {
+        for(int i = 0; i < n; i++){
+            mp[i] = i;
+        }
+        for(auto &edge : edges){
+            bool check = Union(edge[0], edge[1]);
+            if(!check) return false;
+        }
+        
+        int count_one_root = 1;
+        for(auto i : mp){
+            if(i.first == i.second) count_one_root --;
+        }
+        if(count_one_root == 0)return true;
+        else return false;
     }
 };
