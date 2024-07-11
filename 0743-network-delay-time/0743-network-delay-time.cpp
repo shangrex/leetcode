@@ -4,7 +4,7 @@ public:
         if(timed[k] <= cost){
             return;
         }
-        cout << "visitd " << k << " " << cost << endl;
+        //cout << "visitd " << k << " " << cost << endl;
         timed[k] = cost;
         for(int i = 0; i < graph[k].size(); i++){
             dfs(graph, timed, cost+graph[k][i].second, n, graph[k][i].first);
@@ -37,7 +37,7 @@ public:
         dfs(graph, timed, 0, n, k);
         int rst = INT_MIN;
         for(int i = 1; i <= n; i++){
-            cout << timed[i] << endl;
+            //cout << timed[i] << endl;
             rst = max(rst, timed[i]);
         }
         return rst == INT_MAX ? -1 : rst;
