@@ -13,7 +13,7 @@ class Solution {
 public:
     void dfs(TreeNode*root , int &rst, int max_val){
         if(!root)return;
-        cout << root->val << " " << max_val << endl;
+        //cout << root->val << " " << max_val << endl;
         if(root->val >= max_val)rst+=1;
         if(root->val > max_val) max_val = root->val;
         if(root->left)dfs(root->left, rst, max_val);
