@@ -16,16 +16,22 @@ public:
     Time: O(H), the height of the tree
     Space: O(1)
     */
-    TreeNode* lca(TreeNode* root, TreeNode*p, TreeNode* q){
-        if(p->val > root->val && q->val > root->val){
-            return lca(root->right, p, q);   
+    TreeNode* lca(TreeNode*root, int left, int right){
+        if(!root)return NULL;
+        if(root->val == left || root->val == right)return root;
+        if(root->val >= left && root->val <= right){
+            return root;
         }
-        else if(p->val < root->val && q->val < root->val){
-            return lca(root->left, p, q);
+        else if(root->val > right){
+            return lca(root->left, left, right);
         }
-        return root;
+        else {
+            return lca(root->right, left, right);
+        }
+        return NULL;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return lca(root, p, q);
+        if(p->val > q->val)swap(p, q);
+        return lca(root, p->val, q->val);
     }
 };
