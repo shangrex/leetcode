@@ -13,6 +13,11 @@ public:
     }
     
     vector<string> findItinerary(vector<vector<string>>& tickets) {
+        /*
+        Approach 1. DFS 
+        Hint: only one stuck points, so just use post-ordered dfs and reverse in the end
+        route-based triversing
+        */
         vector<string>rst;
         unordered_map<string, vector<string>> graph;
         for(auto &ticket : tickets){
