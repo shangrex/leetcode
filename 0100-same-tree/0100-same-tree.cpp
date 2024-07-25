@@ -11,12 +11,14 @@
  */
 class Solution {
 public:
-    bool check(TreeNode *p, TreeNode *q){
-        if(q == NULL && p == NULL)return true;
-        if(p == NULL || q == NULL || p->val != q->val)return false;
-        return check(p->left, q->left) && check(p->right, q->right);
+    bool dfs(TreeNode*p, TreeNode*q){
+        if(!p && !q) return true;
+        if((!p && q) || (p && !q)) return false;
+        if(p->val != q->val)return false;
+        if(!dfs(p->left, q->left) || !dfs(p->right, q->right))return false;
+        return true;
     }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return check(p, q);
+        return dfs(p, q);
     }
 };
