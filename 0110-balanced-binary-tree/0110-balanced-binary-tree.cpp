@@ -11,6 +11,10 @@
  */
 class Solution {
 public:
+    /*
+    Definition of height-balacned:
+    All the node in the tree must meet the condition that abs(height(left) - height(right)) > 1
+    */
     int dfs(TreeNode* cur){
         if(!cur) return 0;
         int left = dfs(cur->left);
