@@ -12,7 +12,7 @@
 class Solution {
 public:
     int dfs(TreeNode* root, int &rst){
-        if(!root) return NULL;
+        if(!root) return 0;
         int middle = root->val;
         int left = dfs(root->left, rst);
         int right = dfs(root->right, rst);
