@@ -24,7 +24,7 @@ public:
   
         // search the selected follower to see the followee
         for(auto follower : follows[userId]){
-            cout << userId << " " << follower<< endl;
+            // cout << userId << " " << follower<< endl;
             // add all the followee post
             for(auto post : user_post[follower]){
                 //cout << post.first << " " << post.second << endl;
