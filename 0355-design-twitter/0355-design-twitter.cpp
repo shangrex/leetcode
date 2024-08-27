@@ -45,7 +45,7 @@ public:
     
     void follow(int followerId, int followeeId) {
         if(follows.find(followerId) == follows.end())follows[followerId].push_back(followerId);
-        
+        // return if itself
         for(auto followee : follows[followerId]){
             if(followee == followeeId) return;
         }
