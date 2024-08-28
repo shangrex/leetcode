@@ -1,40 +1,39 @@
 class Solution {
 public:
-    /*
-    approach 1: use two unordered map to compare if t is in the substring of s
-    approach 2: change the approach 1 methods to counter of t, counter equal to the length of the t, and if the counter equal to zero then t is in s.
-    */
-    bool check(unordered_map<char, int> &big, unordered_map<char, int> &small){
-        if(big.size() != small.size())return false;
-        for(auto i = big.begin(); i != big.end(); i++){
-            if(big[i->first] < small[i->first])return false;
-        }
-        return true;
-    }
     string minWindow(string s, string t) {
-        string rst = "";
-        int left = 0, right = 0, counter = t.length();
-        int rst_length = 0, rst_start = 0;
-        unordered_map<char, int>mp;
-        for(int i = 0; i < t.length(); i++){
-            mp[t[i]] += 1;
+        unordered_map<char, int>count_t;
+        for(auto i : t){
+            count_t[i]++;
         }
-        while(right < s.length()){
-            if(mp[s[right]] > 0)counter--;
-            mp[s[right]] -= 1;
-            right++;
-            while(counter == 0){
-                if(rst_length == 0 || rst_length > right-left){
-                   rst_start = left;
-                   rst_length = right-left;
-                }
-                mp[s[left]]++;
-                if(mp[s[left]] > 0)counter++; 
+        int right = 0, left = 0;
+        int n = s.length();
+        string rst = "";
+        int required = count_t.size();
+        int formed = 0;
+        unordered_map<char, int> count_window;
+        int rst_length = INT_MAX, rst_left = 0, rst_right = 0;
+        while(right < n){
+            count_window[s[right]]++;
+            
+            // checking condition is that all the element should appear and the number of frequecny should the same or larger
+            if(count_t.find(s[right]) != count_t.end() && count_window[s[right]] == count_t[s[right]]){
+                formed ++;
+            }
+            while(left <= right && formed == required){
+                if(right-left+1 < rst_length) {
+                    rst_left = left;
+                    rst_right = right;
+                    rst_length = right- left +1;
+                }                
+                count_window[s[left]]--;
+                if(count_t.find(s[left]) != count_t.end() && count_window[s[left]] < count_t[s[left]]){
+                    formed--;    
+                } 
                 left++;
             }
+            right++;
         }
-        if(left == 0)return "";
-        rst = s.substr(rst_start, rst_length);
-        return rst;
+        if(rst_length == INT_MAX) return "";
+        return s.substr(rst_left, rst_right - rst_left+1);
     }
 };
