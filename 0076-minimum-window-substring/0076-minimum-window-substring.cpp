@@ -9,6 +9,7 @@ public:
         int n = s.length();
         string rst = "";
         int required = count_t.size();
+        // formed is the number of checked character 
         int formed = 0;
         unordered_map<char, int> count_window;
         int rst_length = INT_MAX, rst_left = 0, rst_right = 0;
