@@ -15,6 +15,8 @@ public:
     string get(string key, int timestamp) {
         if(mp.find(key) == mp.end())return "";
         if(timestamp < mp[key][0].first) return "";
+        // using copy constructor here will lead to TLE
+        // use copy reference to the new variable can pass
         vector<pair<int, string>>&t = mp[key];
         int left = 0, right = t.size();
         while(left < right){
