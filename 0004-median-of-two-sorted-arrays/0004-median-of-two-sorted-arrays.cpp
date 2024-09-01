@@ -75,7 +75,7 @@ public:
         while(true){
             cout << low << " " << high << endl;
             // index of the middle point
-            int mid1 = floor((low + high) / 2.0);
+            int mid1 = (low+high<0)?-1: (low+high)/2;
             int mid2 = k - (mid1+1) -1;
             
             int l1, l2, r1, r2;// the partition point
