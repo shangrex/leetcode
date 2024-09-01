@@ -68,7 +68,7 @@ public:
         // find the mediem point of nums1 and then we know how many number we should count in nums2
        
         int low = 0, high = nums1.size()-1;
-        int mid = (low+high)/2;
+        int mid = (low+high+1)/2;
         int k = (n1+n2)/2;
         //  in other solution , when odd the disirid number of middle index should +1 e.x. [1,3] [2]
         
@@ -76,8 +76,8 @@ public:
             cout << low << " " << high << endl;
             // index of the middle point
             int mid1 = floor((low + high) / 2.0);
-            int mid2 = k - (mid1+1) - 1;
-            cout << mid2 << endl;
+            int mid2 = k - (mid1+1) -1;
+            
             int l1, l2, r1, r2;// the partition point
             if(mid1 >= 0){
                 l1 = nums1[mid1];
@@ -102,7 +102,6 @@ public:
                     return (max(l1, l2) + min(r1, r2)) / 2.0;
                 }
                 else {
-                    
                     return min(r1, r2);
                 }
             }
