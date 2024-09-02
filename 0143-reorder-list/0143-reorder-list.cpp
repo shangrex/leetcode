@@ -47,6 +47,7 @@ public:
             cur = post_forward;
             tail = post;
         }
+        // if line 19 is while(fast && fast->next) then need line 51
         //if(cur)cur->next=NULL;
       
     }
