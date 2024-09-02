@@ -47,7 +47,7 @@ public:
             cur = post_forward;
             tail = post;
         }
-        if(cur)cur->next=NULL;
+        //if(cur)cur->next=NULL;
       
     }
 };
