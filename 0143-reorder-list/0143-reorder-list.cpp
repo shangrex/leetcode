@@ -1,56 +1,32 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        // 1. find the middle point
-        // 2. reverse the linked list after the middle part
-        // 3. merge the linked list 
-        ListNode *slow = head;
-        ListNode* fast = head;
-        while(fast && fast->next){
+        ListNode *slow = head, *fast = head;
+
+        // find the middle one
+        while(fast != NULL){
+            fast->next != NULL ? fast = fast->next->next : fast = fast->next;
+            if(fast == NULL)break;
             slow = slow->next;
-            fast = fast->next->next;
         }
-        
-        // slow is the middle point
-        // reverse the linked list
-        ListNode *prev = NULL;
-        while(slow){
-            ListNode *post = slow->next;
-            slow->next = prev;
-            prev = slow;
-            slow = post;
+        // reverse the half of the order
+        ListNode* prev = NULL, *cur = slow, *nxt = NULL;
+        while(cur != NULL){
+            nxt = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = nxt;
         }
 
-
-        // merge
-        ListNode* cur = head;
-        ListNode* tail = prev;
-        while(cur && tail){
-            cout << cur->val << " " << tail->val << endl;
-            ListNode* post = tail->next;
-            ListNode* post_forward = cur->next;
-            cur->next = tail;
-            tail->next = post_forward;
-            cur = post_forward;
-            tail = post;
+        ListNode* forward = head, *reverse = prev, *tmp_f, *tmp_r;
+        // combine the linked list
+        while(forward != NULL){
+            tmp_f = forward->next;
+            tmp_r = reverse->next;
+            forward->next = reverse;
+            reverse->next = tmp_f;
+            forward = tmp_f;
+            reverse = tmp_r;
         }
-        if(cur)cur->next=NULL;
-      
     }
 };
-// ListNode *post_forward = cur->next;
-//             cur->next = tail;
-//             tail = tail->next;
-//             cur = cur->next;
-//             cur->next = post_forward;
-//             cur = cur->next;
