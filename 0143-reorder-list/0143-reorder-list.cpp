@@ -20,6 +20,7 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
+        
         // slow is the middle point
         // reverse the linked list
         ListNode *prev = NULL;
@@ -30,10 +31,12 @@ public:
             slow = post;
         }
 
+
         // merge
         ListNode* cur = head;
         ListNode* tail = prev;
         while(cur && tail){
+            cout << cur->val << " " << tail->val << endl;
             ListNode* post = tail->next;
             ListNode* post_forward = cur->next;
             cur->next = tail;
@@ -41,8 +44,8 @@ public:
             cur = post_forward;
             tail = post;
         }
-        
-        if(cur && cur->next) cur->next->next = NULL;
+        if(cur)cur->next=NULL;
+      
     }
 };
 // ListNode *post_forward = cur->next;
