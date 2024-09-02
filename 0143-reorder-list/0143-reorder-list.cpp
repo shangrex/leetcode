@@ -34,14 +34,20 @@ public:
         ListNode* cur = head;
         ListNode* tail = prev;
         while(cur && tail){
-            ListNode *post_forward = cur->next;
+            ListNode* post = tail->next;
+            ListNode* post_forward = cur->next;
             cur->next = tail;
-            tail = tail->next;
-            cur = cur->next;
-            cur->next = post_forward;
-            cur = cur->next;
+            tail->next = post_forward;
+            cur = post_forward;
+            tail = post;
         }
         
         if(cur && cur->next) cur->next->next = NULL;
     }
 };
+// ListNode *post_forward = cur->next;
+//             cur->next = tail;
+//             tail = tail->next;
+//             cur = cur->next;
+//             cur->next = post_forward;
+//             cur = cur->next;
