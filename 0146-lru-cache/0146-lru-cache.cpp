@@ -15,10 +15,9 @@ class LRUCache {
 public:
     // store all key and the node address
     unordered_map<int, node*>mp;
-    int capacity;
     node *head = new node(0, 0);
     node *tail = new node(0, 0);
-
+    int capacity;
     
     
     void remove(node* r_node){
