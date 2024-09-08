@@ -1,16 +1,12 @@
-// craete node
 class node {
     public:
-    
-    node* prev;
-    node* post;
-    int key;
-    int value;
-    node (int key, int value){
+    node *post, *prev;
+    int key, value;
+    node(int key, int value){
         this->key = key;
         this->value = value;
-        this->prev = NULL;
         this->post = NULL;
+        this->prev = NULL;
     }
 };
 
