@@ -10,6 +10,10 @@
  */
 class Solution {
 public:
+    /*
+    Approach 1. merge of two sorted array
+    Approach 2. priroty_queue the each list first element and iterate
+    */
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         int intervals = lists.size();
         int amount = 1;
