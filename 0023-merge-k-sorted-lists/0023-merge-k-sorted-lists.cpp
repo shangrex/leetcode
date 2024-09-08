@@ -15,17 +15,40 @@ public:
     Approach 2. priroty_queue the each list first element and iterate
     */
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        int intervals = lists.size();
-        int amount = 1;
-        while(amount < intervals){
-            for(int i = 0; i < lists.size()-amount; i+=amount*2){
-                // cout << "list merge" << i << i+amount << endl;
-                lists[i] = merge2Lists(lists[i], lists[i+amount]);
-            }
-            amount*=2;
+        ListNode *dummy = new ListNode();
+        priority_queue<pair<int, ListNode*>, vector<pair<int, ListNode*>>, greater<pair<int, ListNode*>> >pq;
+        for(int i = 0; i < lists.size(); i++){
+            if(lists[i])
+                pq.push({lists[i]->val, lists[i]});
         }
-        if(lists.size() == 0)return NULL;
-        else return lists[0];
+        
+        //dummy->next = pq.top().second;
+        ListNode*cur = dummy;
+        while(!pq.empty()){
+            pair<int, ListNode*> tp = pq.top();
+            cur->next = tp.second;
+            cur = cur->next;
+            pq.pop();
+            ListNode* nxt = tp.second->next;
+            if(nxt) pq.push({nxt->val, nxt});
+       
+        }
+        
+        
+        return dummy->next;
+        
+        // Approach 1.
+        // int intervals = lists.size();
+        // int amount = 1;
+        // while(amount < intervals){
+        //     for(int i = 0; i < lists.size()-amount; i+=amount*2){
+        //         // cout << "list merge" << i << i+amount << endl;
+        //         lists[i] = merge2Lists(lists[i], lists[i+amount]);
+        //     }
+        //     amount*=2;
+        // }
+        // if(lists.size() == 0)return NULL;
+        // else return lists[0];
     }
 private:
     ListNode* merge2Lists(ListNode* l1, ListNode* l2){
