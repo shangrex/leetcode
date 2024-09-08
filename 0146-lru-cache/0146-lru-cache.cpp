@@ -22,71 +22,101 @@ public:
     int capacity;
     node *head = new node(0, 0);
     node *tail = new node(0, 0);
+
+    
     
     void remove(node* r_node){
         node *prev = r_node->prev;
-        node *post = r_node->post;
-        
-        post->prev = r_node->prev;
-        prev->post = r_node->post;
+        node *next = r_node->post;
+        prev->post = next;
+        next->prev = prev;
     }
     
     
     // add the node in the head of the list
     void insert(node *i_node){
-        
-        i_node->post = head->post;
-        head->post->prev = i_node;
-        i_node->prev = head;
+        node *next = head->post;
+        next->prev = i_node;
         head->post = i_node;
-        
+        i_node->post = next;
+        i_node->prev = head;
     }
     
     LRUCache(int capacity) {
-        
         this->capacity = capacity;
-        
         head->post = tail;
-        head->prev = NULL;
         tail->prev = head;
-        tail->post = NULL;
     }
     
     int get(int key) {
-        // check if in map
         if(mp.find(key) != mp.end()){
-            // if yes return and remove the node then add the node on top of the list
-            node *tmp = mp[key];
-            remove(tmp);
-            insert(tmp);
+            remove(mp[key]);
+            insert(mp[key]);
+            // node*cur = head;
+            // while(cur){
+            //     cout << cur->value << endl;
+            //     cur = cur->post;
+            // }
             return mp[key]->value;
         }
-        return -1;
+        else {
+            return -1;
+        }
     }
     
     void put(int key, int value) {
-        
-        // check the node if in map if yes then remove the node and add the node in the head
+          
         if(mp.find(key) != mp.end()){
-            mp[key]->value = value;
+            // key already exist
+            cout << "touch " << key << endl;
             remove(mp[key]);
             insert(mp[key]);
+            mp[key]->value = value;
         }
         else {
-            if(mp.size() >= this->capacity){
-                mp.erase(tail->prev->key);
-                remove(tail->prev);
+            // cout << this->capacity << endl;
+            // cout << mp.size();
+            if(this->capacity == mp.size()){
+                cout <<"remove value : " << tail->prev->value << endl;
+                node *element_tail = tail->prev;
+                remove(element_tail);
+                mp.erase(element_tail->key);
+                
+                node *new_node = new node(key, value);
+                insert(new_node);
+                mp[key] = new_node;
+                
             }
-            node *new_node = new node(key, value);
-            mp[key] = new_node;
-            insert(new_node);
+            else {
+                cout << "input" << key << " " << value << endl;
+                node *new_node = new node(key,value);
+                insert(new_node);
+                mp[key] = new_node;
+                //cout << "size" << mp.size() << endl;
+            }
+            //  node*cur = head;
+            // while(cur){
+            //     cout << cur->value << endl;
+            //     cur = cur->post;
+            // }
         }
-        
-        // if no
-        
-        // delete the tail node and put the new node in the head of node 
     }
 };
+// 1 0
+
+
+// 2 2
+// 1 0
+
+
+// 1 0
+// 2 2
+
+// 3 3
+// 1 0
+
+// 4 4
+// 3 3
 
 /**
  * Your LRUCache object will be instantiated and called as such:
