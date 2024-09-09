@@ -11,21 +11,27 @@
  */
 class Solution {
 public:
-    bool check(TreeNode*root, TreeNode*subroot){
-        if(root==NULL&&subroot==NULL)return true;
-        if(root==NULL||subroot==NULL)return false;
-        if(root->val!=subroot->val)return false;
-        
-        return check(root->left, subroot->left) && check(root->right, subroot->right); 
-    }
-    bool dfs(TreeNode* root, TreeNode* subroot){
-        if(root==NULL||subroot==NULL)return false;
-        if(root->val == subroot->val){
-            if(check(root, subroot))return true;
+    bool check(TreeNode *root, TreeNode* subRoot){
+        if((!root && subRoot) || (root && !subRoot)) return false;
+        if(!root && !subRoot) return true;
+        //cout << root->val << " " << subRoot->val << endl;
+        if(root->val != subRoot->val) return false;
+        if (check(root->left, subRoot->left) && check(root->right, subRoot->right)){
+            if(root->val == subRoot->val) return true;
         }
-        return dfs(root->left, subroot) || dfs(root->right, subroot);
+        return false;
     }
+    
+    bool dfs(TreeNode* root, TreeNode* subRoot){
+        if(!root) return false;
+        bool rst = false;
+        if(root->val == subRoot->val) rst |= check(root, subRoot);
+        rst |= dfs(root->left, subRoot);
+        rst |= dfs(root->right, subRoot);
+        return rst;
+    }
+    
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        return dfs(root, subRoot);
+        return dfs(root, subRoot); 
     }
 };
