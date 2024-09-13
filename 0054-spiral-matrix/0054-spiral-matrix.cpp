@@ -26,8 +26,8 @@ public:
         int m = matrix[0].size();
         
         while(n >= 0 && m >= 0){
-            cout << w << " " << h << endl;
-            cout << "f" << n << " " << m << endl;
+            //cout << w << " " << h << endl;
+            //cout << "f" << n << " " << m << endl;
             if(dirct == 0){
                 // right
                 for(int i = 1; i <= m; i++){
