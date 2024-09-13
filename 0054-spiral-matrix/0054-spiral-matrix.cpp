@@ -1,94 +1,67 @@
 class Solution {
 public:
     /*
-    approach 1
-    a cycle a round,
-    go left m-1
+    
+    Approach 1. Observe a cycle a round,
+    if we start on i = 0, j = -1
+    go right m
     go down n-1
     go right m-1
     go up n-2
-    go left m-3
+    go left m-2
     go down n-3
-    go right m-3 ....
-    then use count the size of result to stop the loop
+    go right m-4 ....
     
-    code: 
-            int n = matrix.size();
-        int m = matrix[0].size();
-        int dirc[4][3] = {{0, 1, m-1}, {1, 0, n-1}, {0, -1, m-1}, {-1, 0, n-2}};
-        vector<int>rst;
-        
-        int way = 0;
-        int i = 0, j = -1;
-        int cnt = 0;
-        while(cnt < m*n){
-            if(way == 0){
-                j += 1;
-                cnt ++;
-                rst.push_back(matrix[i][j]);
-            }
-            int step = dirc[way][2];
-            while(step > 0){
-                cnt++;
-                step -= 1;
-                i = i+dirc[way][0], j = j+dirc[way][1];
-                rst.push_back(matrix[i][j]);
-            }
-            dirc[way][2] -= 2;
-            way = (way+1)%4;
-        }
-        return rst;
-    }
+    right and left is lower and lower by one
+    so as top and bottom
     
-    
-    approach 2
-    reduce the boundary
+    Approach 2. set up the boundary and then triverse
     */
+    
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        int dirc[4] = {0, 1, 2, 3};
         vector<int>rst;
+        int w = 0, h = -1;
+        int dirct = 0;
+        int n = matrix.size()-1;
+        int m = matrix[0].size();
         
-        int way = 0;
-        int i = 0, j = 0, k;
-        int top = 0, right = m, left = 0, down = n;
-        
-        while(top != down && left != right){
-            if(dirc[way] == 0){
+        while(n >= 0 && m >= 0){
+            cout << w << " " << h << endl;
+            cout << "f" << n << " " << m << endl;
+            if(dirct == 0){
                 // right
-                for(k = left; k < right; k++){
-                    rst.push_back(matrix[i][k]);
+                for(int i = 1; i <= m; i++){
+                    h++;
+                    rst.push_back(matrix[w][h]);
                 }
-                j = k-1;
-                top++;
+                m--;
             }
-            else if(dirc[way] == 1){
+            if(dirct == 1){
                 // down
-                for(k = top; k < down; k++){
-                    rst.push_back(matrix[k][j]);
+                for(int j = 1; j <= n; j++){
+                    w++;
+                    //cout << w << " " << endl;
+                    rst.push_back(matrix[w][h]);
                 }
-                i = k-1;
-                right--;
+                n--;
             }
-            else if(dirc[way] == 2){
-                // left
-                for(k = right-1; k >= left; k--){
-                    rst.push_back(matrix[i][k]);
+            if(dirct == 2){
+                for(int i = 1; i <= m; i++){
+                    h--;
+                    rst.push_back(matrix[w][h]);
                 }
-                j = k+1;
-                down--;
+                m--;
             }
-            else if(dirc[way] == 3){
-                // down
-                for(k = down-1; k >= top; k--){
-                    rst.push_back(matrix[k][j]);
+            if(dirct == 3){
+                for(int j = 1; j <= n; j++){
+                    w--;
+                    rst.push_back(matrix[w][h]);
                 }
-                i = k+1;
-                left++;
+                n--;
             }
-            way = (way+1)%4;
+            dirct = (dirct + 1) % 4;
         }
+        
         return rst;
     }
 };
