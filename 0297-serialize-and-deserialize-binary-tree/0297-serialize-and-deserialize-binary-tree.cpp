@@ -9,95 +9,69 @@
  */
 class Codec {
 public:
-    /*
-    Attention:
-    1. char only take 8 bytes, and 1000 is bigger than it, so we can not use char to transform the data.
-    
-    Solution step:
-    1. Design a encode and decode method into string
-    2. Triverse all the tree and encode
-    3. Triverse all the tree and decode.
-    
-    
-    bfs have a special feature: you can first push all node in queue and pop
-    */
+
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        string rst="";
-        queue<TreeNode*>q;
-        if(root!=NULL){
-            q.push(root);
-        }
-        else {
-            rst.append("*,");
-        }
+        string rst = "";
+        queue<TreeNode*> q;
+        q.push(root);
         
         while(!q.empty()){
-            int n = q.size();
-            for(int i = 0; i < n; i++){
-                TreeNode* tp = q.front();
+            int level = q.size();
+            for(int i = 0; i < level; i++){
+                TreeNode *tp = q.front();
                 q.pop();
-                if(tp)rst.append(to_string(tp->val)+",");
-                else {rst.append("*,");continue;}
-                if(tp->left)q.push(tp->left);
-                else {q.push(NULL);}
-                if(tp->right)q.push(tp->right);
-                else {q.push(NULL);}
+                if(tp){
+                    rst += (to_string(tp->val)+',');
+                    if(tp->left) q.push(tp->left);
+                    else q.push(NULL);
+                    if(tp->right) q.push(tp->right);
+                    else q.push(NULL);
+                }
+                else rst += "#,";
+
             }
         }
+        // 1 \0 2 \0 3 \0 4 \0 5 \0 6 \0
+        cout << rst << endl;
         return rst;
+        
     }
     
-    string helper(string &data){
-        int pos = data.find(",");
-        string rst = data.substr(0, pos);
-        data= data.substr(pos+1);
-        return rst;
+    string helper(string& data){
+        int spliter = data.find(',');
+        string tp = data.substr(0, spliter);
+        data = data.substr(spliter+1);
+        
+        return tp;
     }
-    
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
+        TreeNode *root = NULL;
         
-        // cout << data << endl;
-        // cout << data.length() << endl;
-        TreeNode* rst=NULL, *tp=NULL;
         queue<TreeNode*>q;
-        
-        string rt = helper(data);
-        if(rt != "*"){
-            tp = new TreeNode(stoi(rt));
-            rst = tp;
-            q.push(tp);
+        string tp = helper(data);
+        if(tp != "#"){
+            root = new TreeNode(stoi(tp));
+            q.push(root);
         }
-        
         while(!q.empty()){
-            int n = q.size();
-            for(int i = 0; i < n; i++){
-                TreeNode* first = q.front();
+            int level = q.size();
+            for(int i = 0; i < level; i++){
+                TreeNode *tp = q.front();
                 q.pop();
-                TreeNode* l, *r;
-                
-                rt = helper(data);
-                if(rt != "*"){
-                    l = new TreeNode(stoi(rt));
-                    first->left = l;
-                    q.push(l);
-                }
-                else{
-                    first->left=NULL;
-                }
-                rt = helper(data);
-                if(rt != "*"){
-                    r = new TreeNode(stoi(rt));
-                    first->right=r;
-                    q.push(r);
-                }
-                else {
-                    first->right=NULL;
-                }
+                string tp_left = helper(data);
+                string tp_right = helper(data);
+                TreeNode *left, *right;
+                if (tp_left != "#") {left = new TreeNode(stoi(tp_left)); q.push(left);}
+                else left = NULL;
+                if(tp_right != "#") {right = new TreeNode(stoi(tp_right)); q.push(right);}
+                else right = NULL;
+                tp->left = left;
+                tp->right = right;
             }
         }
-        return rst;
+        return root;
     }
 };
 
