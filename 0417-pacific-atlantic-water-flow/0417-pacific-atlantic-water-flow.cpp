@@ -1,80 +1,63 @@
 class Solution {
 public:
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
-        
-        vector<vector<int>> res;
-        if(heights.size() == 0)return res;
-        
-        int n = heights.size();
-        int m = heights[0].size();
-        vector<vector<int> >map(n, vector<int>(heights[0].size(), 0));
-        // construce the map
-        // the place that water can flow into pacific ocean is 1
-        // the place that water can flow into atlantic ocean is 2
-        // the place that water can both is 3
-        for(int i = 0; i < n; i++){
-            // check the left side of the island
-            dfs(i, 0, 1, map, res, heights);
-            // check the right side of the island
-            dfs(i, m-1, 2, map, res, heights);
-        }
-        for(int i = 0; i < m; i++){
-            // check the up side of the island
-            dfs(0, i, 1, map, res, heights);
-            // check the down side of the island
-            dfs(n-1, i, 2, map, res, heights);
-        }
-        return res;
-    }
+    int n, m;
     
-    void dfs(int row, int col, int ocean, vector<vector<int>> &map, vector<vector<int>> &res, vector<vector<int>>& heights){
-        int n = heights.size();
-        int m = heights[0].size();
+    void dfs(vector<vector<int>>&heights, vector<vector<int>> &record, int x, int y, int fill){
+        // cout << x <<" " << y << fill << endl;
+        if(x < 0 || x >= m || y < 0 || y >= n){
+            return;
+        }
+        if(record[y][x] == 1 && fill == 2) {
+            record[y][x] = 3;
+        }
+        else if(record[y][x] != 3)record[y][x] = fill;
+        if(x < m-1 && heights[y][x] <= heights[y][x+1] && record[y][x+1] != fill  && record[y][x+1] != 3){
+            dfs(heights, record, x+1, y, fill);
+        }
+        // cout << n<< endl;
+        // cout << x << " " << y+1 << endl;
+        if(y < n-1 && heights[y][x] <= heights[y+1][x] && record[y+1][x] != fill && record[y+1][x] != 3) {
+            dfs(heights, record, x, y+1, fill);
+        }
+        if(x > 0 && heights[y][x] <= heights[y][x-1] && record[y][x-1] != fill && record[y][x-1] != 3){
+            dfs(heights, record, x-1, y, fill);
+        }
+        if(y > 0 && heights[y][x] <= heights[y-1][x] && record[y-1][x] != fill && record[y-1][x] != 3){
+            dfs(heights, record, x, y-1, fill);
+        }
         
-        // cout << row << " " << col << endl;
-        // for(int i = 0;i < n; i++){
-        //     for(int j = 0; j < m; j++){
-        //         cout << map[i][j] << " ";
-        //     }
-        //     cout << endl;
-        // }        
-        // cout << endl;
+    }
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        this->n = heights.size();
+        this->m = heights[0].size();
         
+        // 1 is pacific, 2 is Atlantic, 3 is both
+        vector<vector<int>> record(n, vector<int>(m, 0));
         
-        if(map[row][col] == 1 && ocean == 2){
-            res.push_back({row, col});
-            map[row][col] = 3;
-        }
-        else if(map[row][col] == 2 && ocean == 1){
-            res.push_back({row, col});
-            map[row][col] = 3;
+        for(int i = 0; i < m; i++){
+            dfs(heights, record, i, 0, 1);
         }
         
-      
-        if(map[row][col] != 3)map[row][col] = ocean;
-        //up
-        if(row-1>=0){
-            if(heights[row-1][col] >= heights[row][col] && map[row-1][col] != map[row][col]){
-                dfs(row-1, col, ocean, map, res, heights);   
-            }
+        for(int i = 0; i < n; i++){
+            dfs(heights, record, 0, i, 1);
         }
-        //down
-        if(row+1<n){
-            if(heights[row+1][col] >= heights[row][col]  && map[row+1][col] != map[row][col]){
-                dfs(row+1, col, ocean, map, res, heights);   
-            }
+       for(int i = 0; i < m; i++){
+            dfs(heights, record, i, n-1, 2);
         }
-        //left
-        if(col-1>=0){
-            if(heights[row][col-1] >= heights[row][col]  && map[row][col-1] != map[row][col]){
-                dfs(row, col-1, ocean, map, res, heights);   
-            }
+        for(int i = 0; i < n; i++){
+            dfs(heights, record, m-1, i, 2);
         }
-        //right
-        if(col+1<m){
-            if(heights[row][col+1] >= heights[row][col]  && map[row][col+1] != map[row][col]){
-                dfs(row, col+1, ocean, map, res, heights);   
+        vector<vector<int>> rst;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                cout << record[i][j];
+                if(record[i][j] == 3){
+                    rst.push_back({i, j});
+                }
+                cout << " ";
             }
+            cout << endl;
         }
+        return rst;
     }
 };
