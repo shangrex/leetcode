@@ -6,7 +6,6 @@ public:
     int m, n;
     void dfs(vector<vector<char>> &board, int i, int j){
         if(i < 0 || j < 0 || i >= m || j >= n)return;
-        cout << i << " " << j << endl;
         if(board[i][j] == 'O'){
             board[i][j] = '#';
             dfs(board, i-1, j);
