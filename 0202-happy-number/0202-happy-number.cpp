@@ -1,5 +1,10 @@
 class Solution {
 public:
+    /*
+    Appraoch 1. Hard code, observe only 1 and 7 did not have cycle when n < 10
+    Approach 2. Detect cycle -> Floyd's cycle-finding
+    Approach 3. Detect cycle -> hash map
+    */
     bool isHappy(int n) {
                   // 2. 4 16 37 58 89 
   while(true){
