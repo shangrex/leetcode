@@ -1,8 +1,11 @@
 class Solution {
 public:
     /*
-    
+    Approach 1. since only lowercase english letter is possible, so just triverse all the characters for next step
     Use set to check repeated element
+    BFS
+    
+    Approach 2. use '#' to construct next step by using onordered_map
     */
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         set<string> st, words;
@@ -24,7 +27,7 @@ public:
             for(int k = 0; k < level; k++){
                 string t = q.front();
                 q.pop();
-                cout << t << endl;
+                // cout << t << endl;
                 if(t == endWord){
                     return rst;
                 }
