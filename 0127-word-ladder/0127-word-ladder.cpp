@@ -6,6 +6,7 @@ public:
     BFS
     
     Approach 2. use '#' to construct next step by using onordered_map
+    unordered_map<string, vector<string>> <replaced string, all possible > e.g. <d*g,  {dig, dog}>
     */
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         set<string> st, words;
