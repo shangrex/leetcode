@@ -4,7 +4,7 @@ public:
     Approach 1. BFS + binary search
         To search whether reach the end -> BFS
         To search the minimun water level -> binary search
-    Appraoch 2. priority_queue
+    Appraoch 2. priority_queue + BFS
     */
     
     int swimInWater(vector<vector<int>>& grid) {
