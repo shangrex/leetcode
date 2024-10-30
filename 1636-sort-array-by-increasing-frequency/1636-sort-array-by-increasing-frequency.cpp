@@ -1,5 +1,10 @@
 class Solution {
 public:
+    /*
+    [&] The lambda can access and modify variables from the surrounding scope directly.
+    
+    
+    */
     vector<int> frequencySort(vector<int>& nums) {
         unordered_map<int, int>mp;
         for(auto &num : nums){
