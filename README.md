@@ -13,13 +13,19 @@ The project is to record my leetcode solutions and my thinking process.
 ## Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Backtracking
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+## Greedy
+|  |
+| ------- |
+| [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 <!---LeetCode Topics End-->
