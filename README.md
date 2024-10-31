@@ -8,3 +8,18 @@ The project is to record my leetcode solutions and my thinking process.
 3. Action
 4. Code
 5. Optimization
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+<!---LeetCode Topics End-->
