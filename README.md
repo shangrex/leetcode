@@ -13,6 +13,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -41,4 +42,12 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
