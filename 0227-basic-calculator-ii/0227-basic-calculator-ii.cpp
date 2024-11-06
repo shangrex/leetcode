@@ -2,6 +2,8 @@ class Solution {
 public:
     /*
     Hint: stack
+    store the last opeation & number
+    based o
     */
     int calculate(string s) {
         string cur_num = "";
@@ -12,8 +14,9 @@ public:
             if(s[i] == ' ')continue;
             if(i < s.length() && (s[i] >= '0' && s[i] <= '9')){cur_num = cur_num + s[i];}
             else {
-                cout << s[i] << endl;
+                //cout << s[i] << endl;
                 // not number
+                //cout << i << " " << cur_num << endl;
                 if(cur_num != ""){
                     if(cur_op == '+'){
                         int num = stoi(cur_num);
@@ -29,7 +32,6 @@ public:
                         int t = st.top();
                         st.pop();
                         int num = stoi(cur_num);
-                        //cout << t << "  " << num << endl;
                         st.push(t*num);
                         cur_num = "";
                     }
@@ -38,17 +40,18 @@ public:
                         st.pop();
                         int num = stoi(cur_num);
                         st.push(t/num);
+                        //cout << t / num << endl;
                         cur_num = "";
                     }
                 }
                 
-                cout << cur_op << endl;
+                //cout << cur_op << endl;
                 if(i < s.length())cur_op = s[i];
             }
-            cout << cur_num << endl;
+            //cout << cur_num << endl;
         }
         int rst = 0;
-       
+        //rst += stoi(cur_num);
         while(!st.empty()){
             int t = st.top();
             rst += t;
