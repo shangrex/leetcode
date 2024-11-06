@@ -10,7 +10,7 @@ public:
         s = "+" + s;
         for(int i = 0; i <= s.length(); i++){
             if(s[i] == ' ')continue;
-            if(i < s.length() && isdigit(s[i])){cur_num = cur_num + s[i];}
+            if(i < s.length() && (s[i] >= '0' && s[i] <= '9')){cur_num = cur_num + s[i];}
             else {
                 cout << s[i] << endl;
                 // not number
@@ -48,7 +48,7 @@ public:
             cout << cur_num << endl;
         }
         int rst = 0;
-        if(cur_num != "") rst += stoi(cur_num);
+       
         while(!st.empty()){
             int t = st.top();
             rst += t;
