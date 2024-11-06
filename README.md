@@ -35,6 +35,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 ## Matrix
 |  |
 | ------- |
@@ -55,6 +56,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
+| [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 ## Counting
 |  |
 | ------- |
