@@ -16,6 +16,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 ## Dynamic Programming
 |  |
@@ -34,6 +35,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
@@ -67,4 +69,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
