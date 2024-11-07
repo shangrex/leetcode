@@ -3,6 +3,8 @@ public:
     /*
     Hint: stack
     store the last opeation & number
+    if new number come in, check the latest operation & number
+    in the end add all stack number together
     */
     int calculate(string s) {
         string cur_num = "";
