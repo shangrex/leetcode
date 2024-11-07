@@ -3,13 +3,11 @@ public:
     /*
     Hint: stack
     store the last opeation & number
-    based o
     */
     int calculate(string s) {
         string cur_num = "";
         stack<int>st;
-        char cur_op;
-        s = "+" + s;
+        char cur_op = '+';
         for(int i = 0; i <= s.length(); i++){
             if(s[i] == ' ')continue;
             if(i < s.length() && (s[i] >= '0' && s[i] <= '9')){cur_num = cur_num + s[i];}
@@ -44,14 +42,14 @@ public:
                         cur_num = "";
                     }
                 }
-                
+            
                 //cout << cur_op << endl;
                 if(i < s.length())cur_op = s[i];
             }
-            //cout << cur_num << endl;
+             //cout << cur_num << endl;
         }
         int rst = 0;
-        //rst += stoi(cur_num);
+        // rst += stoi(cur_num);
         while(!st.empty()){
             int t = st.top();
             rst += t;
