@@ -12,8 +12,6 @@ public:
     }
     
     Approach 2. top-down
-    */
-  
     int helper(int index, vector<int>&nums, vector<int>&dp){
         if(index >= nums.size())return 0;
         if(dp[index] != -1)return dp[index];
@@ -26,5 +24,19 @@ public:
         if(nums.size() == 1) return nums[0];
         vector<int>dp(nums.size(), -1);   
         return helper(0, nums, dp);
+    }
+    */
+  
+    
+    int rob(vector<int>&nums) {
+        if(nums.size() == 1) return nums[0];
+        int n = nums.size();
+        vector<int>dp(n, 0);
+        dp[0] = nums[0];
+        dp[1] = max(nums[1], nums[0]);
+        for(int i = 2; i < nums.size(); i++){
+            dp[i] = max(dp[i-1], nums[i]+dp[i-2]);
+        }
+        return max(dp[n-1], dp[n-2]);
     }
 };
