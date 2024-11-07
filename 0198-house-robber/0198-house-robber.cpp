@@ -26,17 +26,17 @@ public:
         return helper(0, nums, dp);
     }
     */
-  
+    
+    int helper(int idx, vector<int>&nums, vector<int>&dp){
+        if(idx > nums.size()) return 0;
+        if(dp[idx] != -1) return dp[idx];
+        dp[idx] = max(nums[idx-1] + helper(idx+2, nums, dp), helper(idx+1, nums, dp));
+        return dp[idx];
+    }
     
     int rob(vector<int>&nums) {
-        if(nums.size() == 1) return nums[0];
         int n = nums.size();
-        vector<int>dp(n, 0);
-        dp[0] = nums[0];
-        dp[1] = max(nums[1], nums[0]);
-        for(int i = 2; i < nums.size(); i++){
-            dp[i] = max(dp[i-1], nums[i]+dp[i-2]);
-        }
-        return max(dp[n-1], dp[n-2]);
+        vector<int>dp(n+1, -1);
+        return helper(1, nums, dp);
     }
 };
