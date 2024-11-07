@@ -15,6 +15,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
+| [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -22,6 +23,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
+| [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Backtracking
 |  |
