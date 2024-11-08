@@ -71,6 +71,7 @@ public:
     
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode *cur = head;
+        // check if length is larger than k
         int cnt = 0;
         while(cnt < k && cur != NULL){
             cur = cur->next;
