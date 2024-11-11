@@ -130,4 +130,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
+## Graph
+|  |
+| ------- |
+| [1738-maximal-network-rank](https://github.com/shangrex/leetcode/tree/master/1738-maximal-network-rank) |
 <!---LeetCode Topics End-->
