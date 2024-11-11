@@ -1,6 +1,8 @@
 class node {
     public:
-    node *post, *prev;
+    node *post;
+    node *prev;
+    int capacity;
     int key, value;
     node(int key, int value){
         this->key = key;
@@ -97,21 +99,6 @@ public:
         }
     }
 };
-// 1 0
-
-
-// 2 2
-// 1 0
-
-
-// 1 0
-// 2 2
-
-// 3 3
-// 1 0
-
-// 4 4
-// 3 3
 
 /**
  * Your LRUCache object will be instantiated and called as such:
