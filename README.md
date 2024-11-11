@@ -39,6 +39,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
@@ -81,6 +82,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 ## Prefix Sum
@@ -118,6 +120,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 ## Binary Search Tree
@@ -140,4 +143,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
