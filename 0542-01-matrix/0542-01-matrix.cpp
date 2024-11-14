@@ -1,5 +1,13 @@
 class Solution {
 public:
+    /*
+    Approach 1. BFS 
+    queue all 0 
+
+    Approach 2. DP
+    Start from bottom rignt point and go top and left 
+    Start from top left point and go right down
+    */
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         // push all 1 in queue
         // every ajacent in 
