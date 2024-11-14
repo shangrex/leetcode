@@ -25,7 +25,6 @@ public:
                 q.pop();
                 int r = p.first;
                 int c = p.second;
-                cout << r <<" " << c << " " << level << endl;
 
                 rst[r][c] = level;
                 if(r+1 < m && !visited[r+1][c]){
