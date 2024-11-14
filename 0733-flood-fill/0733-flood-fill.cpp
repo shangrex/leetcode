@@ -5,7 +5,6 @@ public:
     void dfs(vector<vector<int>> &image, int sr, int sc, int org_color, int color){
         int m = image.size();
         int n = image[0].size();
-        cout << m << n;
 
         if(image[sr][sc] == org_color) {
             image[sr][sc] = color;
