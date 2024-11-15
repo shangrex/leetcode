@@ -8,13 +8,13 @@ public:
         int n = intervals.size();
         int i = 0;
         
-        // case 1 
+        // case 1 rst push left part
         while(i < n && intervals[i][1] < newInterval[0]){
             rst.push_back(intervals[i]);
             i++;
         }
         
-        // case 2
+        // case 2 merge part
         int left = newInterval[0], right = newInterval[1];
         while(i < n && intervals[i][0] <= newInterval[1]){
             left = min(intervals[i][0], left);
@@ -23,7 +23,7 @@ public:
         }
         rst.push_back({left, right});
         
-        // case 3
+        // case 3 rst push right part
         while(i < n && intervals[i][0] > newInterval[1]){
             rst.push_back(intervals[i]);
             i++;
