@@ -15,6 +15,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
+| [0057-insert-interval](https://github.com/shangrex/leetcode/tree/master/0057-insert-interval) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
