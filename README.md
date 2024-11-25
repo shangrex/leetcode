@@ -24,6 +24,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -50,6 +51,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 ## Matrix
 |  |
@@ -85,6 +87,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
+| [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 ## Linked List
 |  |
 | ------- |
@@ -133,6 +136,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
+| [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 ## Binary Search Tree
 |  |
 | ------- |
