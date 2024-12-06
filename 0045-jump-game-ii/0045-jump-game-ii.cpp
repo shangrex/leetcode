@@ -38,15 +38,17 @@ public:
     //     return dp[pos];
     // }
 
-    void solve(vector<int>&nums, vector<int>&dp, int idx){
+    int solve(vector<int>&nums, vector<int>&dp, int idx){
         int n = nums.size();
-        if(idx >= n) return;
-        cout << idx << endl;
+        if(idx >= n) return 0;
+
+        if(dp[idx] != INT_MAX - 10) return dp[idx];     
+
         for(int i = 1; i <= nums[idx]; i++){
-            if(idx+i >= n) return;
-            dp[idx+i] = min(dp[idx+i], dp[idx]+1);
+            if(idx+i >= n) continue;
+            dp[idx] = min(dp[idx], 1 + solve(nums, dp, idx+i));
         }
-        solve(nums, dp, idx+1);
+        return dp[idx];
     }
 
     int jump(vector<int>& nums) {
@@ -54,9 +56,9 @@ public:
         // vector<int>dp(n, 101010);
         // return solve(nums, dp, 0);
         int n = nums.size();
-        vector<int>dp(n, 101010101);
-        dp[0] = 0;
+        vector<int>dp(n, INT_MAX-10);
+        dp[n-1] = 0;
         solve(nums, dp, 0);
-        return dp[n-1];
+        return dp[0];
     }
 };
