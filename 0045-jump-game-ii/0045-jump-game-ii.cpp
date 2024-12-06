@@ -55,10 +55,25 @@ public:
         // int n = nums.size();
         // vector<int>dp(n, 101010);
         // return solve(nums, dp, 0);
+
+        // int n = nums.size();
+        // vector<int>dp(n, INT_MAX-10);
+        // dp[n-1] = 0;
+        // solve(nums, dp, 0);
+        // return dp[0];
+
+        // greedy
+        int curFar = 0, curEnd = 0;
         int n = nums.size();
-        vector<int>dp(n, INT_MAX-10);
-        dp[n-1] = 0;
-        solve(nums, dp, 0);
-        return dp[0];
+        int rst = 0;
+        for(int i = 0; i < n-1; i++){
+            curFar = max(curFar, i + nums[i]);
+            if(curEnd == i){
+                rst++;
+                curEnd = curFar;
+            }
+        }
+
+        return rst;
     }
 };
