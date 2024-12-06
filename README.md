@@ -64,6 +64,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 ## Two Pointers
 |  |
@@ -79,6 +80,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
@@ -108,6 +110,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Math
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 ## Stack
 |  |
