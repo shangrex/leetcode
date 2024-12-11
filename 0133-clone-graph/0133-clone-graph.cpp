@@ -18,7 +18,7 @@ public:
     }
 };
 */
-
+/*
 class Solution {
 public:
     unordered_map<Node*, Node*>mp;
@@ -38,6 +38,31 @@ public:
             mp[node]->neighbors.push_back(tmp);
         }
         return mp[node];
+    }
+    Node* cloneGraph(Node* node) {
+        vector<int>visited(101, 0);
+        dfs(node, visited);
+        return mp[node];
+    }
+};
+*/
+class Solution {
+public:
+    unordered_map<Node*, Node*>mp;
+    Node* dfs(Node*node, vector<int>&visited){
+        if(!node) return NULL;
+        Node* new_node = new Node(node->val);
+        visited[node->val] = 1;
+        mp[node] = new_node;
+        for(int i = 0; i < node->neighbors.size(); i++){
+            if(visited[node->neighbors[i]->val] == 0){
+                Node *tmp = dfs(node->neighbors[i], visited);
+                new_node->neighbors.push_back(tmp);
+            } else{
+                new_node->neighbors.push_back(mp[node->neighbors[i]]);
+            }
+        }
+        return new_node;
     }
     Node* cloneGraph(Node* node) {
         vector<int>visited(101, 0);
