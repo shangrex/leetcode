@@ -17,6 +17,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0057-insert-interval](https://github.com/shangrex/leetcode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
@@ -39,6 +40,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Greedy
 |  |
@@ -204,4 +206,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
