@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -33,10 +34,51 @@ public:
                     visited[neighbor] = true;
                 }
         }
-
+        
         //Check still left nodes
         for (int v : visited)
             if (!v) return false;
+        return true;
+    }
+};
+*/
+class Solution {
+public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        
+        vector<vector<int>> graph(numCourses);
+        vector<int>indegree(numCourses, 0);
+
+        for(int i = 0; i < prerequisites.size(); i++){
+            graph[prerequisites[i][1]].push_back(prerequisites[i][0]);
+            indegree[prerequisites[i][0]]++;
+        }
+
+        // push indegree 0 to queue
+        queue<int>q;
+        vector<bool>visited(numCourses, false);
+        for(int i = 0; i < numCourses; i++){
+            if(indegree[i] == 0){
+                q.push(i);
+                visited[i] = true;
+            }
+        }
+
+        while(!q.empty()){
+            int tp = q.front();
+            q.pop();
+            for(int i = 0; i < graph[tp].size(); i++){
+                if(visited[graph[tp][i]]) continue;
+                if(--indegree[graph[tp][i]] == 0){
+                    q.push(graph[tp][i]);
+                    visited[graph[tp][i]] = true;
+                }
+            }
+        }
+
+        for(int i = 0; i < numCourses; i++){
+            if(!visited[i]) return false;
+        }
         return true;
     }
 };
