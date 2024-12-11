@@ -14,6 +14,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
+| [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0057-insert-interval](https://github.com/shangrex/leetcode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -40,6 +41,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Greedy
