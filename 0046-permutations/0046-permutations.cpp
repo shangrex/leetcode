@@ -1,35 +1,30 @@
 class Solution {
 public:
-    /*
-        method 1. to optimize the find function in backtrack, we need to use another vector used to store whether already in pool or not.
-        draw the selection from the pool
-        method 2.
-        swap the number in nums
-    */
-    void backtrack(vector<int>&nums, vector<int>&pool, vector<bool>&used, vector<vector<int>>& rst){
-
-        if(pool.size() == nums.size()){
-            rst.push_back(pool);
+    // 1 2 3
+    // 1 3 2
+    // 2 1 3
+    // 2 3 1
+    void backtrack(vector<int>&nums, vector<vector<int>>&rst, set<int>&pool, vector<int>&bag){
+        if(bag.size() == nums.size()){
+            rst.push_back(bag);
             return;
         }
-        
+
         for(int i = 0; i < nums.size(); i++){
-            if(used[i] == false){
-                used[i] = true;
-                pool.push_back(nums[i]);
-                backtrack(nums, pool, used, rst);
-                pool.pop_back();
-                used[i] = false;
+            if(pool.count(nums[i]) == 0){
+                bag.push_back(nums[i]);
+                pool.insert(nums[i]);
+                backtrack(nums, rst, pool, bag);
+                bag.pop_back();
+                pool.erase(nums[i]);
             }
         }
-        return;
-    }
-    
+    } 
     vector<vector<int>> permute(vector<int>& nums) {
+        set<int>pool;
+        vector<int>bag;
         vector<vector<int>> rst;
-        vector<int>pool;
-        vector<bool>used(nums.size(), false);
-        backtrack(nums, pool, used, rst);
+        backtrack(nums, rst, pool, bag);
         return rst;
     }
 };
