@@ -1,13 +1,13 @@
 class Solution {
 public:
     /*
+    Good sample https://leetcode.com/problems/01-matrix/solutions/1369741/c-java-python-bfs-dp-solutions-with-picture-clean-concise-o-1-space/
+
     Approach 1. BFS 
     queue all 0 
+    can optimze the space by replacing visit to mat[r][c] = -1 // marked as visited
 
-    Approach 2. DP
-    Start from bottom rignt point and go top and left 
-    Start from top left point and go right down
-    */
+
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         // push all 1 in queue
         // every ajacent in 
@@ -55,5 +55,59 @@ public:
             level++;
         }
         return rst;
+    }
+
+    Approach 2. DP
+    Start from bottom rignt point and go top and left 
+    Start from top left point and go right down
+    */
+    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+        int n = mat.size();
+        int m = mat[0].size();
+        
+        vector<vector<int>> dp(n, vector<int>(m, INT_MAX-n*m));
+        // from top left to down right
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(mat[i][j] == 0){
+                    dp[i][j] = 0;
+                }
+                else {
+                    if(i > 0 && j > 0){
+                        dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + 1;
+                    }
+                    else if(i > 0){
+                        dp[i][j] = min(dp[i-1][j] + 1, dp[i][j]);
+                    }
+                    else if(j > 0){
+                        dp[i][j] = min(dp[i][j-1] + 1, dp[i][j]);
+                    }
+                }
+                if(i == 0 && j == 1) cout << dp[i][j] << endl;
+            }
+        }
+
+        for(int i = n-1; i >= 0; i--){
+            for(int j = m-1; j >= 0; j--){
+                if(mat[i][j] == 0){
+                    dp[i][j] = 0;
+                }
+                else {
+                    if(i < n-1 && j < m-1){
+                        dp[i][j] = min({dp[i+1][j]+1, dp[i][j+1]+1, dp[i][j]});
+                    }
+                    else if(i < n-1){
+                        dp[i][j] = min(dp[i+1][j] + 1, dp[i][j]);
+                    }
+                    else if(j < m-1){
+                        dp[i][j] = min(dp[i][j+1] + 1, dp[i][j]);
+                    }
+                }
+                if(i == 0 && j == 1) cout << dp[i][j] << endl;
+
+            }
+        }
+
+        return dp;
     }
 };
