@@ -135,12 +135,14 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
@@ -168,6 +170,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1738-maximal-network-rank](https://github.com/shangrex/leetcode/tree/master/1738-maximal-network-rank) |
 ## Sliding Window
@@ -190,4 +193,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
