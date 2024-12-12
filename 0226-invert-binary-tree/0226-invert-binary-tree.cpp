@@ -11,15 +11,16 @@
  */
 class Solution {
 public:
-    void invert(TreeNode* tree){
-        if(tree == NULL)return ;
-        swap(tree->left, tree->right);
-        invert(tree->left);
-        invert(tree->right);
+    void dfs(TreeNode* root){
+        if(!root) return;
+        if(root->left || root->right){
+            swap(root->left, root->right);
+            if(root->left) dfs(root->left);
+            if(root->right) dfs(root->right);
+        } 
     }
-    
     TreeNode* invertTree(TreeNode* root) {
-        invert(root);
+        dfs(root);
         return root;
     }
 };
