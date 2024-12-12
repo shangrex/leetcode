@@ -3,20 +3,25 @@
 
 class Solution {
 public:
+    // 1 1 1 0 0
+    // l         r
+    //     m
+    //       l
+    //          m
+    //          r
+    //       m
+    //       r
     int firstBadVersion(int n) {
-        long long int first = 1, last = n;
-        int rst = n;
-        while(first < last){
-            long long int mid = (first+last)/2;
-            if(isBadVersion(mid)){
-                rst = mid;
-                last = mid;
+        long long left = 0, right = n;
+        while(left < right){
+            long long m = (left+right)/2;
+            if(!isBadVersion(m)){
+                left = m+1;
             }
             else {
-                first = mid+1;
+                right = m;
             }
         }
-        return rst;
+        return left;
     }
-
 };
