@@ -140,10 +140,12 @@ The project is to record my leetcode solutions and my thinking process.
 ## Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -152,6 +154,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -173,6 +176,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Binary Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Queue
 |  |
