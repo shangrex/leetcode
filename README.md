@@ -179,6 +179,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Binary Search Tree
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Binary Tree
@@ -229,4 +230,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
