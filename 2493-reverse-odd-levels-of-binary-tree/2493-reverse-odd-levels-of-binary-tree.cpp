@@ -51,7 +51,7 @@ public:
                 reverse(st.begin(), st.end());
             }
             for(int i = 0; i < tst.size(); i++){
-                cout << st[i] << " " << st[i];
+                // cout << st[i] << " " << st[i];
                 tst[i]->val = st[i];
                 q.push(tst[i]);
             }
