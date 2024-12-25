@@ -18,15 +18,15 @@ public:
         q.push(root);
         while(!q.empty()){
             int q_size = q.size();
-            int tmp_rst = INT_MIN;
+            int curMax = INT_MIN;
             for(int i = 0; i < q_size; i++){
-                TreeNode *tp = q.front();
-                tmp_rst = max(tmp_rst, tp->val);
+                TreeNode *node = q.front();
+                curMax = max(curMax, node->val);
                 q.pop();
-                if(tp->left) q.push(tp->left);
-                if(tp->right) q.push(tp->right);
+                if(node->left) q.push(node->left);
+                if(node->right) q.push(node->right);
             }
-            rst.push_back(tmp_rst);
+            rst.push_back(curMax);
         }
         return rst;
     }
