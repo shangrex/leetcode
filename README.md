@@ -22,6 +22,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -37,6 +38,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 ## Backtracking
@@ -72,6 +74,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -158,6 +161,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -172,6 +176,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
@@ -212,6 +217,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1738-maximal-network-rank](https://github.com/shangrex/leetcode/tree/master/1738-maximal-network-rank) |
 ## Sliding Window
@@ -239,6 +245,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -247,4 +254,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
