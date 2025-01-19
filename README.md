@@ -37,6 +37,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
+| [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
@@ -100,6 +101,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
+| [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
