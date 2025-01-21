@@ -23,6 +23,9 @@ public:
     }
 
     Approach 2. Bottom-up
+    please use unsigned int or make exception handling in the calculatino
+    e.x. if(dp[i][j] > INT_MAX) dp[i][j] ->since the final answer will not use of big number
+    if get out the range the unsigned int will recalculate e.x. 255+1 -> 256 -> 0
 
     */
     int numDistinct(string s, string t) {
