@@ -2,6 +2,7 @@ class Solution {
 public:
     /*
     Hint: Divid and Conquer
+    make the middle one burst last and left and right part are independent
     */
 
     int dp(vector<vector<int>> &memo, vector<int>&nums, int left, int right){
