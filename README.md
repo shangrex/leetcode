@@ -34,6 +34,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
+| [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -82,6 +83,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 ## Simulation
 |  |
 | ------- |
@@ -129,6 +131,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
