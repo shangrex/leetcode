@@ -1,6 +1,7 @@
 class Solution {
-public:
-    string toGoatLatin(string sentence) {
+    /*
+    First solution
+     string toGoatLatin(string sentence) {
         string rst = "";
         string ap_a = "";
         bool flag = true;
@@ -28,5 +29,24 @@ public:
             else rst.append(sp_str);
         }        
         return rst;
+    }
+    */
+    private:
+    const set<char> vowels {'a', 'e', 'i', 'o', 'u',
+                            'A', 'E', 'I', 'O', 'U'};
+    public:
+    string toGoatLatin(string sentence) {
+       string rst, tok, suff;
+       istringstream ss(sentence);
+       while(ss >> tok){
+            suff += 'a';
+            if(vowels.count(tok[0]) <= 0){
+                tok = tok.substr(1) + tok[0];
+            }
+            rst = rst + tok + "ma" + suff + ' ';
+       }
+        // pop the empty ' '
+        rst.pop_back();
+       return rst;
     }
 };
