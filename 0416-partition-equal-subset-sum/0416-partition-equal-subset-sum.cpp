@@ -2,6 +2,22 @@ class Solution {
 public:
     /*
     Apporach 0. brute formce. Split the equal subset = sum of the subset equals to 
+    ```
+    bool dfs(vector<int>& nums, int sum, int idx, int target)(
+        if (sum == target)
+            return true;
+        if (idx >= nums.size()) {
+            return false;
+        }
+        if (sum > target)
+            return false;
+        
+        // 1. without consider nums[idx]
+        return dfs(nums, idx + 1, sum, target) ||
+        // 2. consider nums[idx]
+               dfs(nums, idx + 1, sum + nums[idx], target);
+    )
+    ```
     Approach 1. DP top down
     memo[index][subsetsum]
     Approach 2. Bottom up. 
