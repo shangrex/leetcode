@@ -151,6 +151,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/shangrex/leetcode/tree/master/0009-palindrome-number) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
