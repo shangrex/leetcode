@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+    Check and see two situation.
+
+    See the first different and take action.
+    Action include keep checking like another function or while loop
+    */
     bool isCheck(string s, int l, int r, bool flag){
         while(l < r){
             if(s[l] != s[r] && flag){
