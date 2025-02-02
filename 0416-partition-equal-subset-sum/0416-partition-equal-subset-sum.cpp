@@ -1,52 +1,31 @@
 class Solution {
 public:
     /*
+    Apporach 0. brute formce. Split the equal subset = sum of the subset equals to 
     Approach 1. DP top down
     memo[index][subsetsum]
-    Approach 2. Bottom up
+    Approach 2. Bottom up. 
     dp[index][subsetsum]
     Apprach 3. 1-D DP
     */
-    bool sub(vector<vector<int>>&memo, vector<int>&nums, int index, int cnt, int &half_sum){
-        if(cnt == half_sum){
-            cout << cnt  << " " << half_sum << endl;
-            return true;
-        }
-        else if(index == nums.size() || cnt > half_sum){
-            cout << cnt  << " " << half_sum << endl;
-            return false;
-        }
-        if(memo[index][cnt] != -1)return memo[index][cnt];
-        bool check = false;        
-        check |= sub(memo, nums, index+1, cnt+nums[index], half_sum);
-        check |= sub(memo, nums, index+1, cnt, half_sum);
-        memo[index][cnt] = check;
-        return check;
-        
+    bool dfs(vector<int>& nums, vector<vector<int>>&memo, int idx, int target) {
+        if(idx >= nums.size()) return false;
+        if(target < 0) return false;
+        if(target == 0) return true;
+        if(memo[idx][target] != -1) return memo[idx][target];
+        memo[idx][target] = dfs(nums, memo, idx+1, target-nums[idx]) || 
+                                dfs(nums, memo, idx+1, target);
+        return memo[idx][target];
     }
-    
+
     bool canPartition(vector<int>& nums) {
-        int half_sum = 0;
-        for(auto &num : nums){
-            half_sum += num;
-        }
-        if(half_sum % 2)return false;
-        else half_sum /= 2;
-        // vector<vector<int>>memo(nums.size()+1, vector<int>(half_sum+2, -1));
-        // return sub(memo, nums, 0,0, half_sum);
-        vector<vector<bool>>dp(nums.size()+2, vector<bool>(half_sum+2, false));
-        
-        dp[0][0] = true;
-        for(int i = 1; i <= nums.size(); i++){
-            for(int j = 0; j <= half_sum; j++){
-                if(j >= nums[i-1])
-                    dp[i][j] = (dp[i-1][j-nums[i-1]] || dp[i-1][j]);
-                else
-                    dp[i][j] = dp[i-1][j];
-            }
-        }
-        if(dp[nums.size()][half_sum])return true;
-        else return false;
+        int n = nums.size();
+        int target = accumulate(nums.begin(), nums.end(), 0);
+
+        if(target & 1)
+            return false;
+        target /= 2;
+        vector<vector<int>> memo(n+2, vector<int>(target+2, -1));
+        return dfs(nums, memo, 0, target);
     }
-    
 };
