@@ -24,6 +24,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -81,6 +82,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -176,6 +178,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
