@@ -22,15 +22,12 @@ public:
         // revert and compare
         long long cnt_dig = 1, cnt = 0;
         while(cnt_dig <= x) {cnt_dig*=10;cnt++;}
-        cout << x << endl;
         long long t = 0, y=x;
         for(int i = 0; i < cnt; i++){
             t*=10;
             t+=(x%10);
             x/=10;
-            cout << t<<endl;
         }
-        cout << t << endl;
         return t==y;
     }
 };
