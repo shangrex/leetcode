@@ -46,7 +46,7 @@ public:
 
 
     subarray means continusous array
-    */
+    iteration intuition
     int longestMonotonicSubarray(vector<int>& nums) {
         int inc_len = 1, dec_len = 1, ans_inc_len = 1, ans_dec_len = 1;
         int inc_tmp = nums[0], dec_tmp = nums[0];
@@ -72,5 +72,31 @@ public:
             dec_tmp = nums[i];
         }
         return max(ans_dec_len, ans_inc_len);
+    }
+
+
+    To get more optimzed, merge to max_lenght.
+    */
+    int longestMonotonicSubarray(vector<int>& nums) {
+        int inc_len = 1, dec_len = 1, max_len = 1;
+        int tmp = nums[0], dec_tmp = nums[0];
+        for(int i = 1; i < nums.size(); i++){
+            if(nums[i] > tmp){
+                inc_len++;
+                dec_len = 1;
+            }
+            else if(nums[i] < tmp){
+                dec_len++;
+                inc_len = 1;
+            }
+            else {
+                inc_len = 1;
+                dec_len = 1;
+            }
+            max_len = max({max_len, dec_len, inc_len});
+            tmp = nums[i];
+        }
+        return max_len;
+        
     }
 };
