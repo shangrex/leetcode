@@ -51,13 +51,11 @@ public:
                 st.push_back(tmp_read);
             }
         }
-        string ret = "/";
+        string ret = "";
         bool flag = false;
         for(int i = 0; i < st.size(); i++){
-            ret += st[i] + "/";
-            flag = true;
+            ret += "/"+st[i];
         }
-        if(flag)ret.pop_back();
-        return ret;
+        return ret.empty() ? "/" : ret;
     }
 };
