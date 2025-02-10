@@ -41,13 +41,13 @@ public:
         stringstream ss(path);
         string tmp_read;
         while(getline(ss, tmp_read, '/')){
-            if(tmp_read == "") {
+            if(tmp_read == "" || tmp_read == ".") {
                 continue;
             }
             if(tmp_read == ".." && !st.empty()){
                 st.pop_back();
             }
-            else if(tmp_read != "" && tmp_read != "." && tmp_read != ".."){
+            else if(tmp_read != "" && tmp_read != ".."){
                 st.push_back(tmp_read);
             }
         }
