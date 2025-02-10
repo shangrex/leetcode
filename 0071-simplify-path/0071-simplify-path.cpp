@@ -1,5 +1,7 @@
 class Solution {
-public:
+
+/*
+First attempt.
     string simplifyPath(string path) {
         vector<string>st;
         path += "/";
@@ -22,6 +24,34 @@ public:
             // cout << "ne" << endl;
         }
 
+        string ret = "/";
+        bool flag = false;
+        for(int i = 0; i < st.size(); i++){
+            ret += st[i] + "/";
+            flag = true;
+        }
+        if(flag)ret.pop_back();
+        return ret;
+    }
+*/
+public:
+    string simplifyPath(string path) {
+        vector<string>st;
+        path += "/";
+        stringstream ss(path);
+        string tmp_read;
+        while(getline(ss, tmp_read, '/')){
+            cout << tmp_read<< endl;
+            if(tmp_read == "") {
+                continue;
+            }
+            if(tmp_read == ".." && !st.empty()){
+                st.pop_back();
+            }
+            else if(tmp_read != "" && tmp_read != "." && tmp_read != ".."){
+                st.push_back(tmp_read);
+            }
+        }
         string ret = "/";
         bool flag = false;
         for(int i = 0; i < st.size(); i++){
