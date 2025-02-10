@@ -9,7 +9,7 @@ public:
                 break;
             }
             string elem = path.substr(0, pos);
-            cout << elem << endl;
+            // cout << elem << endl;
             if(elem == ".." && !st.empty()){
                 st.pop_back();
             }
