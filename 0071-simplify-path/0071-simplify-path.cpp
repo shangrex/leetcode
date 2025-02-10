@@ -41,7 +41,6 @@ public:
         stringstream ss(path);
         string tmp_read;
         while(getline(ss, tmp_read, '/')){
-            cout << tmp_read<< endl;
             if(tmp_read == "") {
                 continue;
             }
