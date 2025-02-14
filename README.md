@@ -37,6 +37,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/shangrex/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 ## Dynamic Programming
