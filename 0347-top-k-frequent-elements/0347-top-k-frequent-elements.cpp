@@ -1,6 +1,7 @@
 class Solution {
 public:
-    /*
+    
+    /*Approach 1. map
             priority_queue<pair<int, int>> pq;
         unordered_map<int, int>mp;
         for(auto num : nums){
@@ -21,30 +22,10 @@ public:
             pq.pop();
         }
         return rst;
-    */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-    Approach 1. map
     Approach 2. bucket sort
-    */
-    vector<int> topKFrequent(vector<int>& nums, int k) {
+            vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map<int, int>mp;
         for(auto num : nums){
             mp[num] += 1;
@@ -67,6 +48,47 @@ public:
             if(k == 0) break;
         }
 
+        return rst;
+    }
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+    
+    */
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int>mp;
+        for(auto num : nums){
+            mp[num] += 1;
+        }
+
+        priority_queue<pair<int, int>> pq;
+        for(auto it : mp){
+            pq.push({it.second, it.first});
+        }
+
+        vector<int>rst;
+        for(int i = 0; i < k; i++){
+            pair<int, int> p = pq.top();
+            rst.push_back(p.second);
+            pq.pop();
+        }
         return rst;
     }
 };
