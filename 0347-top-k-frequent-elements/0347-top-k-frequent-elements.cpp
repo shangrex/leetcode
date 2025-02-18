@@ -55,16 +55,16 @@ public:
         for(auto it : mp){
             bucket[it.second].push_back(it.first);
         }
-        int cnt_k = 0;
+        
         vector<int> rst;
         for(int i = n; i >= 0; i--){
             if(!bucket[i].empty()){
                 for(int j = 0; j < bucket[i].size(); j++){
                     rst.push_back(bucket[i][j]);
-                    cnt_k++;
+                    k--;
                 }
             }
-            if(cnt_k >= k) break;
+            if(k == 0) break;
         }
 
         return rst;
