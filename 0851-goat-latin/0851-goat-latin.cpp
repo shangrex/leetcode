@@ -30,7 +30,8 @@ class Solution {
         }        
         return rst;
     }
-    */
+
+    Approach 2.
     private:
     const set<char> vowels {'a', 'e', 'i', 'o', 'u',
                             'A', 'E', 'I', 'O', 'U'};
@@ -48,5 +49,26 @@ class Solution {
         // pop the empty ' '
         rst.pop_back();
        return rst;
+    }
+    */
+    private:
+        set<char> vowels = {'a', 'e', 'i', 'o', 'u',
+                            'A', 'E', 'I', 'O', 'U'};
+    public:
+    string toGoatLatin(string sentence) {
+        string ret = "";
+        string append_a = "";
+        stringstream ss(sentence);
+        string line = "";
+        while(ss >> line){
+            append_a += "a";
+            if(vowels.count(line[0]) == 0){
+                line = line.substr(1) + line.substr(0,1);
+            }
+            ret += line+ "ma"+ append_a + " ";
+        }
+        ret.pop_back();
+        
+        return ret;
     }
 };
