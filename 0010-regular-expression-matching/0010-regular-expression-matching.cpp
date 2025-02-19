@@ -11,7 +11,7 @@ public:
         else {
             bool flag = (i < s.length() && (s[i] == p[j] || p[j] == '.'));
             if(j+1 < p.length() && p[j+1] == '*'){
-                // ignore * & ignore s[i]
+                // ignore * so dont need to compare s[i] & ignore s[j]
                 rst = (dp(memo, i, j+2, s, p) || (flag && dp(memo, i+1, j, s, p)));
             }
             else {
