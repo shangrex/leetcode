@@ -7,6 +7,7 @@ public:
     void dfs(vector<vector<char>>&board, int x, int y){
         if(!inboard(board, x, y)) return;
         if(board[x][y] == 'B') return;
+        if(board[x][y] != 'E') return;
 
         int count = 0;
         if(inboard(board,x-1,y-1) && board[x-1][y-1] == 'M') count++;
