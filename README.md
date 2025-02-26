@@ -17,6 +17,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
+| [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0057-insert-interval](https://github.com/shangrex/leetcode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
@@ -49,6 +50,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
@@ -323,6 +325,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
