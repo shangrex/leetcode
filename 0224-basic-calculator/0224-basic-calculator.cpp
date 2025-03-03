@@ -21,7 +21,6 @@ public:
             }
             else if(s[i] == '+'){
                 ret += sign*num;
-                cout << ret << endl;
                 sign = 1;
                 num = 0;
             }
