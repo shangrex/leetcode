@@ -10,13 +10,12 @@ public:
     */
 
     int findPeak(vector<int>&nums, int left, int right){
-        cout << left << " " << right << endl;
         if(left >= right) return left;
         // 1 2 3 4 3
         // 0 1 2 3 4
         //.    l   r
-        //        m
-        //        l
+        //       m
+        //     m r
         // 1 2 3 1
         //.  m
         // l l   r
