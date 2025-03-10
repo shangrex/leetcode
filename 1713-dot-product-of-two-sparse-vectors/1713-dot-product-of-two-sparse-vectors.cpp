@@ -5,7 +5,8 @@ public:
     SparseVector(vector<int> &nums) {
         int n = nums.size();
         for(int i = 0; i < n; i++){
-            mp[i] = nums[i];
+            if(nums[i] != 0)
+                mp[i] = nums[i];
         }
     }
     
