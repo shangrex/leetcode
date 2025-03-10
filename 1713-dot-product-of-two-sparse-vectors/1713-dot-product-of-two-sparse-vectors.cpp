@@ -48,8 +48,6 @@ public:
         int left = 0, right = 0;
         int rst = 0;
         while(left < vp.size() && right < vec.vp.size()){
-            cout << left << right << endl;
-            cout << vp[left].first << " " << vec.vp[right].first << endl;
             if(vp[left].first == vec.vp[right].first){
                 rst += vp[left].second * vec.vp[right].second;
                 left++;
