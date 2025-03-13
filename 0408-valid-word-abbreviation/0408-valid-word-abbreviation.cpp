@@ -17,12 +17,10 @@ public:
                     q++;
                 }
 
-                for(int i = 0; i < num_digit; i++){
-                    p++;
-                }
+                p += num_digit;
             }
         }
-        if(p == word.size() && q == abbr.size()) return true;
-        else return false;
+       
+        return p == word.size() && q == abbr.size();
     }
 };
