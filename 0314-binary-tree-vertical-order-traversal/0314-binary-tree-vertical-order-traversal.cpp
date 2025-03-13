@@ -65,12 +65,14 @@ Hint: impossible to solve in dfs traversal.
             qp.push({node->right, dirc+1});
         }
 
-        vector<vector<int>> v(mp.size());
+        // vector<vector<int>> v(mp.size());
+        // for(auto it : mp){
+        //     v[it.first-min_col] = it.second;
+        // }
+        vector<vector<int>> v;
         for(auto it : mp){
-            
-            v[it.first-min_col] = it.second;
+            v.push_back(it.second);
         }
         return v;
-        
     }
 };
