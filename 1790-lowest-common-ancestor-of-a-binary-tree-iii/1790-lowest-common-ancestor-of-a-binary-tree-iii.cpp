@@ -24,7 +24,7 @@ public:
                 -> 4
     1 -> 2 -> 3
                 -> 6 -> 7
-    */
+
     Node* lowestCommonAncestor(Node* p, Node * q) {
         Node *r1 = p, *r2 = q;
         while(r1 != r2){
@@ -33,5 +33,39 @@ public:
         }
 
         return r1;
+    }
+    */
+    int getHeight(Node *r){
+        int height = 0;
+        while(r){
+            height++;
+            r = r->parent;
+        }
+        return height;
+    }
+    Node* lowestCommonAncestor(Node* p, Node * q) {
+        // approach 2.
+
+        int h1 = getHeight(p);
+        int h2 = getHeight(q);
+        
+        
+        // let h2 always shorter than h1
+        if(h1 < h2){
+            swap(h1, h2);
+            swap(p, q);
+        }
+
+        // up the h1
+        for(int i = 0; i < h1-h2; i++){
+            p = p->parent;
+        }
+
+        while(p != q){
+            p = p->parent;
+            q = q->parent;
+        }
+
+        return p;
     }
 };
