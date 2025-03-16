@@ -7,7 +7,7 @@ public:
         2. remove from string
 
         Approach 2.
-        1. 
+        1. two pass, first pass remove ')', s
 
         */
         int num = 0;
