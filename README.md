@@ -33,6 +33,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
+| [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -93,6 +94,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
@@ -183,6 +185,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Prefix Sum
 |  |
 | ------- |
+| [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 ## Heap (Priority Queue)
@@ -200,6 +203,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
+| [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 ## Stack
 |  |
