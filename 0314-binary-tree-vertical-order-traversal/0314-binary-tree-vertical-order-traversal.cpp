@@ -10,7 +10,7 @@
  * };
  */
  /*
- old solution
+ old solution not correct
      vector<vector<int>> verticalOrder(TreeNode* root) {
         queue<TreeNode*>q;
         root.push(root);
