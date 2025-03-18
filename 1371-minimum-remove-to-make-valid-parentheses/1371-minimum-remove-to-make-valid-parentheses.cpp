@@ -44,7 +44,7 @@ public:
 
         Approach 3. 
         one pass with stack
-        */
+
         stack<int> st;
         for(int i = 0; i < s.length(); i++){
             
@@ -62,6 +62,32 @@ public:
         while(!st.empty()){
             s.erase(st.top(), 1);
             st.pop();
+        }
+        return s;
+
+
+        Approach 4.
+        first delete ')'
+        delete right most '('
+        */
+        int left = 0;
+        for(int i = 0; i < s.length(); i++){
+            
+            if(s[i] == '('){
+                left++;
+            }
+            else if(s[i] == ')'){
+                if(left > 0)left--;
+                else {
+                    s.erase(i, 1); i--;
+                } 
+            }
+        }
+
+        while(left > 0){
+            int pos = s.rfind('(');
+            s.erase(pos, 1);
+            left--;
         }
         return s;
     }
