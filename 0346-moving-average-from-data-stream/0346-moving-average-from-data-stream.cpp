@@ -1,13 +1,11 @@
 class MovingAverage {
 public:
     int size;
-    int cnt;
     double sum;
     queue<int>q;
+    
     MovingAverage(int size) {
         this->size = size;
-        this->cnt = 0;
-        sum = 0.0;
     }
     
     double next(int val) {
