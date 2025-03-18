@@ -9,8 +9,7 @@ public:
         Approach 2.
         1. two pass, first pass remove ')', second pass remove '('
 
-        */
-        int num = 0;
+                int num = 0;
         string ret = "";
         for(int i = 0; i < s.length(); i++){
             if(s[i] == '('){
@@ -42,5 +41,28 @@ public:
     
         reverse(rev_ret.begin(), rev_ret.end());
         return rev_ret;
+
+        Approach 3. 
+        one pass with stack
+        */
+        stack<int> st;
+        for(int i = 0; i < s.length(); i++){
+            
+            if(s[i] == '('){
+                st.push(i);
+            }
+            else if(s[i] == ')'){
+                if(!st.empty())st.pop();
+                else {
+                    s.erase(i, 1); i--;
+                } 
+            }
+        }
+
+        while(!st.empty()){
+            s.erase(st.top(), 1);
+            st.pop();
+        }
+        return s;
     }
 };
