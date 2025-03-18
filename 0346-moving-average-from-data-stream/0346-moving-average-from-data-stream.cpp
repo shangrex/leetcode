@@ -72,7 +72,10 @@ public:
         sum += (double)val;
         sum -= (double)q[tail];
         head = (head+1) % this->size;
+        // replace the tail one
         q[head] = val;
+
+
 
         return sum / min(cnt, (int)q.size());
     }
