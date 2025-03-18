@@ -71,6 +71,7 @@ public:
         int tail = (head+1)%size;
         sum = sum - q[tail] + val;
         head = (head+1)%size;
+        // rplace the org tail
         q[head] = val;
 
         return sum / min(cnt, (int)q.size());
