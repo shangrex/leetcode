@@ -27,8 +27,7 @@ public:
     Approach 2. dequee
     T:O(M)
     S:O(N)
-    */
-    int size;
+        int size;
     double sum;
     deque<int>q;
 
@@ -46,6 +45,36 @@ public:
             q.pop_front();
         }
         return sum / q.size();
+    }
+
+    Approach 3. circular queue
+    The major advantage of circular queue is that by adding a 
+    new element to a full circular queue,
+     it automatically discards the oldest element
+    */
+    int size;
+    double sum;
+    vector<int>q;
+    int head;
+    int cnt;
+
+    MovingAverage(int size) {
+        this->size = size;
+        sum = 0;
+        q = vector<int>(size);
+        head = 0;
+        cnt = 0;
+    }
+    
+    double next(int val) {
+        cnt++;
+        int tail = (head + 1) % this->size;
+        sum += (double)val;
+        sum -= (double)q[tail];
+        head = (head+1) % this->size;
+        q[head] = val;
+
+        return sum / min(cnt, (int)q.size());
     }
 };
 
