@@ -12,9 +12,12 @@ public:
         // 2 3
         // 0 1 2 3
         // 1 0
+        // 4 11, 7
+        // 0 1
         for(int i = 0; i < nums.size(); i++){
             prefix_Mod = (prefix_Mod + nums[i] ) % k;
             if(modSeen.find(prefix_Mod) != modSeen.end()){
+                // length of the subarray should be prefixIndex2 - prefixIndex1 -1
                 if(i - modSeen[prefix_Mod] > 1){
                     return true;
                 }
