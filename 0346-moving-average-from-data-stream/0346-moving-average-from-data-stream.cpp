@@ -68,14 +68,10 @@ public:
     
     double next(int val) {
         cnt++;
-        int tail = (head + 1) % this->size;
-        sum += (double)val;
-        sum -= (double)q[tail];
-        head = (head+1) % this->size;
-        // replace the tail one
+        int tail = (head+1)%size;
+        sum = sum - q[tail] + val;
+        head = (head+1)%size;
         q[head] = val;
-
-
 
         return sum / min(cnt, (int)q.size());
     }
