@@ -31,14 +31,12 @@ class Solution {
 public:
     void getSum(vector<NestedInteger>& nestedList, int &ret, int level){
 
-        for(auto i : nestedList){
-            auto tmp = i;
-            if(tmp.isInteger()){
-                ret += tmp.getInteger() * level;
+        for(NestedInteger& list : nestedList){
+            if(list.isInteger()){
+                ret += list.getInteger() * level;
             }
             else {
-                auto tmp = i.getList();
-                getSum(tmp, ret, level+1);
+                getSum(list.getList(), ret, level+1);
             }
         }
     }
