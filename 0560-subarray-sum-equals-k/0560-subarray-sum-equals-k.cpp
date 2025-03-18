@@ -15,9 +15,11 @@ public:
             else mp[sum] = 1;
         }
         return ans;
-    }
-*/
-    int subarraySum(vector<int>& nums, int k) {
+  
+   }
+
+
+       int subarraySum(vector<int>& nums, int k) {
         vector<long long> prefix;
         long long cum = 0;
         for(int i = 0; i < nums.size(); i++){
@@ -30,6 +32,20 @@ public:
             for(int j = 0; j < i; j++){
                 if(prefix[i] - prefix[j] == k)rst++;
             }
+        }
+        return rst;
+    }
+*/
+    int subarraySum(vector<int>& nums, int k) {
+
+        int prefix = 0;
+        int rst = 0;
+        unordered_map<int, int>mp;
+        mp[0] = 1;
+        for(int i = 0; i < nums.size(); i++){
+            prefix += nums[i];
+            if(mp.find(prefix - k) != mp.end()) rst += mp[prefix - k];
+            mp[prefix] += 1;
         }
         return rst;
     }
