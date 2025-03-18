@@ -118,6 +118,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
+| [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 ## Two Pointers
 |  |
@@ -152,6 +153,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
+| [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/shangrex/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -197,6 +199,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
+| [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 ## Stack
 |  |
