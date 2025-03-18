@@ -239,6 +239,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0339-nested-list-weight-sum](https://github.com/shangrex/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -260,6 +261,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0339-nested-list-weight-sum](https://github.com/shangrex/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
