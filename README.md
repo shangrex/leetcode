@@ -150,6 +150,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
+| [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/0020-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
@@ -397,4 +398,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
