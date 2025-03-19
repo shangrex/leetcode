@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    Hint: Edge case: strs.size() == 1
+    */
     string longestCommonPrefix(vector<string>& strs) {
         if(strs.size() == 1)return strs[0];
         int ret = 0;
