@@ -40,6 +40,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
+| [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -102,6 +103,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -188,6 +190,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 ## Prefix Sum
 |  |
@@ -299,6 +302,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
@@ -417,4 +421,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
