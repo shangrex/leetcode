@@ -26,6 +26,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0162-find-peak-element](https://github.com/shangrex/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
+| [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -94,6 +95,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
+| [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -344,6 +346,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
 ## Doubly-Linked List
 |  |
 | ------- |
