@@ -58,7 +58,10 @@ string customSortString(string order, string s) {
     }
 
     Approach 2. 
-    use 
+    use count the frequency in s, and first construct in order
+
+    T: O(N) N means the length of the string
+    S: O(N) for the length of the s
     */
     string customSortString(string order, string s) {
         unordered_map<char, int>mp;
