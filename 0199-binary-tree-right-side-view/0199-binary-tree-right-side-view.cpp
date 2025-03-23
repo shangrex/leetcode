@@ -11,13 +11,10 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode*root, vector<int>&rst){
-        if(!root)return;
-        rst.push_back(root->val);
-        if(root->right)dfs(root->right, rst);
-        else dfs(root->left, rst);
-    }
-    vector<int> rightSideView(TreeNode* root) {
+    /*
+    1. BFS, the last element in each level
+
+       vector<int> rightSideView(TreeNode* root) {
         if(!root)return {};
         vector<int>rst;
         // dfs(root, rst);
@@ -35,6 +32,33 @@ public:
                 if(t->right)q.push(t->right);
             }
         }
+        return rst;
+    }
+
+
+    2. DFS, 
+    mid, right , left.
+    each level down, the fist element in that level
+
+    */
+
+
+
+
+
+
+
+    void dfs(TreeNode*root, vector<int>&rst, int level){
+        if(!root)return;
+        if(rst.size() == level) rst.push_back(root->val);
+        dfs(root->right, rst, level + 1);
+        dfs(root->left, rst, level + 1);
+        
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        if(!root) return {};
+        vector<int>rst;
+        dfs(root, rst, 0);
         return rst;
     }
 };
