@@ -7,7 +7,10 @@ public:
 
 
     Approach 1. 
-    use hashtable + sort
+    use hashtable to count the index of the char + sort in lambda and use &
+
+    Approach 2. 
+    use 
     */
     string customSortString(string order, string s) {
         unordered_map<char, int>mp;
@@ -31,7 +34,7 @@ public:
                 return false;
             }
             else {
-                return i < j;
+                return false;
             }
         
         });
