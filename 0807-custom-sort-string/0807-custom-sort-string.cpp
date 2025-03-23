@@ -61,10 +61,29 @@ string customSortString(string order, string s) {
     use 
     */
     string customSortString(string order, string s) {
-        // std::string::npos is an unsigned “largest possible size_t” value.
-        sort(s.begin(), s.end(), [&](char i, char j){
-            return order.find(i) < order.find(j);
-        });
-        return s;
+        unordered_map<char, int>mp;
+
+        for(auto i : s){
+            mp[i]++;
+        }
+        
+        string ans = "";
+        for(int i = 0; i < order.length(); i++){
+            if(mp.find(order[i]) != mp.end()){
+                for(int j = 0; j < mp[order[i]]; j++){
+                    ans += order[i];
+                }
+                mp.erase(order[i]);
+            }
+                
+        }
+
+        for(auto it : mp){
+            for(int j = 0; j < it.second; j++){
+                ans += it.first;
+            }
+        }
+
+        return ans;
     }
 };
