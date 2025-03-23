@@ -7,7 +7,7 @@ public:
 
 
     Approach 1. 
-
+    use hashtable + sort
     */
     string customSortString(string order, string s) {
         unordered_map<char, int>mp;
@@ -18,7 +18,6 @@ public:
 
         sort(s.begin(), s.end(), [&](char i, char j){
             
-            cout << i << j << endl;
             bool t1 = (mp.find(i) != mp.end());
             bool t2 = (mp.find(j) != mp.end());
 
