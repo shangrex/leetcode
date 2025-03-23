@@ -8,6 +8,11 @@ public:
 
     Approach 1. 
     use hashtable to count the index of the char + sort in lambda and use &
+    !! crucial !!
+    sort need to consider any condition in lambda
+    T: O(NlgN)
+    S: number of char in order
+
 
     Approach 2. 
     use 
