@@ -103,6 +103,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
@@ -149,6 +150,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## String
 |  |
@@ -169,6 +171,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
