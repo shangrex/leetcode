@@ -9,7 +9,7 @@ public:
         Approach 2.
         1. two pass, first pass remove ')', second pass remove '('
 
-                int num = 0;
+        int num = 0;
         string ret = "";
         for(int i = 0; i < s.length(); i++){
             if(s[i] == '('){
