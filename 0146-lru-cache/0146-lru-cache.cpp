@@ -149,6 +149,7 @@ public:
             // not exist
             if(capacity == lru.size()){
                 // full
+                // dict erase the rightmost link list pointer
                 auto del = dict.find(lru.rbegin()->first);
                 dict.erase(del);
                 lru.pop_back();
