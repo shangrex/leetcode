@@ -14,6 +14,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/shangrex/leetcode/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
@@ -134,6 +135,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/shangrex/leetcode/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/shangrex/leetcode/tree/master/0088-merge-sorted-array) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
