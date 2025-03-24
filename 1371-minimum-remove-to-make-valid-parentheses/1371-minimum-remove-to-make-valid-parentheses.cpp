@@ -69,6 +69,9 @@ public:
         Approach 4.
         first delete ')'
         delete right most '('
+
+        T: O(N)
+        S: O(1)
         */
         int left = 0;
         for(int i = 0; i < s.length(); i++){
