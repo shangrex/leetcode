@@ -124,8 +124,10 @@ public:
 
         int val = it->second->second;
 
-        lru.erase(it->second);
-        lru.push_front({key, val});
+        // lru.erase(it->second);
+        // lru.push_front({key, val});
+        // equal to 
+        lru.splice(lru.begin(), lru, it->second);
 
         dict.erase(it);
         dict[key] = lru.begin();
@@ -138,8 +140,9 @@ public:
         if(it != dict.end()){
             // exist
             lru.erase(it->second);
-            dict.erase(it);
             lru.push_front({key, value});
+
+            dict.erase(it);
             dict[key] = lru.begin();
         }
         else {
