@@ -1,8 +1,8 @@
+/*
 class node {
     public:
     node *post;
     node *prev;
-    int capacity;
     int key, value;
     node(int key, int value){
         this->key = key;
@@ -20,6 +20,12 @@ public:
     node *head = new node(0, 0);
     node *tail = new node(0, 0);
     int capacity;
+
+    LRUCache(int capacity) {
+        this->capacity = capacity;
+        head->post = tail;
+        tail->prev = head;
+    }
     
     
     void remove(node* r_node){
@@ -37,23 +43,12 @@ public:
         head->post = i_node;
         i_node->post = next;
         i_node->prev = head;
-    }
-    
-    LRUCache(int capacity) {
-        this->capacity = capacity;
-        head->post = tail;
-        tail->prev = head;
-    }
+    }    
     
     int get(int key) {
         if(mp.find(key) != mp.end()){
             remove(mp[key]);
             insert(mp[key]);
-            // node*cur = head;
-            // while(cur){
-            //     cout << cur->value << endl;
-            //     cur = cur->post;
-            // }
             return mp[key]->value;
         }
         else {
@@ -91,11 +86,73 @@ public:
                 mp[key] = new_node;
                 //cout << "size" << mp.size() << endl;
             }
-            //  node*cur = head;
-            // while(cur){
-            //     cout << cur->value << endl;
-            //     cur = cur->post;
-            // }
+        }
+    }
+};
+*/
+class node {
+    public:
+    node *post;
+    node *prev;
+    int key, value;
+    node(int key, int value){
+        this->key = key;
+        this->value = value;
+        this->post = NULL;
+        this->prev = NULL;
+    }
+};
+
+
+class LRUCache {
+public:
+    // store all key and the node address
+    unordered_map<int, list<pair<int, int>>::iterator> dict;
+    list<pair<int, int>> lru;
+    int capacity;
+
+    LRUCache(int capacity) {
+        this->capacity = capacity;
+    }
+    
+    int get(int key) {
+        auto it = dict.find(key);
+
+        if(it == dict.end()){
+            return -1;
+        }
+
+        int val = it->second->second;
+
+        lru.erase(it->second);
+        lru.push_front({key, val});
+
+        dict.erase(it);
+        dict[key] = lru.begin();
+        return val;
+    }
+    
+    void put(int key, int value) {
+        auto it = dict.find(key);
+
+        if(it != dict.end()){
+            // exist
+            lru.erase(it->second);
+            dict.erase(it);
+            lru.push_front({key, value});
+            dict[key] = lru.begin();
+        }
+        else {
+            // not exist
+            if(capacity == lru.size()){
+                // full
+                auto del = dict.find(lru.rbegin()->first);
+                dict.erase(del);
+                lru.pop_back();
+            }
+
+            lru.push_front({key, value});
+            dict[key] = lru.begin();
         }
     }
 };
