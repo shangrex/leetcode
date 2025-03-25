@@ -79,11 +79,13 @@ public:
         }
 
         priority_queue<pair<int, int>> pq;
+        // nlogk
         for(auto it : mp){
             pq.push({it.second, it.first});
         }
 
         vector<int>rst;
+        // klogk
         for(int i = 0; i < k; i++){
             pair<int, int> p = pq.top();
             rst.push_back(p.second);
