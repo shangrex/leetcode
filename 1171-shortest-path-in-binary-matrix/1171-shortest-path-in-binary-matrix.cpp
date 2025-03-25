@@ -31,8 +31,7 @@ public:
                 q.pop();
                 int row = t.first;
                 int col = t.second;
-                cout << row << " " << col << " " << path << endl;
-                cout << n-1 << m-1<<endl;
+      
                 if(t.first == n-1 && t.second == m-1) return path;
 
                 for(int j = 0; j < 8; j++){
