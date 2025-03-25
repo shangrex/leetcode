@@ -13,6 +13,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shangrex/leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/shangrex/leetcode/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
@@ -93,6 +94,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shangrex/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
