@@ -163,63 +163,53 @@ class node {
 
 class LRUCache {
 public:
-    // store all key and the node address
     int capacity;
-    // store the sequence
-    unordered_map<int, list<pair<int, int>>::iterator > dict;
-
-    // store key value
-    list<pair<int, int>> lru; 
-
+    list<pair<int, int>> lru;
+    unordered_map<int, list<pair<int, int>> :: iterator> mp;
+    // find key and erase the iterator
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
-        // if not exist then ruturn -1
-        auto f = dict.find(key);
-        if(f == dict.end()){
+        auto it = mp.find(key);
+
+        if(it == mp.end()){
             return -1;
         }
 
-        int val = f->second->second;
-
-       // put the list of the get to the front
-        lru.erase(f->second);
-        // put the f iteraotr to the front 
-        dict.erase(f);
- 
+        int val = it->second->second;
+        lru.erase(it->second);
+        mp.erase(it);
 
         lru.push_front({key, val});
-        dict[key] = lru.begin();
-
+        mp[key] = lru.begin();
         return val;
     }
     
     void put(int key, int value) {
-        auto f = dict.find(key);
-        if(f == dict.end()){
+        auto it = mp.find(key);
+        if(it == mp.end()){
             // insert new value
 
-            if(this->capacity == lru.size()){
-                auto del = dict.find(lru.rbegin()->first);
-                
-                lru.pop_back();
-                dict.erase(del);
-                // auto d = lru.begin();
-                // lru.erase(d);
-            }
 
+            if(this->capacity == lru.size()){
+                auto del = mp.find(lru.rbegin()->first);
+                mp.erase(del);
+                // lru.erase(lru.rbegin());
+                lru.pop_back();
+            }
             lru.push_front({key, value});
-            dict[key] = lru.begin();
+            mp[key] = lru.begin();
+
         }
         else {
-            // update new value
-            lru.erase(f->second);
-            dict.erase(f);
+            // udpate new value
+            lru.erase(it->second);
+            mp.erase(it);
 
             lru.push_front({key, value});
-            dict[key] = lru.begin();
+            mp[key] = lru.begin();
         }
         
     }
