@@ -104,60 +104,124 @@ class node {
 };
 
 
+// class LRUCache {
+// public:
+//     // store all key and the node address
+//     unordered_map<int, list<pair<int, int>>::iterator> dict;
+//     list<pair<int, int>> lru;
+//     int capacity;
+
+//     LRUCache(int capacity) {
+//         this->capacity = capacity;
+//     }
+    
+//     int get(int key) {
+//         auto it = dict.find(key);
+
+//         if(it == dict.end()){
+//             return -1;
+//         }
+
+//         int val = it->second->second;
+
+//         // lru.erase(it->second);
+//         // lru.push_front({key, val});
+//         // equal to 
+//         lru.splice(lru.begin(), lru, it->second);
+
+//         dict.erase(it);
+//         dict[key] = lru.begin();
+//         return val;
+//     }
+    
+//     void put(int key, int value) {
+//         auto it = dict.find(key);
+
+//         if(it != dict.end()){
+//             // exist
+//             lru.erase(it->second);
+//             lru.push_front({key, value});
+
+//             dict.erase(it);
+//             dict[key] = lru.begin();
+//         }
+//         else {
+//             // not exist
+//             if(capacity == lru.size()){
+//                 // full
+//                 // dict erase the rightmost link list pointer
+//                 auto del = dict.find(lru.rbegin()->first);
+//                 dict.erase(del);
+//                 lru.pop_back();
+//             }
+
+//             lru.push_front({key, value});
+//             dict[key] = lru.begin();
+//         }
+//     }
+// };
+
 class LRUCache {
 public:
     // store all key and the node address
-    unordered_map<int, list<pair<int, int>>::iterator> dict;
-    list<pair<int, int>> lru;
     int capacity;
+    // store the sequence
+    unordered_map<int, list<pair<int, int>>::iterator > dict;
+
+    // store key value
+    list<pair<int, int>> lru; 
 
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
-        auto it = dict.find(key);
-
-        if(it == dict.end()){
+        // if not exist then ruturn -1
+        auto f = dict.find(key);
+        if(f == dict.end()){
             return -1;
         }
 
-        int val = it->second->second;
+        int val = f->second->second;
 
-        // lru.erase(it->second);
-        // lru.push_front({key, val});
-        // equal to 
-        lru.splice(lru.begin(), lru, it->second);
+       // put the list of the get to the front
+        lru.erase(f->second);
+        // put the f iteraotr to the front 
+        dict.erase(f);
+ 
 
-        dict.erase(it);
+        lru.push_front({key, val});
         dict[key] = lru.begin();
+
         return val;
     }
     
     void put(int key, int value) {
-        auto it = dict.find(key);
+        auto f = dict.find(key);
+        if(f == dict.end()){
+            // insert new value
 
-        if(it != dict.end()){
-            // exist
-            lru.erase(it->second);
-            lru.push_front({key, value});
-
-            dict.erase(it);
-            dict[key] = lru.begin();
-        }
-        else {
-            // not exist
-            if(capacity == lru.size()){
-                // full
-                // dict erase the rightmost link list pointer
+            if(this->capacity == lru.size()){
                 auto del = dict.find(lru.rbegin()->first);
-                dict.erase(del);
+                
                 lru.pop_back();
+                dict.erase(del);
+                // auto d = lru.begin();
+                // lru.erase(d);
             }
 
             lru.push_front({key, value});
             dict[key] = lru.begin();
         }
+        else {
+            // update new value
+            lru.erase(f->second);
+            dict.erase(f);
+
+            lru.push_front({key, value});
+            dict[key] = lru.begin();
+        }
+        
     }
 };
 
