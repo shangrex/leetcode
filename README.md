@@ -109,6 +109,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
@@ -238,6 +239,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
+| [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
@@ -461,6 +463,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Randomized
 |  |
 | ------- |
+| [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 ## Hash Function
 |  |
@@ -470,4 +473,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
