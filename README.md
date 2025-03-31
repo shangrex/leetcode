@@ -248,6 +248,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0020-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
+| [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -262,6 +263,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
@@ -282,6 +284,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
@@ -353,6 +356,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
