@@ -23,19 +23,31 @@ public:
     S: O(1)
     */
     void nextPermutation(vector<int>& nums) {
+        // 1 2 3
+        //   i
+        // 1 3 2
+        // 1 2 4 3
+        //.  i. 
+        // 1 3 2 4
+        // 
+        //   4 3 2 1
+        // i 
+        // first swap the decreasting point and smallest larger point compare to ith
         int i = nums.size()-2;
+
         while(i >= 0 && nums[i] >= nums[i+1]){
             i--;
         }
-        
+
         if(i >= 0){
             int j = nums.size()-1;
             while(j >= 0 && nums[j] <= nums[i]){
                 j--;
             }
-            
+
             swap(nums[i], nums[j]);
         }
+
 
         reverse(nums.begin()+i+1, nums.end());
     }
