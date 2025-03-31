@@ -232,6 +232,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
+| [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
 ## Stack
 |  |
 | ------- |
