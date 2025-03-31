@@ -1,6 +1,8 @@
 class Solution {
 public:
-    string removeDuplicates(string s) {
+    /*
+    Hint: stack
+    1.         
         stack<char>st;
         for(auto i : s){
             if(!st.empty() && st.top() == i){
@@ -16,6 +18,19 @@ public:
             st.pop();
         }
         reverse(ret.begin(), ret.end());
+        return ret;
+    */
+    string removeDuplicates(string s) {
+        string ret = "";
+
+        for(auto i : s){
+            if(!ret.empty() && ret[ret.length()-1] == i){
+                ret.pop_back();
+            }
+            else {
+                ret += i;
+            }
+        }
         return ret;
     }
 };
