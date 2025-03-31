@@ -196,7 +196,8 @@ public:
             if(this->capacity == lru.size()){
                 auto del = mp.find(lru.rbegin()->first);
                 mp.erase(del);
-                // lru.erase(lru.rbegin());
+                // lru.erase(lru.rbegin()); // one is forward iterateor the other is reverse iterator
+                // different types
                 lru.pop_back();
             }
             lru.push_front({key, value});
