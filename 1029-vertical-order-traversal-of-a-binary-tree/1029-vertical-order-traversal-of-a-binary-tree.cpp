@@ -11,6 +11,9 @@
  */
 class Solution {
 public:
+        /*
+        Hint: use multiset
+        */
     vector<vector<int>> verticalTraversal(TreeNode* root) {
         queue<pair<TreeNode*, pair<int, int>>> qp;
         // use set to sort
