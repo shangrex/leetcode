@@ -3,15 +3,11 @@ public:
 
     string shift(string s){
         char diff = s[0] - 'a';
-        // b - a = 1
-        // 
-        // c - 1
-        // 'b' 2 - 25 + 26
-        // -23 + 26 = 3
-        for(auto &i : s){
-            i = ((i - diff) + 26) % 26 + 'a';
+        string ret = "";
+        for(int i = 1; i < s.length(); i++){
+            ret += (s[i] - s[i-1] + 26)%26+'a';
         }
-        return s;
+        return ret;
     }
 
     vector<vector<string>> groupStrings(vector<string>& strings) {
