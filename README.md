@@ -187,6 +187,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -242,6 +243,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Recursion
