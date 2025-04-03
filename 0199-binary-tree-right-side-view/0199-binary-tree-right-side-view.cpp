@@ -48,17 +48,34 @@ public:
 
 
 
-    void dfs(TreeNode*root, vector<int>&rst, int level){
-        if(!root)return;
-        if(rst.size() == level) rst.push_back(root->val);
-        dfs(root->right, rst, level + 1);
-        dfs(root->left, rst, level + 1);
-        
+    // void dfs(TreeNode*root, vector<int>&rst, int level){
+    //     if(!root)return;
+    //     if(rst.size() == level) rst.push_back(root->val);
+    //     dfs(root->right, rst, level + 1);
+    //     dfs(root->left, rst, level + 1);
+    // }
+
+
+    // vector<int> rightSideView(TreeNode* root) {
+    //     // if(!root) return {};
+    //     // vector<int>rst;
+    //     // dfs(root, rst, 0);
+    //     // return rst;
+    // }
+
+
+
+
+    void dfs(TreeNode* root, vector<int>&ret, int level){
+        if(!root) return;
+        if(ret.size() == level)ret.push_back(root->val);
+        if(root->right) dfs(root->right, ret, level+1);
+        if(root->left) dfs(root->left, ret, level+1);
     }
     vector<int> rightSideView(TreeNode* root) {
-        if(!root) return {};
-        vector<int>rst;
-        dfs(root, rst, 0);
-        return rst;
+        vector<int> ret;
+        int level = 0;
+        dfs(root, ret, level);
+        return ret;
     }
 };
