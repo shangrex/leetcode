@@ -2,7 +2,9 @@ class Solution {
 public:
     /*
     2, 4 are on the same diagonal, and they share the index sum of 1. 
-    (2 is matrix[0][1] and 4 is in matrix[1][0]). 3,5,7 are on the same diagonal, and they share the sum of 2. (3 is matrix[0][2], 5 is matrix[1][1], and 7 is matrix [2][0]).
+    (2 is matrix[0][1] and 4 is in matrix[1][0]). 3,5,7 are on the same diagonal, 
+    and they share the sum of 2. (3 is matrix[0][2], 5 is matrix[1][1], and 7 is 
+    matrix [2][0]).
 
 
     */
