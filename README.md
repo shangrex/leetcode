@@ -44,6 +44,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0636-exclusive-time-of-functions](https://github.com/shangrex/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
@@ -260,6 +261,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0636-exclusive-time-of-functions](https://github.com/shangrex/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
