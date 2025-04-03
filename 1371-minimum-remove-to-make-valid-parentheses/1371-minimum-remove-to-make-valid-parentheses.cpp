@@ -72,8 +72,7 @@ public:
 
         T: O(N)
         S: O(1)
-        */
-        int left = 0;
+                int left = 0;
         for(int i = 0; i < s.length(); i++){
             
             if(s[i] == '('){
@@ -91,6 +90,31 @@ public:
             int pos = s.rfind('(');
             s.erase(pos, 1);
             left--;
+        }
+        return s;
+        */
+
+
+        int left = 0;
+        for(int i = 0; i < s.length(); i++){
+            if(s[i] == '('){
+                left++;
+            }
+            else if(s[i] == ')'){
+                if(left > 0)left--;
+                else {
+                    s.erase(i, 1);
+                    i--;
+                }
+            }
+        }
+
+        while(left > 0){
+            int pos = s.rfind('(');
+            if(pos != string::npos){
+                s.erase(pos, 1);
+                left--;
+            }
         }
         return s;
     }
