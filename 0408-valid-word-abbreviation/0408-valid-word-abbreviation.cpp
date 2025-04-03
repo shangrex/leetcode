@@ -27,30 +27,22 @@ public:
         int p = 0, q = 0;
         int num = 0;
         while(p < word.length() && q < abbr.length()){
-            // word = "internationalization", 
-            //                            p
-            // abbr = "i12iz4n"
-            //              q 
-            // cout << p << q << endl;
-            // cout << word[p] << abbr[q] << endl;
-            if(isdigit(abbr[q])){
-                if(num == 0 && abbr[q] == '0') return false;
-                num = num*10 + (abbr[q]-'0');
-                if(q == abbr.length()-1) {p += num; num =0;}
+            if(word[p] == abbr[q]){
+                p++;
                 q++;
             }
+            else if(word[p] != abbr[q] && !isdigit(abbr[q])) return false;
             else {
-                p += num;
-                if(word[p] == abbr[q]){
-                    p++;
+                int num = 0;
+                if(abbr[q] == '0') return false;
+                while(isdigit(abbr[q])){
+                    num = num*10+(abbr[q]-'0');
                     q++;
                 }
-                else return false;
-                num = 0;
+                p += num;
             }
         }
-        cout << p << " " << q << endl;
-        cout << word.length() << " " << abbr.length();
+
         return p == word.length() && q == abbr.length();
     }
 };
