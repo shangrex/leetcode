@@ -52,7 +52,6 @@ public:
             }
         }
         string ret = "";
-        bool flag = false;
         for(int i = 0; i < st.size(); i++){
             ret += "/"+st[i];
         }
