@@ -35,9 +35,29 @@ public:
         }
     }
     int closestValue(TreeNode* root, double target) {
+        // double diff = DBL_MAX;
+        // int ret = 0;
+        // dfs(root, target, diff, ret);
+        // return ret;
+
+
+        int ret = root->val;
         double diff = DBL_MAX;
-        int ret = 0;
-        dfs(root, target, diff, ret);
+        double min_diff = DBL_MAX;
+        while(root){
+            diff = abs(root->val - target);
+            if(min_diff > diff){
+                ret = root->val;
+            }
+            else if(min_diff == diff){
+                ret = min(ret, root->val);
+            }
+            min_diff = min(min_diff, diff);
+
+            if(root->val > target) root = root->left;
+            else root = root->right;
+        }
+
         return ret;
     }
 };
