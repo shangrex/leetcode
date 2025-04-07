@@ -1,62 +1,18 @@
 class Solution {
 public:
-    /*
-    approach 1: use orederd map(map) to compare each word
-    /// code
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-    vector<vector<string>> rst;
-    map<map<char,int>, vector<string>> mp;
-    for(int i = 0; i < strs.size(); i++){
-        map<char,int>tmp;
-        for(int j = 0; j < strs[i].length(); j++){
-            tmp[strs[i][j]] += 1;
-        }
-        mp[tmp].push_back(strs[i]);
-    }
+        unordered_map<string, vector<string>>mp;
 
-    for(auto i: mp){
-        vector<string>tmp;
-        for(auto j : i.second){
-            tmp.push_back(j);
+        for(auto &s : strs){
+            string t = s;
+            sort(t.begin(), t.end());
+            mp[t].push_back(s);
         }
-        rst.push_back(tmp);
-    }
-    return rst;
-}
-    ///
-    
-    approach 2: use sort to compare each word
-        the sort have an optimize method that use transform map to string so that it can use counting sort
-    */
-    /*
-            vector<vector<string>> rst;
-        map<string, vector<string>> mp;
-        for(int i = 0; i < strs.size(); i++){
-            string tmp = strs[i];
-            sort(strs[i].begin(), strs[i].end());
-            mp[strs[i]].push_back(tmp);
+
+        vector<vector<string>> ret;
+        for(auto it : mp){
+            ret.push_back(it.second);
         }
-        
-        for(auto i : mp){
-            rst.push_back(i.second);
-        }
-        
-        return rst;
-    */
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> rst;
-        unordered_map<string, vector<string>> mp;
-        
-        for(int i = 0; i < strs.size(); i++){
-            string s_tmp = strs[i];
-            sort(s_tmp.begin(), s_tmp.end());
-            mp[s_tmp].push_back(strs[i]);
-        }
-        
-        for(auto i : mp){
-            rst.push_back(i.second);
-        }
-        
-        return rst;
+        return ret;
     }
 };
