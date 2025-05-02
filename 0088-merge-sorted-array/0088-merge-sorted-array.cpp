@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    Hint: place the array from the end of the array
+    */
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int p1 = m-1;
         int p2 = n-1;
@@ -12,6 +15,5 @@ public:
                 nums1[p] = nums2[p2--];
             }
         }
-
     }
 };
