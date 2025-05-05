@@ -55,6 +55,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -130,6 +131,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -241,6 +243,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 ## Prefix Sum
 |  |
@@ -374,6 +377,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [1708-design-parking-system](https://github.com/shangrex/leetcode/tree/master/1708-design-parking-system) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -509,6 +513,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 ## Enumeration
 |  |
 | ------- |
