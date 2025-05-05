@@ -118,6 +118,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
@@ -205,6 +206,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
@@ -373,6 +375,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -503,6 +506,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
+| [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 ## Randomized
 |  |
 | ------- |
