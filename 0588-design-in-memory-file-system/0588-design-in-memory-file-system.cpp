@@ -33,8 +33,9 @@ public:
         fileNode *cur = goPath(path);
 
         if(cur->isFile){
+            // /leet/c
+            // c
             string tmp = path.substr(path.rfind('/')+1);
-            cout << tmp;
             return {tmp};
         }
 
