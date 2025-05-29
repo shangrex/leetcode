@@ -3,6 +3,9 @@ public:
     /*
     Hint: divide & conquer
     notice that top-left -> bottom-left -> top-left -> top-right
+    design border for its square.
+    the ending condition
+    the 
     */
     int val = 0;
     vector<vector<int>> specialGrid(int n) {
