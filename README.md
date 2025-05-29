@@ -74,6 +74,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -159,6 +160,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
+| [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
 ## Simulation
 |  |
 | ------- |
@@ -492,6 +494,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
 ## Bucket Sort
 |  |
 | ------- |
