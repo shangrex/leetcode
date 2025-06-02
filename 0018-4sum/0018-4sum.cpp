@@ -1,5 +1,10 @@
 class Solution {
 public:
+    /*
+    Approach 1. two pointers
+
+    Approach 2. kSum
+    */
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
