@@ -114,6 +114,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0001-two-sum](https://github.com/shangrex/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
@@ -208,6 +209,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
+| [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/0020-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
@@ -277,6 +279,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/shangrex/leetcode/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
