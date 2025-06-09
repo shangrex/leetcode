@@ -29,6 +29,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/shangrex/leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/shangrex/leetcode/tree/master/0135-candy) |
 | [0162-find-peak-element](https://github.com/shangrex/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
@@ -105,6 +106,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/shangrex/leetcode/tree/master/0135-candy) |
 | [0605-can-place-flowers](https://github.com/shangrex/leetcode/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
