@@ -77,6 +77,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
+| [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -293,6 +294,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
+| [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Stack
 |  |
 | ------- |
@@ -542,8 +544,13 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Reservoir Sampling
 |  |
 | ------- |
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
+## Number Theory
+|  |
+| ------- |
+| [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 <!---LeetCode Topics End-->
