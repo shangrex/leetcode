@@ -25,6 +25,7 @@ public:
     /*
     Approach 1.use prioirty_queue with customize operator function
     Approach 2. Trie + bucket
+    Approach 3. sort 
 
     */
     // vector<string> topKFrequent(vector<string>& words, int k) {
