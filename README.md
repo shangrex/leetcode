@@ -538,6 +538,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/shangrex/leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
