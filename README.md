@@ -102,6 +102,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
+| [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Greedy
 |  |
@@ -227,6 +228,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
+| [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
