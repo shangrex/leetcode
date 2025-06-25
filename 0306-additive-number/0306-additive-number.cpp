@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValid(string n1, string n2, string remain){
-        cout << n1 << " "<< n2 << " " << remain << endl;
+        //cout << n1 << " "<< n2 << " " << remain << endl;
         if(remain.length() < max(n1.length(), n2.length())) return false;
         if((n1.length() > 1 && n1[0] == '0') || 
             (n2.length() > 1 && n2[0] == '0')){
