@@ -136,6 +136,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/shangrex/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -214,6 +215,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shangrex/leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
@@ -239,6 +241,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
