@@ -80,6 +80,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -96,6 +97,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shangrex/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Backtracking
 |  |
 | ------- |
@@ -346,6 +348,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shangrex/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/shangrex/leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -376,6 +379,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/shangrex/leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Breadth-First Search
 |  |
 | ------- |
