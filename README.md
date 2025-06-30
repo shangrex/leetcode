@@ -14,6 +14,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shangrex/leetcode/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shangrex/leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shangrex/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
