@@ -2,9 +2,9 @@ class Solution {
 public:
     /*
     Changed the problems to three sum
-    */
-    vector<vector<int>> threeSum(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
+
+    Approah 1. two pointer
+            sort(nums.begin(), nums.end());
         vector<vector<int>>rst;
         for(int i = 0; i < nums.size(); i++){
             while(i > 0 && i < nums.size() && nums[i] == nums[i-1]) i++;
@@ -16,5 +16,31 @@ public:
             }
         }
         return rst;
+    */
+
+    void twoSum(vector<int> &nums, int i, vector<vector<int>> &ret){
+        unordered_map<int, int>mp;
+        int target = -nums[i];
+        for(int j = i+1; j < nums.size();j++){
+            if(mp.find(target - nums[j]) != mp.end()){
+                cout << nums[i] << " " << nums[j] << endl;
+                ret.push_back({nums[i], nums[j], -nums[i]-nums[j]});
+                mp[nums[j]]++;
+                while(j < nums.size()-1 && nums[j] == nums[j+1] )j++;
+            }
+            else {mp[nums[j]]++;}
+        }
+    }
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+
+        vector<vector<int>> ret;
+        for(int i = 0; i < nums.size(); i++){
+            if(i == 0 || nums[i] != nums[i-1]){
+                twoSum(nums, i, ret);
+            }
+        }
+
+        return ret;
     }
 };
