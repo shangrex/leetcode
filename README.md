@@ -35,6 +35,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/shangrex/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
@@ -89,6 +90,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -161,6 +163,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0498-diagonal-traverse](https://github.com/shangrex/leetcode/tree/master/0498-diagonal-traverse) |
