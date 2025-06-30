@@ -23,7 +23,6 @@ public:
         int target = -nums[i];
         for(int j = i+1; j < nums.size();j++){
             if(mp.find(target - nums[j]) != mp.end()){
-                cout << nums[i] << " " << nums[j] << endl;
                 ret.push_back({nums[i], nums[j], -nums[i]-nums[j]});
                 mp[nums[j]]++;
                 while(j < nums.size()-1 && nums[j] == nums[j+1] )j++;
