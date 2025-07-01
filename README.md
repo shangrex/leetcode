@@ -21,6 +21,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0031-next-permutation](https://github.com/shangrex/leetcode/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shangrex/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
+| [0041-first-missing-positive](https://github.com/shangrex/leetcode/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
@@ -128,6 +129,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0001-two-sum](https://github.com/shangrex/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
+| [0041-first-missing-positive](https://github.com/shangrex/leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
