@@ -359,6 +359,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
@@ -448,6 +449,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0270-closest-binary-search-tree-value](https://github.com/shangrex/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -467,6 +469,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
