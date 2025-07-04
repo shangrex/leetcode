@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    int findMaxFromRight(TreeNode* root){
+    int findMaxFromLeft(TreeNode* root){
         int tmpMax = root->val;
         TreeNode *cur = root;
         while(cur){
@@ -41,7 +41,7 @@ public:
             else if(!root->right) root = root->left;
             else {
                 // replace 
-                root->val = findMaxFromRight(root->left);
+                root->val = findMaxFromLeft(root->left);
                 root->left = findKey(root->left, root->val);
             }
         }
