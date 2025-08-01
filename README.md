@@ -250,6 +250,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
 | [0387-first-unique-character-in-a-string](https://github.com/shangrex/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -334,6 +335,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/shangrex/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -344,6 +346,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
+| [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 ## Tree
 |  |
 | ------- |
