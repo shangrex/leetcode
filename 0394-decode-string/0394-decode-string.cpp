@@ -1,5 +1,10 @@
 class Solution {
 public:
+    /*
+    n is the lengh of the string
+    Time complexity: maxK * n
+    Space complexity: m+n
+    */
     string decodeString(string s) {
         string ret = "";
         stack<string> stringStack;
