@@ -53,6 +53,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0498-diagonal-traverse](https://github.com/shangrex/leetcode/tree/master/0498-diagonal-traverse) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
+| [0540-single-element-in-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/shangrex/leetcode/tree/master/0605-can-place-flowers) |
@@ -453,6 +454,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
+| [0540-single-element-in-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
