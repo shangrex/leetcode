@@ -68,6 +68,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shangrex/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -206,6 +207,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -228,6 +230,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
+| [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
