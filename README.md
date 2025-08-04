@@ -87,6 +87,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
+| [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Dynamic Programming
@@ -170,6 +171,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 ## Matrix
 |  |
 | ------- |
@@ -330,6 +332,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
+| [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Stack
 |  |
@@ -607,4 +610,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
+## Geometry
+|  |
+| ------- |
+| [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 <!---LeetCode Topics End-->
