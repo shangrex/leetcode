@@ -324,6 +324,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
@@ -353,6 +354,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
+| [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 ## Tree
 |  |
@@ -539,6 +541,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 ## Interactive
 |  |
 | ------- |
