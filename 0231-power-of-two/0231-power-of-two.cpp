@@ -20,8 +20,11 @@ public:
         -5
         1011
 
+        n & n-1 set the rightmost 1 bit to zero
         */
         if(n <= 0) return false;
-        return (n & -n) == n;
+        // return (n & -n) == n; or use
+        return (n & n-1) == 0;
+        
     }
 };
