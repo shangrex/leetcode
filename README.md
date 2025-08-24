@@ -292,6 +292,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shangrex/leetcode/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -319,6 +320,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shangrex/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/shangrex/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
@@ -351,6 +353,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shangrex/leetcode/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
