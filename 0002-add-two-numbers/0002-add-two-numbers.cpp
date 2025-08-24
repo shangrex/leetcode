@@ -11,38 +11,36 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *rst = new ListNode();
+        int carry = 0;
+        ListNode* rst = new ListNode();
         ListNode *cur = rst;
-        int new_val = 0;
         while(l1 && l2){
-            ListNode *tmp = new ListNode();
-            new_val = l1->val + l2->val + new_val/10;
-            tmp->val = new_val % 10;
-            cur->next = tmp;
+            cur->next = new ListNode();
             cur = cur->next;
+            cur->val = (carry + l1->val + l2->val)%10;
+            carry = (l1->val + l2->val+carry)/10;
             l1 = l1->next;
             l2 = l2->next;
-            cout << new_val << " ";
         }
+
         while(l1){
-            ListNode* tmp = new ListNode();
-            new_val = l1->val + new_val/10;
-            tmp->val = (new_val)%10;
-            cur->next = tmp;
+            cur->next = new ListNode();
             cur = cur->next;
+            cur->val = (carry + l1->val)%10;
+            carry = (l1->val+carry)/10;
             l1 = l1->next;
         }
+
         while(l2){
-            ListNode* tmp = new ListNode();
-            new_val = l2->val + new_val/10;
-            tmp->val = (new_val)%10;
-            cur->next = tmp;
+            cur->next = new ListNode();
             cur = cur->next;
+            cur->val = (carry + l2->val)%10;
+            carry = (l2->val+carry)/10;
             l2 = l2->next;
         }
-        if(new_val/10){
-            ListNode *tmp = new ListNode(1);
-            cur->next = tmp;
+
+        if(carry > 0){
+            cur->next = new ListNode(1);
             cur = cur->next;
         }
         return rst->next;
