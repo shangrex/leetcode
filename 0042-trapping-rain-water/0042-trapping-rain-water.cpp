@@ -3,16 +3,12 @@ public:
     /*
     Approach 1. 
     iterate throught the height, in each iteration find min(max left , max right), and this is the height[i] can trapped the water
-    
-    Approach 2.
-    
-    */
-    int trap(vector<int>& height) {
+        int trap(vector<int>& height) {
         int left = 0, right = height.size()-1;
         int rst = 0, left_max = height[left], right_max = height[right];
         while(left < right){
             if(height[right] > height[left]){
-                if(left_max > height[left]) rst += ( left_max - height[left]);
+                if(left_max > height[left]) rst += (left_max - height[left]);
                 left++;
                 left_max = max(left_max, height[left]);
             }
@@ -23,5 +19,26 @@ public:
             }
         }
         return rst;
+    }
+    Approach 2.
+    
+    */
+    int trap(vector<int>& height) {
+        int left = 0, right = height.size()-1;
+        int ret = 0;
+        int left_max = height[left], right_max = height[right];
+        while(left < right){
+            if(height[left] > height[right]){
+                if(right_max > height[right])ret += right_max - height[right];
+                right_max = max(height[right], right_max);
+                right--;
+            }   
+            else {
+                if(left_max > height[left])ret += left_max - height[left];
+                left_max = max(height[left], left_max);
+                left++;
+            }
+        }
+        return ret;
     }
 };
