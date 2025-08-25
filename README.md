@@ -22,6 +22,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shangrex/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/shangrex/leetcode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
@@ -94,6 +95,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/shangrex/leetcode/tree/master/0010-regular-expression-matching) |
+| [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/shangrex/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
@@ -204,6 +206,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0018-4sum](https://github.com/shangrex/leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shangrex/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/shangrex/leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/shangrex/leetcode/tree/master/0088-merge-sorted-array) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
@@ -341,6 +344,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
@@ -578,6 +582,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Data Stream
 |  |
