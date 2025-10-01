@@ -197,6 +197,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/shangrex/leetcode/tree/master/0498-diagonal-traverse) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1642-water-bottles](https://github.com/shangrex/leetcode/tree/master/1642-water-bottles) |
 | [1708-design-parking-system](https://github.com/shangrex/leetcode/tree/master/1708-design-parking-system) |
 | [2058-concatenation-of-array](https://github.com/shangrex/leetcode/tree/master/2058-concatenation-of-array) |
 ## Two Pointers
@@ -337,6 +338,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
+| [1642-water-bottles](https://github.com/shangrex/leetcode/tree/master/1642-water-bottles) |
 | [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
 | [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
