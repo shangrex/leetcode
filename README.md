@@ -280,6 +280,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
+| [3379-score-of-a-string](https://github.com/shangrex/leetcode/tree/master/3379-score-of-a-string) |
 ## Counting
 |  |
 | ------- |
