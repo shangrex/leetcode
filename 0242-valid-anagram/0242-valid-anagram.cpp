@@ -5,7 +5,7 @@ public:
         Approah 1. use two size of 26 vector to store count
         Approach2. use a unordered_map to balance the count
         */
-
+        if(s.length() != t.length()) return false;
         unordered_map<char, int>mp;
         for(auto i : s){
             mp[i]++;
