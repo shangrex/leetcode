@@ -6,7 +6,7 @@ public:
         Approach2. use a unordered_map to balance the count
         */
 
-        map<char, int>mp;
+        unordered_map<char, int>mp;
         for(auto i : s){
             mp[i]++;
         }
