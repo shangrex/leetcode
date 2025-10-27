@@ -1,6 +1,10 @@
 class MyHashSet {
 public:
-    set<int>s;
+    /*
+    Approach 1. set
+    Approach 2. binary search
+    */
+    set<int> s;
     MyHashSet() {
         
     }
@@ -15,7 +19,7 @@ public:
     
     bool contains(int key) {
         if(s.count(key) > 0) return true;
-        else return false;
+        return false;
     }
 };
 
