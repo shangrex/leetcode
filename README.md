@@ -86,6 +86,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2144-maximum-difference-between-increasing-elements](https://github.com/shangrex/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/shangrex/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+| [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
@@ -316,6 +317,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
+| [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
