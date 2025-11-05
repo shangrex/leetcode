@@ -164,14 +164,15 @@ class node {
 class LRUCache {
 public:
     int capacity;
-    list<pair<int, int>> lru;
-    unordered_map<int, list<pair<int, int>> :: iterator> mp;
-    // find key and erase the iterator
+    unordered_map<int, list<pair<int, int>>::iterator> mp;
+    list<pair<int , int>> lru;
+
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
+        // if get, the ordered need to be udpated also
         auto it = mp.find(key);
 
         if(it == mp.end()){
@@ -181,7 +182,6 @@ public:
         int val = it->second->second;
         lru.erase(it->second);
         mp.erase(it);
-
         lru.push_front({key, val});
         mp[key] = lru.begin();
         return val;
@@ -189,26 +189,24 @@ public:
     
     void put(int key, int value) {
         auto it = mp.find(key);
-        if(it == mp.end()){
-            // insert new value
-
-
-            if(this->capacity == lru.size()){
-                auto del = mp.find(lru.rbegin()->first);
-                mp.erase(del);
-                // lru.erase(lru.rbegin()); // one is forward iterateor the other is reverse iterator
-                // different types
-                lru.pop_back();
-            }
+        if(it != mp.end()){
+            // update new value
+            lru.erase(it->second);
             lru.push_front({key, value});
             mp[key] = lru.begin();
+            return;
+        }
 
+        if(lru.size() < capacity){
+            // insert new value
+            lru.push_front({key, value});
+            mp[key] = lru.begin();
         }
         else {
-            // udpate new value
-            lru.erase(it->second);
-            mp.erase(it);
-
+            // remove then insert new value
+            auto del = mp.find(lru.rbegin()->first);
+            mp.erase(del);
+            lru.pop_back();
             lru.push_front({key, value});
             mp[key] = lru.begin();
         }
