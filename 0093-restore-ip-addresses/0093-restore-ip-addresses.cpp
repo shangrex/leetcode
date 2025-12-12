@@ -32,7 +32,7 @@ public:
                 if(numDot < 3)
                     output.push_back('.');
                 backtrack(s,i+1, ret, output, numDot+1);
-                cout << output << endl;
+             
                 if(numDot < 3)
                     output.pop_back();
             }
