@@ -1,6 +1,10 @@
 class Solution {
 public:
     string makeLargestSpecial(string s) {
+        /*
+        Reference: https://leetcode.com/problems/special-binary-string/submissions/1854255076/?envType=company&envId=nvidia&favoriteSlug=nvidia-three-months
+        Reference: https://leetcode.com/problems/special-binary-string/solutions/113212/think-of-it-as-valid-parentheses-by-alex-rius/?envType=company&envId=nvidia&favoriteSlug=nvidia-three-months
+        */
         int cnt = 0,  i = 0;
         vector<string> pool;
         for(int j = 0; j < s.length(); j++){
