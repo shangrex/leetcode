@@ -122,6 +122,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0039-combination-sum](https://github.com/shangrex/leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
+| [0077-combinations](https://github.com/shangrex/leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0093-restore-ip-addresses](https://github.com/shangrex/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
