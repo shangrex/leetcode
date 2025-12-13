@@ -282,6 +282,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/shangrex/leetcode/tree/master/0761-special-binary-string) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
@@ -381,6 +382,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
+| [0761-special-binary-string](https://github.com/shangrex/leetcode/tree/master/0761-special-binary-string) |
 ## Tree
 |  |
 | ------- |
