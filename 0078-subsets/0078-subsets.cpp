@@ -1,7 +1,7 @@
 class Solution {
 public:
   
-    void backtrack(vector<vector<int>> &ret, vector<int>&nums, vector<int>tmp, int idx){
+    void backtrack(vector<vector<int>> &ret, vector<int>&nums, vector<int>&tmp, int idx){
         if(idx >= nums.size()){
             ret.push_back(tmp);
             return;
