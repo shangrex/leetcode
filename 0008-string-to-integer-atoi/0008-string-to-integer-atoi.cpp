@@ -21,12 +21,11 @@ public:
             if(accNum > INT_MAX/10 || (accNum == INT_MAX/10 && s[idx] > '7') 
                 || accNum * sign < INT_MIN/10 || (accNum == INT_MIN/10 && s[idx] > '7') ){
               if(sign > 0) {cout << 'f' << endl;return INT_MAX;}
-                else {cout << 'b' << endl; return INT_MIN;}
+                else {return INT_MIN;}
             }
             accNum = 10 * accNum + (s[idx] - '0');
             idx++;
         }
-        cout << 'r' << accNum << endl;
         return accNum * sign;
     }
 };
