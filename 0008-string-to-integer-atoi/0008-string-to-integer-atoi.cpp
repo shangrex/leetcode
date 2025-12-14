@@ -20,7 +20,7 @@ public:
         while(isdigit(s[idx])){
             if(accNum > INT_MAX/10 || (accNum == INT_MAX/10 && s[idx] > '7') 
                 || accNum * sign < INT_MIN/10 || (accNum == INT_MIN/10 && s[idx] > '7') ){
-              if(sign > 0) {cout << 'f' << endl;return INT_MAX;}
+              if(sign > 0) {return INT_MAX;}
                 else {return INT_MIN;}
             }
             accNum = 10 * accNum + (s[idx] - '0');
