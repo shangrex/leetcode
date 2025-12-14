@@ -314,6 +314,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shangrex/leetcode/tree/master/0002-add-two-numbers) |
+| [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shangrex/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -334,6 +335,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -588,6 +590,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -649,4 +652,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
