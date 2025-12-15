@@ -656,4 +656,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Concurrency
+|  |
+| ------- |
+| [1117-building-h2o](https://github.com/shangrex/leetcode/tree/master/1117-building-h2o) |
 <!---LeetCode Topics End-->
