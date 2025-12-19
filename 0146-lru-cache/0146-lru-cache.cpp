@@ -164,49 +164,53 @@ class node {
 class LRUCache {
 public:
     int capacity;
-    unordered_map<int, list<pair<int, int>>::iterator> mp;
-    list<pair<int , int>> lru;
+    unordered_map<int, list<pair<int, int>> ::iterator> mp;
+    list<pair<int, int>> lru;
 
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
-        // if get, the ordered need to be udpated also
         auto it = mp.find(key);
-
         if(it == mp.end()){
+            // not found
             return -1;
         }
+        // found
+        int value = it->second->second;
+        cout << value << endl;
 
-        int val = it->second->second;
         lru.erase(it->second);
-        mp.erase(it);
-        lru.push_front({key, val});
+        mp.erase(key);
+
+        lru.push_front({key, value});
         mp[key] = lru.begin();
-        return val;
+        return value;
+
     }
     
     void put(int key, int value) {
         auto it = mp.find(key);
-        if(it != mp.end()){
-            // update new value
-            lru.erase(it->second);
-            lru.push_front({key, value});
-            mp[key] = lru.begin();
-            return;
-        }
+        if(it == mp.end()){
+            // not found
+            if(lru.size() < capacity){
+                cout << key << value << endl;
+                lru.push_front({key, value});
+                mp[key] = lru.begin();
+            }
+            else {
+                auto del = mp.find(lru.rbegin()->first);
+                mp.erase(del);
+                lru.pop_back();
 
-        if(lru.size() < capacity){
-            // insert new value
-            lru.push_front({key, value});
-            mp[key] = lru.begin();
+                lru.push_front({key, value});
+                mp[key] = lru.begin();
+            }
         }
         else {
-            // remove then insert new value
-            auto del = mp.find(lru.rbegin()->first);
-            mp.erase(del);
-            lru.pop_back();
+            // update
+            lru.erase(it->second);
             lru.push_front({key, value});
             mp[key] = lru.begin();
         }
