@@ -12,9 +12,6 @@ public:
             else cnt --;
 
             if(cnt == 0){
-                // 10111000
-                //.  2    7
-                //      
                 pool.push_back('1' + makeLargestSpecial(s.substr(i+1, j-1-i)) + '0');
                 i = j+1;
             }
