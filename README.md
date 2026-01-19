@@ -117,6 +117,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shangrex/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Backtracking
 |  |
@@ -140,6 +141,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 ## Hash Table
 |  |
 | ------- |
@@ -576,6 +578,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 ## Interactive
 |  |
 | ------- |
