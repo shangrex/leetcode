@@ -13,6 +13,9 @@ public:
 
         1 1 1 2 3 3 5
         2 3 3 5 1 1 1
+
+        1 2 2 2 3
+        2 2 2 3 1 -> 2
         Approach 1.
         sort, then place smallest larger number (or find largest smaller number)
 
@@ -29,9 +32,8 @@ public:
         }
 
         return ret;
-        Approach 2. 
-        count most frequency element
-        */
+
+        --
         sort(nums.begin(), nums.end());
         int ret = 0;
         for(auto i : nums){
@@ -40,5 +42,16 @@ public:
             }
         }
         return ret;
+
+        Approach 2. 
+        count most frequency element
+        */
+        unordered_map<int, int> mp;
+        int maxFreq = 0;
+        for(auto i : nums){
+            mp[i]++;
+            maxFreq = max(maxFreq, mp[i]);
+        }
+        return nums.size() - maxFreq;
     }
 };
