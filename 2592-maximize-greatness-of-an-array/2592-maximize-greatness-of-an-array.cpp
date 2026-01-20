@@ -14,11 +14,9 @@ public:
         1 1 1 2 3 3 5
         2 3 3 5 1 1 1
         Approach 1.
-        sort, then binary search
-        */
+        sort, then place smallest larger number (or find largest smaller number)
 
         int ret = 0;
-        
         sort(nums.begin(), nums.end());
         int n = nums.size();
         int t = -1;
@@ -27,10 +25,20 @@ public:
             while(bigger < nums.size() && i < nums.size() && nums[bigger] <= nums[i]){
                 bigger++;
             }
-        
             if(bigger < nums.size()) {ret++; bigger++;}
         }
 
+        return ret;
+        Approach 2. 
+        count most frequency element
+        */
+        sort(nums.begin(), nums.end());
+        int ret = 0;
+        for(auto i : nums){
+            if(i > nums[ret]){
+                ret++;
+            }
+        }
         return ret;
     }
 };
