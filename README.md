@@ -91,6 +91,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
+| [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3822-fill-a-special-grid](https://github.com/shangrex/leetcode/tree/master/3822-fill-a-special-grid) |
@@ -142,6 +143,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
+| [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -232,6 +234,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/shangrex/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+| [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 ## Sorting
 |  |
 | ------- |
@@ -254,6 +257,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 ## String
 |  |
 | ------- |
