@@ -89,6 +89,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/shangrex/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
+| [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
@@ -186,6 +187,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
+| [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
@@ -216,6 +218,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1642-water-bottles](https://github.com/shangrex/leetcode/tree/master/1642-water-bottles) |
 | [1708-design-parking-system](https://github.com/shangrex/leetcode/tree/master/1708-design-parking-system) |
 | [2058-concatenation-of-array](https://github.com/shangrex/leetcode/tree/master/2058-concatenation-of-array) |
+| [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
 ## Two Pointers
 |  |
 | ------- |
