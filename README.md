@@ -675,4 +675,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [1117-building-h2o](https://github.com/shangrex/leetcode/tree/master/1117-building-h2o) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
