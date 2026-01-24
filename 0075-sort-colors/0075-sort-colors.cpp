@@ -1,24 +1,16 @@
 class Solution {
 public:
-    /*
-    counting sort
-    
-    */
     void sortColors(vector<int>& nums) {
-        map<int, int>mp;
-        for(int i = 0;i < nums.size(); i++){
-            mp[nums[i]]+=1;
+        vector<int>count(3);
+        for(auto i : nums){
+            count[i]++;
+        } 
+
+        int idx = 0;
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < count[i]; j++){
+                nums[idx++] = i;
+            }
         }
-        int iter = 0;
-        for(int i = 0; i < mp[0]; iter++, i++){
-            nums[iter] = 0;
-        }
-        for(int i = 0; i < mp[1]; iter++, i++){
-            nums[iter] = 1;
-        }
-        for(int i = 0; i < mp[2]; iter++, i++){
-            nums[iter] = 2;
-        }
-        
     }
 };
