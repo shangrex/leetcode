@@ -163,10 +163,9 @@ class node {
 
 class LRUCache {
 public:
-    int capacity;
-    unordered_map<int, list<pair<int, int>> ::iterator> mp;
+    unordered_map<int, list<pair<int, int>>::iterator> mp;
     list<pair<int, int>> lru;
-
+    int capacity; 
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
@@ -174,47 +173,40 @@ public:
     int get(int key) {
         auto it = mp.find(key);
         if(it == mp.end()){
-            // not found
+            //not exist
             return -1;
         }
-        // found
-        int value = it->second->second;
-        cout << value << endl;
-
+        int val = it->second->second;
         lru.erase(it->second);
-        mp.erase(key);
-
-        lru.push_front({key, value});
+        lru.push_front({key, val});
+        mp.erase(it);
         mp[key] = lru.begin();
-        return value;
-
+        return val;
     }
     
     void put(int key, int value) {
         auto it = mp.find(key);
+        // not exist
         if(it == mp.end()){
-            // not found
-            if(lru.size() < capacity){
-                cout << key << value << endl;
+            if(lru.size() < this->capacity){
                 lru.push_front({key, value});
                 mp[key] = lru.begin();
             }
             else {
-                auto del = mp.find(lru.rbegin()->first);
-                mp.erase(del);
-                lru.pop_back();
-
+                auto it2 = mp.find(lru.rbegin()->first);
+                lru.erase(it2->second);
+                mp.erase(it2);
                 lru.push_front({key, value});
                 mp[key] = lru.begin();
             }
         }
         else {
-            // update
-            lru.erase(it->second);
+            lru.erase(it->second); 
+
+            mp.erase(it);
             lru.push_front({key, value});
             mp[key] = lru.begin();
         }
-        
     }
 };
 
