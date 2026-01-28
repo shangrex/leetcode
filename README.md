@@ -236,6 +236,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0151-reverse-words-in-a-string](https://github.com/shangrex/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
+| [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -600,6 +601,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Interactive
 |  |
 | ------- |
+| [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
 ## Memoization
 |  |
@@ -686,4 +688,5 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
+| [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 <!---LeetCode Topics End-->
