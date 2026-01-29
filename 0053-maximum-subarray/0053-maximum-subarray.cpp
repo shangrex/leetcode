@@ -27,6 +27,7 @@ public:
 
 
     int maxSubArray(vector<int>& nums) {
+        // DP most optimization
         int n = nums.size();
         int ret = INT_MIN;
         int tmp = 0;
