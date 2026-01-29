@@ -47,6 +47,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/shangrex/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
+| [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -239,6 +240,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
+| [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -515,6 +517,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0270-closest-binary-search-tree-value](https://github.com/shangrex/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/shangrex/leetcode/tree/master/0278-first-bad-version) |
+| [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -597,6 +600,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
