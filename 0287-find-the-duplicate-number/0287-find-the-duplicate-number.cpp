@@ -4,17 +4,16 @@ public:
         int slow = nums[0], fast = nums[0];
         bool flag = true;
         while(slow != fast || flag){
-            cout << slow << " " << fast << endl;
+            flag = false;
             slow = nums[slow];
             fast = nums[nums[fast]];
-            flag = false;
         }
-        
-        int cur = nums[0];
-        while(cur != fast){
-            cur = nums[cur];
-            fast = nums[fast];
+
+        int head = nums[0];
+        while(head != slow){
+            head = nums[head];
+            slow = nums[slow];
         }
-        return cur;
+        return slow;
     }
 };
