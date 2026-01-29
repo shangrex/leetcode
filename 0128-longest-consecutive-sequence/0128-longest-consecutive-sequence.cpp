@@ -1,43 +1,24 @@
 class Solution {
 public:
-    
-    unordered_map<int, int> mp;
-    unordered_map<int, int> mp_size;
-    
-    int Find(int a){
-        if(mp[a] == a)return a;
-        else return Find(mp[a]);
-    }
-    
-    void Union(int a, int b){
-        int root_a = Find(a);
-        int root_b = Find(b);
-        mp[root_a] = root_b;
-        mp_size[root_b] += mp_size[root_a];
-    }
-    
     int longestConsecutive(vector<int>& nums) {
-        // 1. Construct union
-        for(auto num : nums){
-            mp[num] = num;
-            mp_size[num] = 1;
+        unordered_set<int> st;
+        for(int i = 0; i < nums.size(); i++){
+            st.insert(nums[i]);
         }
-        
-        
-        // 2. Union the graph
-        for(auto i : mp){
-            if(mp.find(i.second-1) != mp.end()){
-                Union(i.second, i.second-1);
+
+        int ret = 0;
+        for(auto i : st){
+            if(st.count(i-1)==0){
+                int curNum = i;
+                int streak = 1;
+                while(st.count(curNum+1) > 0){
+                    curNum += 1;
+                    streak++;
+                }
+                ret = max(ret, streak);
             }
+            
         }
-        
-        
-        // 3. Find the longest legnth
-        int rst = 0;
-        for(auto i : mp_size){
-            rst = max(rst, i.second);
-        }
-        return rst;
-        
+        return ret;
     }
 };
