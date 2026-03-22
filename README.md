@@ -354,6 +354,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0092-reverse-linked-list-ii](https://github.com/shangrex/leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0382-linked-list-random-node](https://github.com/shangrex/leetcode/tree/master/0382-linked-list-random-node) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
@@ -391,6 +392,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [0319-bulb-switcher](https://github.com/shangrex/leetcode/tree/master/0319-bulb-switcher) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0382-linked-list-random-node](https://github.com/shangrex/leetcode/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0412-fizz-buzz](https://github.com/shangrex/leetcode/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
@@ -673,6 +675,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0382-linked-list-random-node](https://github.com/shangrex/leetcode/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 ## Hash Function
@@ -688,6 +691,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Reservoir Sampling
 |  |
 | ------- |
+| [0382-linked-list-random-node](https://github.com/shangrex/leetcode/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 ## Number Theory
 |  |
