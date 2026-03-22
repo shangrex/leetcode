@@ -26,7 +26,7 @@ public:
         int ret = cur->val;
         int scope = 1;
         while(cur){
-            if(rand() % scope == 0){
+            if((double)rand()/(double)RAND_MAX < 1.0/scope){
                 ret = cur->val;
             }
             scope+=1;
