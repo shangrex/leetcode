@@ -1,5 +1,8 @@
 class Solution {
 public:
+/*
+Approach 1. Sort + lambda
+*/
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
         sort(arr.begin(), arr.end(), [x](int a, int b){
             if(abs(a-x) < abs(b-x)) return true;
