@@ -175,6 +175,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
+| [0290-word-pattern](https://github.com/shangrex/leetcode/tree/master/0290-word-pattern) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -305,6 +306,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
+| [0290-word-pattern](https://github.com/shangrex/leetcode/tree/master/0290-word-pattern) |
 | [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
 | [0387-first-unique-character-in-a-string](https://github.com/shangrex/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
