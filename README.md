@@ -47,6 +47,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/shangrex/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
+| [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -273,6 +274,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shangrex/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
