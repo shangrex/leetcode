@@ -48,6 +48,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0238-product-of-array-except-self](https://github.com/shangrex/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -149,6 +150,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shangrex/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/shangrex/leetcode/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0605-can-place-flowers](https://github.com/shangrex/leetcode/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -250,6 +252,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0151-reverse-words-in-a-string](https://github.com/shangrex/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0246-strobogrammatic-number](https://github.com/shangrex/leetcode/tree/master/0246-strobogrammatic-number) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
@@ -275,6 +278,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0217-contains-duplicate](https://github.com/shangrex/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shangrex/leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
@@ -372,6 +376,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/shangrex/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
@@ -383,6 +388,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
