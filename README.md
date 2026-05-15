@@ -40,6 +40,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0162-find-peak-element](https://github.com/shangrex/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/shangrex/leetcode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shangrex/leetcode/tree/master/0217-contains-duplicate) |
@@ -403,6 +404,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0009-palindrome-number](https://github.com/shangrex/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/shangrex/leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/shangrex/leetcode/tree/master/0043-multiply-strings) |
+| [0204-count-primes](https://github.com/shangrex/leetcode/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
@@ -704,6 +706,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/shangrex/leetcode/tree/master/0204-count-primes) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Reservoir Sampling
@@ -714,6 +717,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/shangrex/leetcode/tree/master/0204-count-primes) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Geometry
 |  |
