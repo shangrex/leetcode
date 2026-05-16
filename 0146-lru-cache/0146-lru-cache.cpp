@@ -179,6 +179,7 @@ public:
         int val = it->second->second;
         lst.erase(it->second);
         lst.push_front({key, val});
+        lstMap.erase(it);
         lstMap[key] = lst.begin();
         
         return val;
@@ -200,6 +201,8 @@ public:
         // exist update
         lst.erase(it->second);
         lst.push_front({key, value});
+        lstMap.erase(it);
+
         lstMap[key] = lst.begin();
 
     }
