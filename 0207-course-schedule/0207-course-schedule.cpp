@@ -46,34 +46,31 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> graph(numCourses);
-        vector<int>indegree(numCourses, 0);
-
-        for(auto i : prerequisites){
-            graph[i[1]].push_back(i[0]);
-            indegree[i[0]]++;
+        vector<int> indegree(numCourses, 0);
+        // vector<bool> visited(numCourses);
+        for(int i = 0; i < prerequisites.size(); i++){
+            graph[prerequisites[i][1]].push_back(prerequisites[i][0]);
+            indegree[prerequisites[i][0]]++;
         }
 
-        queue<int>q;
-        set<int> visited;
+        priority_queue<int> pq;
         for(int i = 0; i < indegree.size(); i++){
-            if(indegree[i] == 0){
-                q.push(i);
-            }
+            if(indegree[i] == 0) pq.push(i);
         }
 
-        
-        while(!q.empty()){
-            int v = q.front();
-            q.pop();
-            visited.insert(v);
-
-            for(auto i : graph[v]){
-                if(--indegree[i] == 0){
-                    q.push(i);
+        while(!pq.empty()){
+            int node = pq.top();
+            pq.pop();
+            for(int i = 0; i < graph[node].size(); i++){
+                if(--indegree[graph[node][i]] == 0){
+                    pq.push(graph[node][i]);
                 }
             }
         }
 
-        return visited.size() == numCourses;
+        for(int i = 0; i < numCourses; i++){
+            if(indegree[i] != 0) return false;
+        }
+        return true;
     }
 };
