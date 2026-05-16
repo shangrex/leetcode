@@ -163,50 +163,45 @@ class node {
 
 class LRUCache {
 public:
-    unordered_map<int, list<pair<int, int>>::iterator> mp;
-    list<pair<int, int>> lru;
-    int capacity; 
+    int capacity;
+    unordered_map<int, list<pair<int, int>>::iterator> lstMap;
+    list<pair<int, int>> lst;
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
-        auto it = mp.find(key);
-        if(it == mp.end()){
-            //not exist
+        auto it = lstMap.find(key);
+        if(it == lstMap.end()){
+            // not exist
             return -1;
         }
         int val = it->second->second;
-        lru.erase(it->second);
-        lru.push_front({key, val});
-        mp.erase(it);
-        mp[key] = lru.begin();
+        lst.erase(it->second);
+        lst.push_front({key, val});
+        lstMap[key] = lst.begin();
+        
         return val;
     }
     
     void put(int key, int value) {
-        auto it = mp.find(key);
-        // not exist
-        if(it == mp.end()){
-            if(lru.size() < this->capacity){
-                lru.push_front({key, value});
-                mp[key] = lru.begin();
+        auto it = lstMap.find(key);
+        if(it == lstMap.end()){
+            // not exist insert
+            if(lst.size() >= capacity){
+                auto rkey = lstMap.find(lst.rbegin()->first);
+                lstMap.erase(rkey);
+                lst.pop_back();
             }
-            else {
-                auto it2 = mp.find(lru.rbegin()->first);
-                lru.erase(it2->second);
-                mp.erase(it2);
-                lru.push_front({key, value});
-                mp[key] = lru.begin();
-            }
+            lst.push_front({key, value});
+            lstMap[key] = lst.begin();
+            return;
         }
-        else {
-            lru.erase(it->second); 
+        // exist update
+        lst.erase(it->second);
+        lst.push_front({key, value});
+        lstMap[key] = lst.begin();
 
-            mp.erase(it);
-            lru.push_front({key, value});
-            mp[key] = lru.begin();
-        }
     }
 };
 
