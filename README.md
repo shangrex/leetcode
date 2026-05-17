@@ -103,6 +103,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shangrex/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/shangrex/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -207,6 +208,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shangrex/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/shangrex/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 ## Matrix
@@ -611,6 +613,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/shangrex/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shangrex/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Doubly-Linked List
 |  |
 | ------- |
