@@ -80,6 +80,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shangrex/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -223,6 +224,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shangrex/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -528,6 +530,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shangrex/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
