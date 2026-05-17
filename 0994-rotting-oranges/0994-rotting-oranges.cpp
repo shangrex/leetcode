@@ -23,7 +23,7 @@ public:
                 pr = pq.front();
                 pq.pop();
                 int x = pr.first, y = pr.second;
-                cout << x << y << endl;
+                // cout << x << y << endl;
                 for(int i = 0; i < 4; i++){
                     if(x+dirc[i][0] > -1 && x+dirc[i][0] < grid.size() &&
                         y+dirc[i][1] > -1 && y+dirc[i][1] < grid[0].size() &&
