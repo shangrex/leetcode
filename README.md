@@ -86,6 +86,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1171-shortest-path-in-binary-matrix](https://github.com/shangrex/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1200-minimum-absolute-difference](https://github.com/shangrex/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/shangrex/leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -159,6 +160,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [1328-break-a-palindrome](https://github.com/shangrex/leetcode/tree/master/1328-break-a-palindrome) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
@@ -297,6 +299,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1200-minimum-absolute-difference](https://github.com/shangrex/leetcode/tree/master/1200-minimum-absolute-difference) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
@@ -400,6 +403,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
