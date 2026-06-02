@@ -755,4 +755,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shangrex/leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Database
+|  |
+| ------- |
+| [0197-rising-temperature](https://github.com/shangrex/leetcode/tree/master/0197-rising-temperature) |
 <!---LeetCode Topics End-->
