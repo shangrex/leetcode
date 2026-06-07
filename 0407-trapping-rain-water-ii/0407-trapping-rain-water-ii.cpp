@@ -44,7 +44,7 @@ public:
                     || visited[nx][ny]) continue;
                 if(heightMap[nx][ny] < heightMap[x][y]){
                     totalRain += (heightMap[x][y] - heightMap[nx][ny]);
-                    cout << nx << ny << totalRain << endl;
+                    // cout << nx << ny << totalRain << endl;
                 }
                 heightMap[nx][ny] = max(heightMap[x][y], heightMap[nx][ny]);
                 visited[nx][ny] = true;
