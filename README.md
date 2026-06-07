@@ -56,6 +56,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0403-frog-jump](https://github.com/shangrex/leetcode/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/shangrex/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
@@ -129,6 +130,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0403-frog-jump](https://github.com/shangrex/leetcode/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/shangrex/leetcode/tree/master/0516-longest-palindromic-subsequence) |
