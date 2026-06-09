@@ -3,8 +3,6 @@ public:
     /*
     Approach 1. DFS
     Approach 2. BFS. The same node would push to queue multiple time so slower to Approach 3
-    Approach 3. Dijkstra's Algorithm
-    */
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<vector<pair<int, int>>> graph(n+2);
 
@@ -29,6 +27,45 @@ public:
                    if(weights[node] - weights[nextNode] + gap < 0){
                         q.push(nextNode);
                         weights[nextNode] = weights[node]+gap;
+                    }
+                }
+            }
+        }
+        int ret = INT_MIN;
+        for(int i = 1; i <= n; i++){
+            ret = max(ret, weights[i]);
+        }
+        return ret == INT_MAX ? -1 : ret;
+    }
+    
+    Approach 3. Dijkstra's Algorithm
+    */
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        vector<vector<pair<int, int>>> graph(n+2);
+
+        for(auto& edges : times){
+            int u = edges[0];
+            int v = edges[1];
+            int w = edges[2];
+            graph[u].push_back({w, v});
+        }
+        vector<int> weights(n+2, INT_MAX);
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+
+        pq.push({0, k});
+        weights[k] = 0;
+        while(!pq.empty()){
+            int m = pq.size();
+            for(int i = 0; i < m; i++){
+                auto node = pq.top();
+                pq.pop();
+                for (auto& t : graph[node.second]){
+                    int nextNode = t.second;
+                    int gap = t.first;
+                   if(weights[node.second] - weights[nextNode] + gap < 0){
+                        int val = weights[node.second]+gap;
+                        pq.push({val, nextNode});
+                        weights[nextNode] = val;
                     }
                 }
             }
