@@ -2,8 +2,8 @@ class Solution {
 public:
     /*
     Approach 1. DFS
-    Approach 2. BFS
-    Approach 3. Dijkesy
+    Approach 2. BFS. The same node would push to queue multiple time so slower to Approach 3
+    Approach 3. Dijkstra's Algorithm
     */
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<vector<pair<int, int>>> graph(n+2);
