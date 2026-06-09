@@ -409,6 +409,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0407-trapping-rain-water-ii](https://github.com/shangrex/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
@@ -515,6 +516,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -541,6 +543,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -760,6 +763,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
+| [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 ## Union-Find
 |  |
 | ------- |
@@ -768,4 +772,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0197-rising-temperature](https://github.com/shangrex/leetcode/tree/master/0197-rising-temperature) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
