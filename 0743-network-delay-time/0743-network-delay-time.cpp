@@ -1,7 +1,9 @@
 class Solution {
 public:
     /*
-    
+    Approach 1. DFS
+    Approach 2. BFS
+    Approach 3. Dijkesy
     */
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<vector<pair<int, int>>> graph(n+2);
