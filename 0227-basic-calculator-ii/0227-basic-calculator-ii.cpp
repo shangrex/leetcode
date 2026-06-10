@@ -1,12 +1,13 @@
 class Solution {
 public:
     /*
-    Hint: stack
+    the difference betweeen basic calculator is the '(' and ')'
+
+    Approach 1. Hint: stack
     store the last opeation & number
     if new number come in, check the latest operation & number
     in the end add all stack number together
-    */
-    int calculate(string s) {
+int calculate(string s) {
         string cur_num = "";
         stack<int>st;
         char cur_op = '+';
@@ -58,5 +59,103 @@ public:
             st.pop();
         }
         return rst;
+    }
+    Approach 2. without stack
+
+        int calculate(string s) {
+        char op = '+';
+        int n = s.length();
+        int cur_num = 0, last_num = 0, ret = 0;
+        int sign = 1;
+        // when see '+' and '-' sum it all
+        // see * - add to the tmp var
+
+        for(int i = 0; i < n; i++){
+            if(isdigit(s[i])){
+                cur_num = (s[i]-'0')+cur_num * 10;
+            }
+            if((!isdigit(s[i]) && s[i] != ' ') || i == n-1){
+                if(op == '+' || op == '-'){
+                    ret += last_num;
+                    last_num = (op == '+') ? cur_num : -cur_num;
+                }
+                if(op == '*' || op == '/'){
+                    if(op == '*'){
+                        last_num = last_num * cur_num;
+                    }
+                    else if(op == '/'){
+                        //cout << last_num << " " << cur_num;
+                        last_num = last_num / cur_num;
+                    }
+                }
+                op = s[i];
+                cur_num = 0;
+            }
+        }
+        ret += last_num;
+        return ret;
+    }
+    */
+    /*
+            char op = '+';
+        int n = s.length();
+        int cur_num = 0, last_num = 0, ret = 0;
+        int sign = 1;
+        // when see '+' and '-' sum it all
+        // see * - add to the tmp var
+
+        for(int i = 0; i < n; i++){
+            if(isdigit(s[i])){
+                cur_num = (s[i]-'0')+cur_num * 10;
+            }
+            if((!isdigit(s[i]) && s[i] != ' ') || i == n-1){
+                if(op == '+' || op == '-'){
+                    ret += last_num;
+                    last_num = (op == '+') ? cur_num : -cur_num;
+                }
+                if(op == '*' || op == '/'){
+                    if(op == '*'){
+                        last_num = last_num * cur_num;
+                    }
+                    else if(op == '/'){
+                        //cout << last_num << " " << cur_num;
+                        last_num = last_num / cur_num;
+                    }
+                }
+                op = s[i];
+                cur_num = 0;
+            }
+        }
+        ret += last_num;
+        return ret;
+    */
+    int calculate(string s) {
+        char ops = '+';
+        int last_num = 0, cur_num = 0, ret = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            if(isdigit(s[i])){
+                // digit
+                cur_num = cur_num * 10 + (s[i]-'0');
+            }
+
+            if(i == s.length()-1 || (!isdigit(s[i]) && s[i] != ' ')){
+                if(ops == '+' || ops == '-'){
+                    ret += last_num;
+                    if(ops == '+') last_num = cur_num;
+                    if(ops == '-') last_num = -cur_num;
+                }
+                else if(ops == '*' || ops == '/'){
+                    if(ops == '*') last_num *= cur_num;
+                    if(ops == '/') last_num = last_num / cur_num;
+                }
+                cur_num = 0;
+                ops = s[i];
+            }
+        }
+
+        ret += last_num;
+
+        return ret;
     }
 };
