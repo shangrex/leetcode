@@ -37,6 +37,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0128-longest-consecutive-sequence](https://github.com/shangrex/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/shangrex/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/shangrex/leetcode/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/shangrex/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
@@ -126,6 +127,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shangrex/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shangrex/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/shangrex/leetcode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
@@ -178,6 +180,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/shangrex/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/shangrex/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shangrex/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
@@ -322,6 +325,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
 | [0093-restore-ip-addresses](https://github.com/shangrex/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0115-distinct-subsequences](https://github.com/shangrex/leetcode/tree/master/0115-distinct-subsequences) |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/shangrex/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
@@ -675,6 +679,7 @@ The project is to record my leetcode solutions and my thinking process.
 ## Memoization
 |  |
 | ------- |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Brainteaser
 |  |
@@ -713,6 +718,7 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shangrex/leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/shangrex/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/shangrex/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/shangrex/leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
