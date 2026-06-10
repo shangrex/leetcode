@@ -131,30 +131,29 @@ int calculate(string s) {
     */
     int calculate(string s) {
         char ops = '+';
-        int last_num = 0, cur_num = 0, ret = 0;
-
+        long long curNum = 0, lastNum = 0;
+        int ret = 0;
         for(int i = 0; i < s.length(); i++){
             if(isdigit(s[i])){
-                // digit
-                cur_num = cur_num * 10 + (s[i]-'0');
+                curNum = curNum*10 + s[i]-'0';
             }
 
-            if(i == s.length()-1 || (!isdigit(s[i]) && s[i] != ' ')){
+            if((!isdigit(s[i]) && s[i] != ' ') || i == s.length()-1){
                 if(ops == '+' || ops == '-'){
-                    ret += last_num;
-                    if(ops == '+') last_num = cur_num;
-                    if(ops == '-') last_num = -cur_num;
+                    ret += lastNum;
+                    if(ops == '+') lastNum = curNum;
+                    if(ops == '-') lastNum = -curNum;
                 }
-                else if(ops == '*' || ops == '/'){
-                    if(ops == '*') last_num *= cur_num;
-                    if(ops == '/') last_num = last_num / cur_num;
+                if(ops == '*' || ops == '/'){
+                    if(ops == '*') lastNum *= curNum;
+                    if(ops == '/') lastNum /= curNum;
                 }
-                cur_num = 0;
                 ops = s[i];
+                curNum = 0;
             }
         }
-
-        ret += last_num;
+        // cout << ret << endl;
+        ret += lastNum;
 
         return ret;
     }
