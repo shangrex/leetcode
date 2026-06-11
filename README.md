@@ -348,6 +348,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0761-special-binary-string](https://github.com/shangrex/leetcode/tree/master/0761-special-binary-string) |
+| [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
@@ -438,6 +439,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0415-add-strings](https://github.com/shangrex/leetcode/tree/master/0415-add-strings) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
+| [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1642-water-bottles](https://github.com/shangrex/leetcode/tree/master/1642-water-bottles) |
 | [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
@@ -456,6 +458,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/shangrex/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0735-asteroid-collision](https://github.com/shangrex/leetcode/tree/master/0735-asteroid-collision) |
+| [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
@@ -470,6 +473,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0234-palindrome-linked-list](https://github.com/shangrex/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 | [0761-special-binary-string](https://github.com/shangrex/leetcode/tree/master/0761-special-binary-string) |
+| [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 ## Tree
 |  |
 | ------- |
