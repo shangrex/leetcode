@@ -27,6 +27,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0046-permutations](https://github.com/shangrex/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/shangrex/leetcode/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/shangrex/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shangrex/leetcode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/shangrex/leetcode/tree/master/0075-sort-colors) |
@@ -287,6 +288,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0015-3sum](https://github.com/shangrex/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shangrex/leetcode/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/shangrex/leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/shangrex/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/shangrex/leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shangrex/leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/shangrex/leetcode/tree/master/0169-majority-element) |
