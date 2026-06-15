@@ -39,8 +39,7 @@ public:
     }
     
     Approach 3. Dijkstra's Algorithm
-    */
-    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<vector<pair<int, int>>> graph(n+2);
 
         for(auto& edges : times){
@@ -75,5 +74,50 @@ public:
             ret = max(ret, weights[i]);
         }
         return ret == INT_MAX ? -1 : ret;
+    }
+    */
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        vector<vector<pair<int, int>>> graph(n+2);
+        priority_queue<pair<int, int>, vector<pair<int, int>>, 
+        greater<pair<int, int>> > pq;
+
+        for(int i = 0; i < times.size(); i++){
+            graph[times[i][0]].push_back({times[i][1], times[i][2]});
+        }
+
+        vector<int> delayMap(n+2, INT_MAX);
+        pq.push({0, k});
+        delayMap[k] = 0;
+        
+        while(!pq.empty()){
+            int m = pq.size();
+            for(int i = 0; i < m; i++){
+                pair<int, int> topNode = pq.top();
+                int curNode = topNode.second;
+                int curDelay = topNode.first;
+                pq.pop();
+
+                for(auto &i : graph[curNode]){
+                    int nxtNode = i.first;
+                    int delay = i.second;
+                    if(delay  < delayMap[nxtNode] - delayMap[curNode]){
+                        // smaller 
+                        delayMap[nxtNode] = delay+delayMap[curNode];
+                        pq.push({delayMap[nxtNode], nxtNode});
+                    }
+                }
+            
+            }
+        }
+
+        int ret = INT_MIN;
+        for(int i = 1; i <= n;i++){
+            if(delayMap[i] == INT_MAX){
+                return -1;
+            }
+            ret = max(ret, delayMap[i]);
+        }
+
+        return ret;
     }
 };
