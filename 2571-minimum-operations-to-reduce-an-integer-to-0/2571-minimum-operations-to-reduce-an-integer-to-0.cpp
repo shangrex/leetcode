@@ -12,7 +12,7 @@ public:
             int x = floor(log2(n));
             int y = ceil(log2(n));
 
-            if(n - pow(2, x) >= pow(2, y) - n){
+            if(n - pow(2, x) > pow(2, y) - n){
                 // closer to ceil
                 n = pow(2, y) - n;
             }
