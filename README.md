@@ -216,6 +216,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/shangrex/leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2365-task-scheduler-ii](https://github.com/shangrex/leetcode/tree/master/2365-task-scheduler-ii) |
@@ -364,6 +365,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1328-break-a-palindrome](https://github.com/shangrex/leetcode/tree/master/1328-break-a-palindrome) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/shangrex/leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
 | [3379-score-of-a-string](https://github.com/shangrex/leetcode/tree/master/3379-score-of-a-string) |
 ## Counting
