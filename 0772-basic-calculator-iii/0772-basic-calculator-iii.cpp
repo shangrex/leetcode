@@ -2,7 +2,6 @@ class Solution {
 public:
     /*
     Approach 1. stack + recursive
-    */
     int calculate(string s) {
        int idx = 0;
        return parseExpr(s, idx); 
@@ -58,5 +57,67 @@ public:
         }
         return curNum;
     }
+    */
+    int calculate(string s) {
+        int idx = 0;
+        return parseExpr(s, idx);
+    }
+
+    int parseExpr(string s, int &idx){
+        int curNum;
+        stack<int> st;
+        char ops = '+';
+
+        for(;idx < s.length() && s[idx] != ')'; idx++){
+            if(s[idx] == ' ') continue;
+            curNum = 0;
+            if(s[idx] == '('){
+                curNum = parseExpr(s, ++idx);
+            }
+            else if (isdigit(s[idx])){
+                curNum = parseNum(s, idx);
+            }
+
+            if(ops == '+'){
+                st.push(curNum);
+            }
+            else if(ops == '-'){
+                st.push(-curNum);
+            }
+            else if(ops == '*'){
+                int tmp = st.top();
+                tmp *= curNum;
+                st.pop();
+                st.push(tmp);
+            }
+            else if(ops == '/'){
+                int tmp = st.top();
+                tmp /= curNum;
+                st.pop();
+                st.push(tmp);
+            }
+        
+            ops = s[idx];
+        }
+        int ret = 0;
+        while(!st.empty()){
+            ret += st.top();
+            st.pop();
+        }
+        return ret;
+    }
+
+
+    int parseNum(string s, int& idx){
+        int curNum = 0;
+        while(isdigit(s[idx]) && idx < s.length()){
+            curNum = curNum*10 + s[idx]- '0';
+            idx++;
+        }
+        idx--;
+        return curNum;
+    }
+
+
 
 };
