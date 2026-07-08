@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    BFS + adding route as a queue element
+    */
     int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
         unordered_map<int, vector<int>> graph;
         unordered_map<int, int> visited;
