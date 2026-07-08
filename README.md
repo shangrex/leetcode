@@ -82,6 +82,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
+| [0875-koko-eating-bananas](https://github.com/shangrex/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
@@ -599,6 +600,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0875-koko-eating-bananas](https://github.com/shangrex/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
