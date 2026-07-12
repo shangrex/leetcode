@@ -167,6 +167,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0670-maximum-swap](https://github.com/shangrex/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1328-break-a-palindrome](https://github.com/shangrex/leetcode/tree/master/1328-break-a-palindrome) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
@@ -282,6 +283,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -361,6 +363,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shangrex/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
@@ -606,6 +609,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0875-koko-eating-bananas](https://github.com/shangrex/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
+| [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Binary Tree
