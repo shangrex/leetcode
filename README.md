@@ -55,6 +55,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0346-moving-average-from-data-stream](https://github.com/shangrex/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shangrex/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -305,6 +306,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -344,6 +346,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0290-word-pattern](https://github.com/shangrex/leetcode/tree/master/0290-word-pattern) |
 | [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0383-ransom-note](https://github.com/shangrex/leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/shangrex/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
@@ -423,6 +426,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0023-merge-k-sorted-lists](https://github.com/shangrex/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shangrex/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/shangrex/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/shangrex/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -528,6 +532,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0270-closest-binary-search-tree-value](https://github.com/shangrex/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0339-nested-list-weight-sum](https://github.com/shangrex/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0437-path-sum-iii](https://github.com/shangrex/leetcode/tree/master/0437-path-sum-iii) |
@@ -792,6 +797,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 ## Union-Find
 |  |
@@ -805,4 +811,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
