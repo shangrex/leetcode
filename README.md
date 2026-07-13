@@ -96,6 +96,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1564-put-boxes-into-the-warehouse-i](https://github.com/shangrex/leetcode/tree/master/1564-put-boxes-into-the-warehouse-i) |
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -171,6 +172,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1328-break-a-palindrome](https://github.com/shangrex/leetcode/tree/master/1328-break-a-palindrome) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
+| [1564-put-boxes-into-the-warehouse-i](https://github.com/shangrex/leetcode/tree/master/1564-put-boxes-into-the-warehouse-i) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
@@ -319,6 +321,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1200-minimum-absolute-difference](https://github.com/shangrex/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
+| [1564-put-boxes-into-the-warehouse-i](https://github.com/shangrex/leetcode/tree/master/1564-put-boxes-into-the-warehouse-i) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
