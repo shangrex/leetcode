@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    Topology sort 
+    */
     int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) {
         // find longest topology route
         // topology sort
