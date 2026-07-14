@@ -105,6 +105,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 | [2058-concatenation-of-array](https://github.com/shangrex/leetcode/tree/master/2058-concatenation-of-array) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/shangrex/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -145,6 +146,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
 | [1178-valid-palindrome-iii](https://github.com/shangrex/leetcode/tree/master/1178-valid-palindrome-iii) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shangrex/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Backtracking
@@ -698,6 +700,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -808,6 +811,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
+| [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 ## Union-Find
 |  |
 | ------- |
