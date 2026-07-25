@@ -225,6 +225,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/shangrex/leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
@@ -525,6 +526,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/shangrex/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shangrex/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -561,6 +563,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/shangrex/leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/shangrex/leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/shangrex/leetcode/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
@@ -607,6 +610,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
+| [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [1708-design-parking-system](https://github.com/shangrex/leetcode/tree/master/1708-design-parking-system) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2139-detect-squares](https://github.com/shangrex/leetcode/tree/master/2139-detect-squares) |
