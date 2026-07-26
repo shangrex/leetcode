@@ -84,6 +84,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0815-bus-routes](https://github.com/shangrex/leetcode/tree/master/0815-bus-routes) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
+| [0821-shortest-distance-to-a-character](https://github.com/shangrex/leetcode/tree/master/0821-shortest-distance-to-a-character) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0875-koko-eating-bananas](https://github.com/shangrex/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
@@ -295,6 +296,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0557-reverse-words-in-a-string-iii](https://github.com/shangrex/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0821-shortest-distance-to-a-character](https://github.com/shangrex/leetcode/tree/master/0821-shortest-distance-to-a-character) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -379,6 +381,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
+| [0821-shortest-distance-to-a-character](https://github.com/shangrex/leetcode/tree/master/0821-shortest-distance-to-a-character) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1055-shortest-way-to-form-string](https://github.com/shangrex/leetcode/tree/master/1055-shortest-way-to-form-string) |
