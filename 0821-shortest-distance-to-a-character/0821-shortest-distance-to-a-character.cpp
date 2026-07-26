@@ -12,13 +12,14 @@ public:
         int n = s.length();
 
         vector<int> ret(n, n);
-        int pos = -n;
+        int pos = INT_MIN+n;
         for(int i = 0; i < n; i++){
             if(s[i] == c) pos = i;
             ret[i] = i - pos;
         }
         //pos = n+1;
-        for(int i = pos-1; i >= 0; i --){
+        pos = INT_MAX;
+        for(int i = n-1; i >= 0; i --){
             if(s[i] == c) pos = i;
             ret[i] = min(ret[i], pos-i);
         }
