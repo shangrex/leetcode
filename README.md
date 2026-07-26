@@ -717,6 +717,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1136-parallel-courses](https://github.com/shangrex/leetcode/tree/master/1136-parallel-courses) |
 | [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 ## Bit Manipulation
 |  |
@@ -828,6 +829,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
+| [1136-parallel-courses](https://github.com/shangrex/leetcode/tree/master/1136-parallel-courses) |
 | [2050-parallel-courses-iii](https://github.com/shangrex/leetcode/tree/master/2050-parallel-courses-iii) |
 ## Union-Find
 |  |
