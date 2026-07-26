@@ -52,6 +52,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0249-group-shifted-strings](https://github.com/shangrex/leetcode/tree/master/0249-group-shifted-strings) |
 | [0252-meeting-rooms](https://github.com/shangrex/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/shangrex/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0286-walls-and-gates](https://github.com/shangrex/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -243,6 +244,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
+| [0286-walls-and-gates](https://github.com/shangrex/leetcode/tree/master/0286-walls-and-gates) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/shangrex/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
@@ -579,6 +581,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0199-binary-tree-right-side-view](https://github.com/shangrex/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/shangrex/leetcode/tree/master/0286-walls-and-gates) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/shangrex/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0339-nested-list-weight-sum](https://github.com/shangrex/leetcode/tree/master/0339-nested-list-weight-sum) |
