@@ -531,6 +531,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/shangrex/leetcode/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/shangrex/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
@@ -564,6 +565,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/shangrex/leetcode/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
@@ -594,6 +596,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/shangrex/leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/shangrex/leetcode/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
