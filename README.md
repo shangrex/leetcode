@@ -65,6 +65,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/shangrex/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0463-island-perimeter](https://github.com/shangrex/leetcode/tree/master/0463-island-perimeter) |
+| [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/shangrex/leetcode/tree/master/0498-diagonal-traverse) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -144,6 +145,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0403-frog-jump](https://github.com/shangrex/leetcode/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/shangrex/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/shangrex/leetcode/tree/master/0542-01-matrix) |
@@ -162,6 +164,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0093-restore-ip-addresses](https://github.com/shangrex/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0306-additive-number](https://github.com/shangrex/leetcode/tree/master/0306-additive-number) |
+| [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
 | [0494-target-sum](https://github.com/shangrex/leetcode/tree/master/0494-target-sum) |
 ## Greedy
 |  |
@@ -729,6 +732,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/shangrex/leetcode/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/shangrex/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
@@ -850,4 +854,8 @@ The project is to record my leetcode solutions and my thinking process.
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/shangrex/leetcode/tree/master/0332-reconstruct-itinerary) |
+## Bitmask
+|  |
+| ------- |
+| [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
 <!---LeetCode Topics End-->
