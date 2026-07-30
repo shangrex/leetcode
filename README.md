@@ -546,6 +546,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/shangrex/leetcode/tree/master/0559-maximum-depth-of-n-ary-tree) |
+| [0951-flip-equivalent-binary-trees](https://github.com/shangrex/leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/shangrex/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
@@ -586,6 +587,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/shangrex/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0951-flip-equivalent-binary-trees](https://github.com/shangrex/leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/shangrex/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
@@ -683,6 +685,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0450-delete-node-in-a-bst](https://github.com/shangrex/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shangrex/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shangrex/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0951-flip-equivalent-binary-trees](https://github.com/shangrex/leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/shangrex/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/shangrex/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
