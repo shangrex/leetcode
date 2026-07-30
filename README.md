@@ -82,6 +82,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shangrex/leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/shangrex/leetcode/tree/master/0735-asteroid-collision) |
+| [0806-number-of-lines-to-write-string](https://github.com/shangrex/leetcode/tree/master/0806-number-of-lines-to-write-string) |
 | [0815-bus-routes](https://github.com/shangrex/leetcode/tree/master/0815-bus-routes) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
@@ -384,6 +385,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0761-special-binary-string](https://github.com/shangrex/leetcode/tree/master/0761-special-binary-string) |
 | [0772-basic-calculator-iii](https://github.com/shangrex/leetcode/tree/master/0772-basic-calculator-iii) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
+| [0806-number-of-lines-to-write-string](https://github.com/shangrex/leetcode/tree/master/0806-number-of-lines-to-write-string) |
 | [0807-custom-sort-string](https://github.com/shangrex/leetcode/tree/master/0807-custom-sort-string) |
 | [0821-shortest-distance-to-a-character](https://github.com/shangrex/leetcode/tree/master/0821-shortest-distance-to-a-character) |
 | [0851-goat-latin](https://github.com/shangrex/leetcode/tree/master/0851-goat-latin) |
