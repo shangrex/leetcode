@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    set + piroity queue
+    */
     int thirdMax(vector<int>& nums) {
         priority_queue<int, vector<int>, greater<int>> pq;
         set<int> st;
