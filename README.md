@@ -499,6 +499,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0042-trapping-rain-water](https://github.com/shangrex/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/shangrex/leetcode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/shangrex/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/shangrex/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0224-basic-calculator](https://github.com/shangrex/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/shangrex/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/shangrex/leetcode/tree/master/0232-implement-queue-using-stacks) |
@@ -530,6 +531,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0144-binary-tree-preorder-traversal](https://github.com/shangrex/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shangrex/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
@@ -559,6 +561,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/shangrex/leetcode/tree/master/0133-clone-graph) |
+| [0144-binary-tree-preorder-traversal](https://github.com/shangrex/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shangrex/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/shangrex/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
@@ -664,6 +667,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0101-symmetric-tree](https://github.com/shangrex/leetcode/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/shangrex/leetcode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/shangrex/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0144-binary-tree-preorder-traversal](https://github.com/shangrex/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shangrex/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/shangrex/leetcode/tree/master/0226-invert-binary-tree) |
