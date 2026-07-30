@@ -186,6 +186,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/shangrex/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/shangrex/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -397,6 +398,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/shangrex/leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/shangrex/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3379-score-of-a-string](https://github.com/shangrex/leetcode/tree/master/3379-score-of-a-string) |
 ## Counting
 |  |
@@ -483,6 +485,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1642-water-bottles](https://github.com/shangrex/leetcode/tree/master/1642-water-bottles) |
 | [2383-add-two-integers](https://github.com/shangrex/leetcode/tree/master/2383-add-two-integers) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/shangrex/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3886-count-number-of-trapezoids-i](https://github.com/shangrex/leetcode/tree/master/3886-count-number-of-trapezoids-i) |
 | [3888-maximize-subarray-gcd-score](https://github.com/shangrex/leetcode/tree/master/3888-maximize-subarray-gcd-score) |
 ## Stack
