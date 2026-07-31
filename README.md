@@ -221,6 +221,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0398-random-pick-index](https://github.com/shangrex/leetcode/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/shangrex/leetcode/tree/master/0567-permutation-in-string) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/shangrex/leetcode/tree/master/0721-accounts-merge) |
@@ -302,6 +303,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/shangrex/leetcode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shangrex/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/shangrex/leetcode/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0821-shortest-distance-to-a-character](https://github.com/shangrex/leetcode/tree/master/0821-shortest-distance-to-a-character) |
@@ -384,6 +386,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0449-serialize-and-deserialize-bst](https://github.com/shangrex/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/shangrex/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shangrex/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/shangrex/leetcode/tree/master/0567-permutation-in-string) |
 | [0588-design-in-memory-file-system](https://github.com/shangrex/leetcode/tree/master/0588-design-in-memory-file-system) |
 | [0680-valid-palindrome-ii](https://github.com/shangrex/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/shangrex/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -719,6 +722,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0003-longest-substring-without-repeating-characters](https://github.com/shangrex/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/shangrex/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0567-permutation-in-string](https://github.com/shangrex/leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/shangrex/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shangrex/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
