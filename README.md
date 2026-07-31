@@ -33,6 +33,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0073-set-matrix-zeroes](https://github.com/shangrex/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/shangrex/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/shangrex/leetcode/tree/master/0078-subsets) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/shangrex/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shangrex/leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shangrex/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shangrex/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -663,6 +664,7 @@ The project is to record my leetcode solutions and my thinking process.
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/shangrex/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/shangrex/leetcode/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/shangrex/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/shangrex/leetcode/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/shangrex/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/shangrex/leetcode/tree/master/0222-count-complete-tree-nodes) |
