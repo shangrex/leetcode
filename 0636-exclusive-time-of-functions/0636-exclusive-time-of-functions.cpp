@@ -1,40 +1,57 @@
-struct Log {
+struct event{
     int id;
     string status;
-    int timeStamp;
+    int timestamp;
 };
-
 
 class Solution {
 public:
     vector<int> exclusiveTime(int n, vector<string>& logs) {
-        vector<int> ret(n, 0);
-        stack<Log> st;
-        for(auto &log : logs){
-            stringstream ss(log);
-            string s_st, s_time, s_id;
-            getline(ss, s_id, ':');
-            getline(ss, s_st, ':');
-            getline(ss, s_time, ':');
-            Log item = {stoi(s_id), s_st, stoi(s_time)};
-            // cout << s_id << " " << s_st << " " << s_time << endl;
+        stringstream ss;        
+        int pos = 0;
+        vector<event> e;
+        for(int i = 0; i < logs.size(); i++){
+            string log = logs[i];
+            pos = log.find(":");
+            int id = stoi(log.substr(0, pos));
+            log = log.substr(pos+1);
+            pos = log.find(":");
+            string status = log.substr(0, pos);
+            int timestamp = stoi(log.substr(pos+1));
+            e.push_back({id, status, timestamp});
+        }
 
-            
-            if(item.status == "start"){
-                st.push(item);
+        vector<int> ret(n, 0);
+        stack<event> st;
+        for(int i = 0; i < e.size(); i++){
+            if(e[i].status == "start"){
+                if(!st.empty()){
+                    auto tope = st.top();
+                    st.pop();
+                    cout << tope.timestamp << " " << e[i].timestamp << endl;
+                    ret[tope.id] += e[i].timestamp - tope.timestamp;
+                    tope.timestamp = e[i].timestamp-1;
+                    st.push(tope);
+                }
+                st.push(e[i]);
             }
             else {
-                Log tp = st.top();
-                int diff = item.timeStamp - tp.timeStamp + 1;
-                ret[item.id] += diff;
+                if(st.empty()) return {};
+                auto tope = st.top();
                 st.pop();
+                cout << tope.timestamp << " " << e[i].timestamp << endl;
+                ret[tope.id] += e[i].timestamp - tope.timestamp+1;
 
                 if(!st.empty()){
-                    ret[st.top().id] -= diff;
+                    auto tope = st.top();
+                    tope.timestamp = e[i].timestamp+1;
+                    st.pop();
+                    st.push(tope);
                 }
             }
 
         }
+
         return ret;
     }
 };
