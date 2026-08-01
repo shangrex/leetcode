@@ -28,7 +28,6 @@ public:
                 if(!st.empty()){
                     auto tope = st.top();
                     st.pop();
-                    cout << tope.timestamp << " " << e[i].timestamp << endl;
                     ret[tope.id] += e[i].timestamp - tope.timestamp;
                     tope.timestamp = e[i].timestamp-1;
                     st.push(tope);
@@ -39,7 +38,6 @@ public:
                 if(st.empty()) return {};
                 auto tope = st.top();
                 st.pop();
-                cout << tope.timestamp << " " << e[i].timestamp << endl;
                 ret[tope.id] += e[i].timestamp - tope.timestamp+1;
 
                 if(!st.empty()){
