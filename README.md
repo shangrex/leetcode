@@ -239,6 +239,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1110-delete-nodes-and-return-forest](https://github.com/shangrex/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
+| [1396-design-underground-system](https://github.com/shangrex/leetcode/tree/master/1396-design-underground-system) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/shangrex/leetcode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -409,6 +410,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1297-maximum-number-of-balloons](https://github.com/shangrex/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1328-break-a-palindrome](https://github.com/shangrex/leetcode/tree/master/1328-break-a-palindrome) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/shangrex/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1396-design-underground-system](https://github.com/shangrex/leetcode/tree/master/1396-design-underground-system) |
 | [1894-merge-strings-alternately](https://github.com/shangrex/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/shangrex/leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2406-decode-the-message](https://github.com/shangrex/leetcode/tree/master/2406-decode-the-message) |
@@ -655,6 +657,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [1125-design-file-system](https://github.com/shangrex/leetcode/tree/master/1125-design-file-system) |
+| [1396-design-underground-system](https://github.com/shangrex/leetcode/tree/master/1396-design-underground-system) |
 | [1600-throne-inheritance](https://github.com/shangrex/leetcode/tree/master/1600-throne-inheritance) |
 | [1708-design-parking-system](https://github.com/shangrex/leetcode/tree/master/1708-design-parking-system) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
