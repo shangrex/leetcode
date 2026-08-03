@@ -95,6 +95,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0860-design-circular-queue](https://github.com/shangrex/leetcode/tree/master/0860-design-circular-queue) |
 | [0875-koko-eating-bananas](https://github.com/shangrex/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
+| [0930-binary-subarrays-with-sum](https://github.com/shangrex/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [0994-rotting-oranges](https://github.com/shangrex/leetcode/tree/master/0994-rotting-oranges) |
 | [1019-squares-of-a-sorted-array](https://github.com/shangrex/leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -234,6 +235,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0815-bus-routes](https://github.com/shangrex/leetcode/tree/master/0815-bus-routes) |
 | [0816-design-hashset](https://github.com/shangrex/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/shangrex/leetcode/tree/master/0817-design-hashmap) |
+| [0930-binary-subarrays-with-sum](https://github.com/shangrex/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/shangrex/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shangrex/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/shangrex/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -460,6 +462,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0560-subarray-sum-equals-k](https://github.com/shangrex/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/shangrex/leetcode/tree/master/0724-find-pivot-index) |
 | [0912-random-pick-with-weight](https://github.com/shangrex/leetcode/tree/master/0912-random-pick-with-weight) |
+| [0930-binary-subarrays-with-sum](https://github.com/shangrex/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [2145-grid-game](https://github.com/shangrex/leetcode/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/shangrex/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 ## Heap (Priority Queue)
@@ -746,6 +749,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0567-permutation-in-string](https://github.com/shangrex/leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/shangrex/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/shangrex/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0930-binary-subarrays-with-sum](https://github.com/shangrex/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shangrex/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Doubly-Linked List
 |  |
