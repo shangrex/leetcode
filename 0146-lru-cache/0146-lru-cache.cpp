@@ -173,15 +173,14 @@ public:
     int get(int key) {
         auto it = lstMap.find(key);
         if(it == lstMap.end()){
-            // not exist
             return -1;
         }
+
         int val = it->second->second;
         lst.erase(it->second);
         lst.push_front({key, val});
-        lstMap.erase(it);
+        lstMap.erase(key);
         lstMap[key] = lst.begin();
-        
         return val;
     }
     
