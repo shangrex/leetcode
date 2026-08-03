@@ -111,6 +111,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1646-kth-missing-positive-number](https://github.com/shangrex/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shangrex/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/shangrex/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1834-single-threaded-cpu](https://github.com/shangrex/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/shangrex/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1909-buildings-with-an-ocean-view](https://github.com/shangrex/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
@@ -351,6 +352,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/shangrex/leetcode/tree/master/1564-put-boxes-into-the-warehouse-i) |
 | [1580-put-boxes-into-the-warehouse-ii](https://github.com/shangrex/leetcode/tree/master/1580-put-boxes-into-the-warehouse-ii) |
+| [1834-single-threaded-cpu](https://github.com/shangrex/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2592-maximize-greatness-of-an-array](https://github.com/shangrex/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
@@ -475,6 +477,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0743-network-delay-time](https://github.com/shangrex/leetcode/tree/master/0743-network-delay-time) |
 | [0778-reorganize-string](https://github.com/shangrex/leetcode/tree/master/0778-reorganize-string) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/shangrex/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
+| [1834-single-threaded-cpu](https://github.com/shangrex/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/shangrex/leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/shangrex/leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/shangrex/leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
