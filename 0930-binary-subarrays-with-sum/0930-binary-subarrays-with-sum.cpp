@@ -17,7 +17,7 @@ public:
             ret += right - left +1;
             right++;
         }
-        cout << ret << endl;
+        //cout << ret << endl;
         return ret;
     }
 };
