@@ -151,6 +151,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0221-maximal-square](https://github.com/shangrex/leetcode/tree/master/0221-maximal-square) |
 | [0312-burst-balloons](https://github.com/shangrex/leetcode/tree/master/0312-burst-balloons) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shangrex/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0392-is-subsequence](https://github.com/shangrex/leetcode/tree/master/0392-is-subsequence) |
 | [0403-frog-jump](https://github.com/shangrex/leetcode/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/shangrex/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0465-optimal-account-balancing](https://github.com/shangrex/leetcode/tree/master/0465-optimal-account-balancing) |
@@ -307,6 +308,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0277-find-the-celebrity](https://github.com/shangrex/leetcode/tree/master/0277-find-the-celebrity) |
 | [0287-find-the-duplicate-number](https://github.com/shangrex/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/shangrex/leetcode/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/shangrex/leetcode/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/shangrex/leetcode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shangrex/leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
@@ -386,6 +388,7 @@ The project is to record my leetcode solutions and my thinking process.
 | [0344-reverse-string](https://github.com/shangrex/leetcode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/shangrex/leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/shangrex/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/shangrex/leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/shangrex/leetcode/tree/master/0394-decode-string) |
 | [0408-valid-word-abbreviation](https://github.com/shangrex/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0412-fizz-buzz](https://github.com/shangrex/leetcode/tree/master/0412-fizz-buzz) |
